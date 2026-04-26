@@ -1,0 +1,101 @@
+#include <stdint.h>
+#include "xparameters.h"
+#include "sleep.h"
+#include "xil_printf.h"
+
+//btn_in
+#define BTN_CR  *(uint32_t *)(XPAR_COUNTER_AXI_NEW_0_S00_AXI_BASEADDR + 0X00)   ///sldk
+#define BTN_IDR  *(uint32_t *)(XPAR_COUNTER_AXI_NEW_0_S00_AXI_BASEADDR + 0X04)
+#define BTN_ODR  *(uint32_t *)(XPAR_COUNTER_AXI_NEW_0_S00_AXI_BASEADDR + 0X08)
+//fnd_data_0
+#define FND_0_CR  *(uint32_t *)(XPAR_COUNTER_AXI_NEW_1_S00_AXI_BASEADDR + 0X00)
+#define FND_0_IDR  *(uint32_t *)(XPAR_COUNTER_AXI_NEW_1_S00_AXI_BASEADDR + 0X04)
+#define FND_0_ODR  *(uint32_t *)(XPAR_COUNTER_AXI_NEW_1_S00_AXI_BASEADDR + 0X08)
+//fnd_data_1
+#define FND_1_CR  *(uint32_t *)(XPAR_COUNTER_AXI_NEW_2_S00_AXI_BASEADDR + 0X00)
+#define FND_1_IDR  *(uint32_t *)(XPAR_COUNTER_AXI_NEW_2_S00_AXI_BASEADDR + 0X04)
+#define FND_1_ODR  *(uint32_t *)(XPAR_COUNTER_AXI_NEW_2_S00_AXI_BASEADDR + 0X08)
+//fnd_digit
+#define DIGIT_CR  *(uint32_t *)(XPAR_COUNTER_AXI_NEW_3_S00_AXI_BASEADDR + 0X00)
+#define DIGIT_IDR  *(uint32_t *)(XPAR_COUNTER_AXI_NEW_3_S00_AXI_BASEADDR + 0X04)
+#define DIGIT_ODR  *(uint32_t *)(XPAR_COUNTER_AXI_NEW_3_S00_AXI_BASEADDR + 0X08)
+
+const uint8_t fnd_font[10] = {
+		0x3F, 0x06, 0x58, 0x4F, 0x66, 0x6D, 0x7D, 0x27, 0x7F, 0x6F
+};
+
+void init_fnd(){
+	BTN_CR = 0X0; //input 0000
+	FND_0_CR = 0xF; //output FFFF
+	FND_1_CR = 0x0F; //output FFFF
+	DIGIT_CR = 0x0F;  //output FFFF
+}
+
+void fnd_splitter(int num){
+	int digit[4];
+	digit[0] = num % 10; // 1
+	digit[1] = (num / 10) % 10; // 10
+	digit[2] = (num / 100) % 10; // 100
+	digit[3] = (num / 1000) % 10; // 1000
+
+	uint8_t digit_select[4] = {0x1, 0x2, 0x4, 0x8};
+
+	for(int i = 0; i < 4; i++){
+		DIGIT_ODR = 0x0;
+
+		uint8_t font_data = fnd_font[digit[i]];
+		FND_0_ODR = font_data & 0x0F;
+		FND_1_ODR = (font_data >> 4) & 0x0F;
+
+		DIGIT_ODR = digit_select[i];
+		usleep(10000);
+	}
+
+}
+
+
+int main()
+{
+	init_fnd();
+
+	int counter = 0;
+
+	int loop = 0;
+
+	int running = 0;
+	uint32_t prev_btn = 0;
+
+	while(1){
+		fnd_splitter(counter);
+
+
+	uint32_t btn = BTN_IDR & 0x07;
+
+	if((btn & 0x01) && !(prev_btn & 0x01)){
+		running = 1;
+	}
+	if((btn & 0x02) && !(prev_btn & 0x02)){
+			running = 0;
+		}
+	if((btn & 0x04) && !(prev_btn & 0x04)){
+			running = 0;
+			counter = 0;
+			loop = 0;
+		}
+
+	prev_btn = btn;
+
+	if(running == 1){
+		loop++;
+
+	if(loop >= 125){
+		counter++;
+		if(counter > 9999){
+			counter = 0;
+		}
+			loop = 0;
+		}
+	}
+	}
+	return 0;
+}
