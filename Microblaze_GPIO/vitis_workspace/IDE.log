@@ -1,0 +1,2178 @@
+19:07:10 INFO  : Registering command handlers for Vitis TCF services
+19:07:10 INFO  : Launching XSCT server: xsct.bat -n  -interactive D:\vivado_first\20260427_Microblaze_GPIO_4\vitis_workspace\temp_xsdb_launch_script.tcl
+19:07:13 INFO  : Platform repository initialization has completed.
+19:07:13 INFO  : XSCT server has started successfully.
+19:07:18 INFO  : plnx-install-location is set to ''
+19:07:18 INFO  : Successfully done setting XSCT server connection channel  
+19:07:18 INFO  : Successfully done query RDI_DATADIR 
+19:07:18 INFO  : Successfully done setting workspace for the tool. 
+19:07:53 INFO  : Result from executing command 'getProjects': design_1_wrapper
+19:07:53 INFO  : Result from executing command 'getPlatforms': 
+19:07:53 WARN  : An unexpected exception occurred in the module 'platform project logging'
+19:07:53 INFO  : Platform 'design_1_wrapper' is added to custom repositories.
+19:07:54 INFO  : Platform 'design_1_wrapper' is added to custom repositories.
+19:09:00 INFO  : Result from executing command 'getProjects': design_1_wrapper
+19:09:00 INFO  : Result from executing command 'getPlatforms': design_1_wrapper|D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/design_1_wrapper/export/design_1_wrapper/design_1_wrapper.xpfm
+19:09:00 INFO  : Checking for BSP changes to sync application flags for project 'Microblaze_fnd_upcount'...
+19:09:16 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+19:09:16 INFO  : Jtag cable 'Digilent Basys3 210183BB7A20A' is selected.
+19:09:16 INFO  : 'jtag frequency' command is executed.
+19:09:16 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Basys3 210183BB7A20A" && level==0 && jtag_device_ctx=="jsn-Basys3-210183BB7A20A-0362d093-0"}' command is executed.
+19:09:17 INFO  : Device configured successfully with "D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/Microblaze_fnd_upcount/_ide/bitstream/design_1_wrapper.bit"
+19:09:17 INFO  : Context for processor 'microblaze_0' is selected.
+19:09:17 INFO  : Hardware design and registers information is loaded from 'D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa'.
+19:09:17 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+19:09:17 INFO  : Context for processor 'microblaze_0' is selected.
+19:09:17 INFO  : System reset is completed.
+19:09:20 INFO  : 'after 3000' command is executed.
+19:09:20 INFO  : Context for processor 'microblaze_0' is selected.
+19:09:20 INFO  : The application 'D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/Microblaze_fnd_upcount/Debug/Microblaze_fnd_upcount.elf' is downloaded to processor 'microblaze_0'.
+19:09:20 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Basys3 210183BB7A20A" && level==0 && jtag_device_ctx=="jsn-Basys3-210183BB7A20A-0362d093-0"}
+fpga -file D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/Microblaze_fnd_upcount/_ide/bitstream/design_1_wrapper.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/Microblaze_fnd_upcount/Debug/Microblaze_fnd_upcount.elf
+----------------End of Script----------------
+
+19:09:20 INFO  : Context for processor 'microblaze_0' is selected.
+19:09:20 INFO  : 'con' command is executed.
+19:09:20 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+19:09:20 INFO  : Launch script is exported to file 'D:\vivado_first\20260427_Microblaze_GPIO_4\vitis_workspace\Microblaze_fnd_upcount_system\_ide\scripts\debugger_microblaze_fnd_upcount-default.tcl'
+19:21:09 INFO  : Checking for BSP changes to sync application flags for project 'Microblaze_fnd_upcount'...
+19:22:24 INFO  : Checking for BSP changes to sync application flags for project 'Microblaze_fnd_upcount'...
+19:23:02 INFO  : Checking for BSP changes to sync application flags for project 'Microblaze_fnd_upcount'...
+19:23:25 INFO  : Checking for BSP changes to sync application flags for project 'Microblaze_fnd_upcount'...
+19:24:11 INFO  : Checking for BSP changes to sync application flags for project 'Microblaze_fnd_upcount'...
+19:42:44 INFO  : Checking for BSP changes to sync application flags for project 'Microblaze_fnd_upcount'...
+19:45:46 INFO  : Checking for BSP changes to sync application flags for project 'Microblaze_fnd_upcount'...
+19:46:27 INFO  : Checking for BSP changes to sync application flags for project 'Microblaze_fnd_upcount'...
+19:47:56 INFO  : Checking for BSP changes to sync application flags for project 'Microblaze_fnd_upcount'...
+19:48:32 INFO  : Disconnected from the channel tcfchan#2.
+19:48:33 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+19:48:33 INFO  : Jtag cable 'Digilent Basys3 210183BB7A20A' is selected.
+19:48:33 INFO  : 'jtag frequency' command is executed.
+19:48:33 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Basys3 210183BB7A20A" && level==0 && jtag_device_ctx=="jsn-Basys3-210183BB7A20A-0362d093-0"}' command is executed.
+19:48:34 INFO  : Device configured successfully with "D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/Microblaze_fnd_upcount/_ide/bitstream/design_1_wrapper.bit"
+19:48:34 INFO  : Context for processor 'microblaze_0' is selected.
+19:48:34 INFO  : Hardware design and registers information is loaded from 'D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa'.
+19:48:34 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+19:48:34 INFO  : Context for processor 'microblaze_0' is selected.
+19:48:34 INFO  : System reset is completed.
+19:48:37 INFO  : 'after 3000' command is executed.
+19:48:37 INFO  : Context for processor 'microblaze_0' is selected.
+19:48:37 INFO  : The application 'D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/Microblaze_fnd_upcount/Debug/Microblaze_fnd_upcount.elf' is downloaded to processor 'microblaze_0'.
+19:48:37 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Basys3 210183BB7A20A" && level==0 && jtag_device_ctx=="jsn-Basys3-210183BB7A20A-0362d093-0"}
+fpga -file D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/Microblaze_fnd_upcount/_ide/bitstream/design_1_wrapper.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/Microblaze_fnd_upcount/Debug/Microblaze_fnd_upcount.elf
+----------------End of Script----------------
+
+19:48:37 INFO  : Context for processor 'microblaze_0' is selected.
+19:48:37 INFO  : 'con' command is executed.
+19:48:37 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+19:48:37 INFO  : Launch script is exported to file 'D:\vivado_first\20260427_Microblaze_GPIO_4\vitis_workspace\Microblaze_fnd_upcount_system\_ide\scripts\debugger_microblaze_fnd_upcount-default.tcl'
+23:01:11 INFO  : Checking for BSP changes to sync application flags for project 'Microblaze_fnd_upcount'...
+23:02:02 INFO  : Disconnected from the channel tcfchan#3.
+09:13:59 INFO  : Launching XSCT server: xsct.bat -n  -interactive D:\vivado_first\20260427_Microblaze_GPIO_4\vitis_workspace\temp_xsdb_launch_script.tcl
+09:14:03 INFO  : XSCT server has started successfully.
+09:14:03 INFO  : plnx-install-location is set to ''
+09:14:03 INFO  : Successfully done setting XSCT server connection channel  
+09:14:03 INFO  : Successfully done setting workspace for the tool. 
+09:14:05 INFO  : Platform repository initialization has completed.
+09:14:05 INFO  : Registering command handlers for Vitis TCF services
+09:14:10 INFO  : Successfully done query RDI_DATADIR 
+09:25:46 INFO  : Launching XSCT server: xsct.bat -n  -interactive D:\vivado_first\20260427_Microblaze_GPIO_4\vitis_workspace\temp_xsdb_launch_script.tcl
+09:25:48 INFO  : XSCT server has started successfully.
+09:25:48 INFO  : plnx-install-location is set to ''
+09:25:48 INFO  : Successfully done setting XSCT server connection channel  
+09:25:48 INFO  : Successfully done setting workspace for the tool. 
+09:25:50 INFO  : Platform repository initialization has completed.
+09:25:50 INFO  : Successfully done query RDI_DATADIR 
+09:25:50 INFO  : Registering command handlers for Vitis TCF services
+09:38:42 INFO  : Result from executing command 'getProjects': design_1_wrapper
+09:38:42 INFO  : Result from executing command 'getPlatforms': design_1_wrapper|D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/design_1_wrapper/export/design_1_wrapper/design_1_wrapper.xpfm
+09:38:42 INFO  : Checking for BSP changes to sync application flags for project 'Microblaze_fnd_upcount'...
+09:39:03 INFO  : Checking for BSP changes to sync application flags for project 'Microblaze_fnd_upcount'...
+09:39:15 INFO  : Checking for BSP changes to sync application flags for project 'Microblaze_fnd_upcount'...
+09:39:37 INFO  : Checking for BSP changes to sync application flags for project 'Microblaze_fnd_upcount'...
+09:41:20 INFO  : Checking for BSP changes to sync application flags for project 'Microblaze_fnd_upcount'...
+09:48:46 INFO  : Checking for BSP changes to sync application flags for project 'Microblaze_fnd_upcount'...
+09:49:36 INFO  : Checking for BSP changes to sync application flags for project 'Microblaze_fnd_upcount'...
+09:57:44 INFO  : Checking for BSP changes to sync application flags for project 'Microblaze_fnd_upcount'...
+09:58:11 INFO  : Checking for BSP changes to sync application flags for project 'Microblaze_fnd_upcount'...
+10:00:18 INFO  : Checking for BSP changes to sync application flags for project 'Microblaze_fnd_upcount'...
+10:06:15 INFO  : Checking for BSP changes to sync application flags for project 'Microblaze_fnd_upcount'...
+10:07:11 INFO  : Checking for BSP changes to sync application flags for project 'Microblaze_fnd_upcount'...
+10:09:55 INFO  : Checking for BSP changes to sync application flags for project 'Microblaze_fnd_upcount'...
+10:10:52 INFO  : Checking for BSP changes to sync application flags for project 'Microblaze_fnd_upcount'...
+10:10:57 INFO  : Checking for BSP changes to sync application flags for project 'Microblaze_fnd_upcount'...
+10:11:01 INFO  : Checking for BSP changes to sync application flags for project 'Microblaze_fnd_upcount'...
+10:19:35 INFO  : Checking for BSP changes to sync application flags for project 'Microblaze_fnd_upcount'...
+10:19:42 INFO  : Checking for BSP changes to sync application flags for project 'Microblaze_fnd_upcount'...
+10:19:47 INFO  : Checking for BSP changes to sync application flags for project 'Microblaze_fnd_upcount'...
+10:19:51 INFO  : Checking for BSP changes to sync application flags for project 'Microblaze_fnd_upcount'...
+10:21:34 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+10:21:34 INFO  : Jtag cable 'Digilent Basys3 210183BB7A20A' is selected.
+10:21:34 INFO  : 'jtag frequency' command is executed.
+10:21:34 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Basys3 210183BB7A20A" && level==0 && jtag_device_ctx=="jsn-Basys3-210183BB7A20A-0362d093-0"}' command is executed.
+10:21:35 INFO  : Device configured successfully with "D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/Microblaze_fnd_upcount/_ide/bitstream/design_1_wrapper.bit"
+10:21:35 INFO  : Context for processor 'microblaze_0' is selected.
+10:21:35 INFO  : Hardware design and registers information is loaded from 'D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa'.
+10:21:35 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+10:21:35 INFO  : Context for processor 'microblaze_0' is selected.
+10:21:35 INFO  : System reset is completed.
+10:21:38 INFO  : 'after 3000' command is executed.
+10:21:38 INFO  : Context for processor 'microblaze_0' is selected.
+10:21:38 INFO  : The application 'D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/Microblaze_fnd_upcount/Debug/Microblaze_fnd_upcount.elf' is downloaded to processor 'microblaze_0'.
+10:21:38 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Basys3 210183BB7A20A" && level==0 && jtag_device_ctx=="jsn-Basys3-210183BB7A20A-0362d093-0"}
+fpga -file D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/Microblaze_fnd_upcount/_ide/bitstream/design_1_wrapper.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/Microblaze_fnd_upcount/Debug/Microblaze_fnd_upcount.elf
+----------------End of Script----------------
+
+10:21:38 INFO  : Context for processor 'microblaze_0' is selected.
+10:21:38 INFO  : 'con' command is executed.
+10:21:38 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+10:21:38 INFO  : Launch script is exported to file 'D:\vivado_first\20260427_Microblaze_GPIO_4\vitis_workspace\Microblaze_fnd_upcount_system\_ide\scripts\debugger_microblaze_fnd_upcount-default.tcl'
+11:04:09 INFO  : Checking for BSP changes to sync application flags for project 'Microblaze_fnd_upcount'...
+11:24:24 INFO  : Checking for BSP changes to sync application flags for project 'Microblaze_fnd_upcount'...
+11:50:44 INFO  : Checking for BSP changes to sync application flags for project 'Microblaze_fnd_upcount'...
+11:51:14 INFO  : Checking for BSP changes to sync application flags for project 'Microblaze_fnd_upcount'...
+11:52:28 INFO  : Checking for BSP changes to sync application flags for project 'Microblaze_fnd_upcount'...
+11:53:09 INFO  : Checking for BSP changes to sync application flags for project 'Microblaze_fnd_upcount'...
+11:53:26 INFO  : Checking for BSP changes to sync application flags for project 'Microblaze_fnd_upcount'...
+11:53:40 INFO  : Checking for BSP changes to sync application flags for project 'Microblaze_fnd_upcount'...
+11:54:05 INFO  : Checking for BSP changes to sync application flags for project 'Microblaze_fnd_upcount'...
+11:54:32 INFO  : Checking for BSP changes to sync application flags for project 'Microblaze_fnd_upcount'...
+11:56:46 INFO  : Checking for BSP changes to sync application flags for project 'Microblaze_fnd_upcount'...
+11:57:27 INFO  : Checking for BSP changes to sync application flags for project 'Microblaze_fnd_upcount'...
+11:57:59 INFO  : Checking for BSP changes to sync application flags for project 'Microblaze_fnd_upcount'...
+11:58:07 INFO  : Disconnected from the channel tcfchan#2.
+11:58:08 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+11:58:08 INFO  : Jtag cable 'Digilent Basys3 210183BB7A20A' is selected.
+11:58:08 INFO  : 'jtag frequency' command is executed.
+11:58:08 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Basys3 210183BB7A20A" && level==0 && jtag_device_ctx=="jsn-Basys3-210183BB7A20A-0362d093-0"}' command is executed.
+11:58:09 INFO  : Device configured successfully with "D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/Microblaze_fnd_upcount/_ide/bitstream/design_1_wrapper.bit"
+11:58:09 INFO  : Context for processor 'microblaze_0' is selected.
+11:58:09 INFO  : Hardware design and registers information is loaded from 'D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa'.
+11:58:09 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+11:58:09 INFO  : Context for processor 'microblaze_0' is selected.
+11:58:09 INFO  : System reset is completed.
+11:58:12 INFO  : 'after 3000' command is executed.
+11:58:12 INFO  : Context for processor 'microblaze_0' is selected.
+11:58:12 INFO  : The application 'D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/Microblaze_fnd_upcount/Debug/Microblaze_fnd_upcount.elf' is downloaded to processor 'microblaze_0'.
+11:58:12 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Basys3 210183BB7A20A" && level==0 && jtag_device_ctx=="jsn-Basys3-210183BB7A20A-0362d093-0"}
+fpga -file D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/Microblaze_fnd_upcount/_ide/bitstream/design_1_wrapper.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/Microblaze_fnd_upcount/Debug/Microblaze_fnd_upcount.elf
+----------------End of Script----------------
+
+11:58:12 INFO  : Context for processor 'microblaze_0' is selected.
+11:58:12 INFO  : 'con' command is executed.
+11:58:12 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+11:58:12 INFO  : Launch script is exported to file 'D:\vivado_first\20260427_Microblaze_GPIO_4\vitis_workspace\Microblaze_fnd_upcount_system\_ide\scripts\debugger_microblaze_fnd_upcount-default.tcl'
+11:59:01 INFO  : Checking for BSP changes to sync application flags for project 'Microblaze_fnd_upcount'...
+11:59:08 INFO  : Disconnected from the channel tcfchan#3.
+11:59:09 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+11:59:09 INFO  : Jtag cable 'Digilent Basys3 210183BB7A20A' is selected.
+11:59:09 INFO  : 'jtag frequency' command is executed.
+11:59:09 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Basys3 210183BB7A20A" && level==0 && jtag_device_ctx=="jsn-Basys3-210183BB7A20A-0362d093-0"}' command is executed.
+11:59:10 INFO  : Device configured successfully with "D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/Microblaze_fnd_upcount/_ide/bitstream/design_1_wrapper.bit"
+11:59:10 INFO  : Context for processor 'microblaze_0' is selected.
+11:59:10 INFO  : Hardware design and registers information is loaded from 'D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa'.
+11:59:10 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+11:59:10 INFO  : Context for processor 'microblaze_0' is selected.
+11:59:10 INFO  : System reset is completed.
+11:59:13 INFO  : 'after 3000' command is executed.
+11:59:13 INFO  : Context for processor 'microblaze_0' is selected.
+11:59:13 INFO  : The application 'D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/Microblaze_fnd_upcount/Debug/Microblaze_fnd_upcount.elf' is downloaded to processor 'microblaze_0'.
+11:59:13 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Basys3 210183BB7A20A" && level==0 && jtag_device_ctx=="jsn-Basys3-210183BB7A20A-0362d093-0"}
+fpga -file D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/Microblaze_fnd_upcount/_ide/bitstream/design_1_wrapper.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/Microblaze_fnd_upcount/Debug/Microblaze_fnd_upcount.elf
+----------------End of Script----------------
+
+11:59:13 INFO  : Context for processor 'microblaze_0' is selected.
+11:59:13 INFO  : 'con' command is executed.
+11:59:13 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+11:59:13 INFO  : Launch script is exported to file 'D:\vivado_first\20260427_Microblaze_GPIO_4\vitis_workspace\Microblaze_fnd_upcount_system\_ide\scripts\debugger_microblaze_fnd_upcount-default.tcl'
+12:02:53 INFO  : Checking for BSP changes to sync application flags for project 'Microblaze_fnd_upcount'...
+12:02:59 INFO  : Disconnected from the channel tcfchan#4.
+12:03:00 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+12:03:00 INFO  : Jtag cable 'Digilent Basys3 210183BB7A20A' is selected.
+12:03:00 INFO  : 'jtag frequency' command is executed.
+12:03:00 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Basys3 210183BB7A20A" && level==0 && jtag_device_ctx=="jsn-Basys3-210183BB7A20A-0362d093-0"}' command is executed.
+12:03:01 INFO  : Device configured successfully with "D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/Microblaze_fnd_upcount/_ide/bitstream/design_1_wrapper.bit"
+12:03:01 INFO  : Context for processor 'microblaze_0' is selected.
+12:03:01 INFO  : Hardware design and registers information is loaded from 'D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa'.
+12:03:01 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+12:03:01 INFO  : Context for processor 'microblaze_0' is selected.
+12:03:01 INFO  : System reset is completed.
+12:03:04 INFO  : 'after 3000' command is executed.
+12:03:04 INFO  : Context for processor 'microblaze_0' is selected.
+12:03:04 INFO  : The application 'D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/Microblaze_fnd_upcount/Debug/Microblaze_fnd_upcount.elf' is downloaded to processor 'microblaze_0'.
+12:03:04 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Basys3 210183BB7A20A" && level==0 && jtag_device_ctx=="jsn-Basys3-210183BB7A20A-0362d093-0"}
+fpga -file D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/Microblaze_fnd_upcount/_ide/bitstream/design_1_wrapper.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/Microblaze_fnd_upcount/Debug/Microblaze_fnd_upcount.elf
+----------------End of Script----------------
+
+12:03:04 INFO  : Context for processor 'microblaze_0' is selected.
+12:03:04 INFO  : 'con' command is executed.
+12:03:04 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+12:03:04 INFO  : Launch script is exported to file 'D:\vivado_first\20260427_Microblaze_GPIO_4\vitis_workspace\Microblaze_fnd_upcount_system\_ide\scripts\debugger_microblaze_fnd_upcount-default.tcl'
+12:05:19 INFO  : Checking for BSP changes to sync application flags for project 'Microblaze_fnd_upcount'...
+12:05:27 INFO  : Disconnected from the channel tcfchan#5.
+12:05:28 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+12:05:29 INFO  : Jtag cable 'Digilent Basys3 210183BB7A20A' is selected.
+12:05:29 INFO  : 'jtag frequency' command is executed.
+12:05:29 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Basys3 210183BB7A20A" && level==0 && jtag_device_ctx=="jsn-Basys3-210183BB7A20A-0362d093-0"}' command is executed.
+12:05:29 INFO  : Device configured successfully with "D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/Microblaze_fnd_upcount/_ide/bitstream/design_1_wrapper.bit"
+12:05:29 INFO  : Context for processor 'microblaze_0' is selected.
+12:05:29 INFO  : Hardware design and registers information is loaded from 'D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa'.
+12:05:29 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+12:05:29 INFO  : Context for processor 'microblaze_0' is selected.
+12:05:29 INFO  : System reset is completed.
+12:05:32 INFO  : 'after 3000' command is executed.
+12:05:32 INFO  : Context for processor 'microblaze_0' is selected.
+12:05:32 INFO  : The application 'D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/Microblaze_fnd_upcount/Debug/Microblaze_fnd_upcount.elf' is downloaded to processor 'microblaze_0'.
+12:05:32 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Basys3 210183BB7A20A" && level==0 && jtag_device_ctx=="jsn-Basys3-210183BB7A20A-0362d093-0"}
+fpga -file D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/Microblaze_fnd_upcount/_ide/bitstream/design_1_wrapper.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/Microblaze_fnd_upcount/Debug/Microblaze_fnd_upcount.elf
+----------------End of Script----------------
+
+12:05:32 INFO  : Context for processor 'microblaze_0' is selected.
+12:05:32 INFO  : 'con' command is executed.
+12:05:32 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+12:05:32 INFO  : Launch script is exported to file 'D:\vivado_first\20260427_Microblaze_GPIO_4\vitis_workspace\Microblaze_fnd_upcount_system\_ide\scripts\debugger_microblaze_fnd_upcount-default.tcl'
+12:19:38 INFO  : Checking for BSP changes to sync application flags for project 'Microblaze_fnd_upcount'...
+12:20:18 INFO  : Checking for BSP changes to sync application flags for project 'Microblaze_fnd_upcount'...
+12:20:51 INFO  : Checking for BSP changes to sync application flags for project 'Microblaze_fnd_upcount'...
+12:20:56 INFO  : Disconnected from the channel tcfchan#6.
+12:20:57 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+12:20:58 INFO  : Jtag cable 'Digilent Basys3 210183BB7A20A' is selected.
+12:20:58 INFO  : 'jtag frequency' command is executed.
+12:20:58 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Basys3 210183BB7A20A" && level==0 && jtag_device_ctx=="jsn-Basys3-210183BB7A20A-0362d093-0"}' command is executed.
+12:20:58 INFO  : Device configured successfully with "D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/Microblaze_fnd_upcount/_ide/bitstream/design_1_wrapper.bit"
+12:20:58 INFO  : Context for processor 'microblaze_0' is selected.
+12:20:58 INFO  : Hardware design and registers information is loaded from 'D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa'.
+12:20:58 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+12:20:58 INFO  : Context for processor 'microblaze_0' is selected.
+12:20:58 INFO  : System reset is completed.
+12:21:01 INFO  : 'after 3000' command is executed.
+12:21:01 INFO  : Context for processor 'microblaze_0' is selected.
+12:21:01 INFO  : The application 'D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/Microblaze_fnd_upcount/Debug/Microblaze_fnd_upcount.elf' is downloaded to processor 'microblaze_0'.
+12:21:01 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Basys3 210183BB7A20A" && level==0 && jtag_device_ctx=="jsn-Basys3-210183BB7A20A-0362d093-0"}
+fpga -file D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/Microblaze_fnd_upcount/_ide/bitstream/design_1_wrapper.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/Microblaze_fnd_upcount/Debug/Microblaze_fnd_upcount.elf
+----------------End of Script----------------
+
+12:21:01 INFO  : Context for processor 'microblaze_0' is selected.
+12:21:01 INFO  : 'con' command is executed.
+12:21:01 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+12:21:01 INFO  : Launch script is exported to file 'D:\vivado_first\20260427_Microblaze_GPIO_4\vitis_workspace\Microblaze_fnd_upcount_system\_ide\scripts\debugger_microblaze_fnd_upcount-default.tcl'
+12:28:06 INFO  : Checking for BSP changes to sync application flags for project 'Microblaze_fnd_upcount'...
+12:28:36 INFO  : Checking for BSP changes to sync application flags for project 'Microblaze_fnd_upcount'...
+12:28:49 INFO  : Disconnected from the channel tcfchan#7.
+12:28:50 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+12:28:50 INFO  : Jtag cable 'Digilent Basys3 210183BB7A20A' is selected.
+12:28:50 INFO  : 'jtag frequency' command is executed.
+12:28:50 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Basys3 210183BB7A20A" && level==0 && jtag_device_ctx=="jsn-Basys3-210183BB7A20A-0362d093-0"}' command is executed.
+12:28:51 INFO  : Device configured successfully with "D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/Microblaze_fnd_upcount/_ide/bitstream/design_1_wrapper.bit"
+12:28:51 INFO  : Context for processor 'microblaze_0' is selected.
+12:28:51 INFO  : Hardware design and registers information is loaded from 'D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa'.
+12:28:51 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+12:28:51 INFO  : Context for processor 'microblaze_0' is selected.
+12:28:51 INFO  : System reset is completed.
+12:28:54 INFO  : 'after 3000' command is executed.
+12:28:54 INFO  : Context for processor 'microblaze_0' is selected.
+12:28:54 INFO  : The application 'D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/Microblaze_fnd_upcount/Debug/Microblaze_fnd_upcount.elf' is downloaded to processor 'microblaze_0'.
+12:28:54 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Basys3 210183BB7A20A" && level==0 && jtag_device_ctx=="jsn-Basys3-210183BB7A20A-0362d093-0"}
+fpga -file D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/Microblaze_fnd_upcount/_ide/bitstream/design_1_wrapper.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/Microblaze_fnd_upcount/Debug/Microblaze_fnd_upcount.elf
+----------------End of Script----------------
+
+12:28:54 INFO  : Context for processor 'microblaze_0' is selected.
+12:28:54 INFO  : 'con' command is executed.
+12:28:54 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+12:28:54 INFO  : Launch script is exported to file 'D:\vivado_first\20260427_Microblaze_GPIO_4\vitis_workspace\Microblaze_fnd_upcount_system\_ide\scripts\debugger_microblaze_fnd_upcount-default.tcl'
+12:37:57 INFO  : Checking for BSP changes to sync application flags for project 'Microblaze_fnd_upcount'...
+12:38:47 INFO  : Checking for BSP changes to sync application flags for project 'Microblaze_fnd_upcount'...
+12:39:11 INFO  : Checking for BSP changes to sync application flags for project 'Microblaze_fnd_upcount'...
+12:39:27 INFO  : Disconnected from the channel tcfchan#8.
+12:39:28 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+12:39:28 INFO  : Jtag cable 'Digilent Basys3 210183BB7A20A' is selected.
+12:39:28 INFO  : 'jtag frequency' command is executed.
+12:39:28 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Basys3 210183BB7A20A" && level==0 && jtag_device_ctx=="jsn-Basys3-210183BB7A20A-0362d093-0"}' command is executed.
+12:39:29 INFO  : Device configured successfully with "D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/Microblaze_fnd_upcount/_ide/bitstream/design_1_wrapper.bit"
+12:39:29 INFO  : Context for processor 'microblaze_0' is selected.
+12:39:29 INFO  : Hardware design and registers information is loaded from 'D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa'.
+12:39:29 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+12:39:29 INFO  : Context for processor 'microblaze_0' is selected.
+12:39:29 INFO  : System reset is completed.
+12:39:32 INFO  : 'after 3000' command is executed.
+12:39:32 INFO  : Context for processor 'microblaze_0' is selected.
+12:39:32 INFO  : The application 'D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/Microblaze_fnd_upcount/Debug/Microblaze_fnd_upcount.elf' is downloaded to processor 'microblaze_0'.
+12:39:32 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Basys3 210183BB7A20A" && level==0 && jtag_device_ctx=="jsn-Basys3-210183BB7A20A-0362d093-0"}
+fpga -file D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/Microblaze_fnd_upcount/_ide/bitstream/design_1_wrapper.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/Microblaze_fnd_upcount/Debug/Microblaze_fnd_upcount.elf
+----------------End of Script----------------
+
+12:39:32 INFO  : Context for processor 'microblaze_0' is selected.
+12:39:32 INFO  : 'con' command is executed.
+12:39:32 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+12:39:32 INFO  : Launch script is exported to file 'D:\vivado_first\20260427_Microblaze_GPIO_4\vitis_workspace\Microblaze_fnd_upcount_system\_ide\scripts\debugger_microblaze_fnd_upcount-default.tcl'
+12:48:14 INFO  : Checking for BSP changes to sync application flags for project 'Microblaze_fnd_upcount'...
+12:50:14 INFO  : Checking for BSP changes to sync application flags for project 'Microblaze_fnd_upcount'...
+12:50:27 INFO  : Disconnected from the channel tcfchan#9.
+12:50:28 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+12:50:28 INFO  : Jtag cable 'Digilent Basys3 210183BB7A20A' is selected.
+12:50:28 INFO  : 'jtag frequency' command is executed.
+12:50:28 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Basys3 210183BB7A20A" && level==0 && jtag_device_ctx=="jsn-Basys3-210183BB7A20A-0362d093-0"}' command is executed.
+12:50:29 INFO  : Device configured successfully with "D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/Microblaze_fnd_upcount/_ide/bitstream/design_1_wrapper.bit"
+12:50:29 INFO  : Context for processor 'microblaze_0' is selected.
+12:50:29 INFO  : Hardware design and registers information is loaded from 'D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa'.
+12:50:29 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+12:50:29 INFO  : Context for processor 'microblaze_0' is selected.
+12:50:29 INFO  : System reset is completed.
+12:50:32 INFO  : 'after 3000' command is executed.
+12:50:32 INFO  : Context for processor 'microblaze_0' is selected.
+12:50:32 INFO  : The application 'D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/Microblaze_fnd_upcount/Debug/Microblaze_fnd_upcount.elf' is downloaded to processor 'microblaze_0'.
+12:50:32 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Basys3 210183BB7A20A" && level==0 && jtag_device_ctx=="jsn-Basys3-210183BB7A20A-0362d093-0"}
+fpga -file D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/Microblaze_fnd_upcount/_ide/bitstream/design_1_wrapper.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/Microblaze_fnd_upcount/Debug/Microblaze_fnd_upcount.elf
+----------------End of Script----------------
+
+12:50:32 INFO  : Context for processor 'microblaze_0' is selected.
+12:50:32 INFO  : 'con' command is executed.
+12:50:32 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+12:50:32 INFO  : Launch script is exported to file 'D:\vivado_first\20260427_Microblaze_GPIO_4\vitis_workspace\Microblaze_fnd_upcount_system\_ide\scripts\debugger_microblaze_fnd_upcount-default.tcl'
+12:52:07 INFO  : Checking for BSP changes to sync application flags for project 'Microblaze_fnd_upcount'...
+12:52:13 INFO  : Disconnected from the channel tcfchan#10.
+12:52:14 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+12:52:14 INFO  : Jtag cable 'Digilent Basys3 210183BB7A20A' is selected.
+12:52:14 INFO  : 'jtag frequency' command is executed.
+12:52:14 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Basys3 210183BB7A20A" && level==0 && jtag_device_ctx=="jsn-Basys3-210183BB7A20A-0362d093-0"}' command is executed.
+12:52:14 INFO  : Device configured successfully with "D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/Microblaze_fnd_upcount/_ide/bitstream/design_1_wrapper.bit"
+12:52:14 INFO  : Context for processor 'microblaze_0' is selected.
+12:52:14 INFO  : Hardware design and registers information is loaded from 'D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa'.
+12:52:14 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+12:52:15 INFO  : Context for processor 'microblaze_0' is selected.
+12:52:15 INFO  : System reset is completed.
+12:52:18 INFO  : 'after 3000' command is executed.
+12:52:18 INFO  : Context for processor 'microblaze_0' is selected.
+12:52:18 INFO  : The application 'D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/Microblaze_fnd_upcount/Debug/Microblaze_fnd_upcount.elf' is downloaded to processor 'microblaze_0'.
+12:52:18 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Basys3 210183BB7A20A" && level==0 && jtag_device_ctx=="jsn-Basys3-210183BB7A20A-0362d093-0"}
+fpga -file D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/Microblaze_fnd_upcount/_ide/bitstream/design_1_wrapper.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/Microblaze_fnd_upcount/Debug/Microblaze_fnd_upcount.elf
+----------------End of Script----------------
+
+12:52:18 INFO  : Context for processor 'microblaze_0' is selected.
+12:52:18 INFO  : 'con' command is executed.
+12:52:18 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+12:52:18 INFO  : Launch script is exported to file 'D:\vivado_first\20260427_Microblaze_GPIO_4\vitis_workspace\Microblaze_fnd_upcount_system\_ide\scripts\debugger_microblaze_fnd_upcount-default.tcl'
+12:53:12 INFO  : Checking for BSP changes to sync application flags for project 'Microblaze_fnd_upcount'...
+12:53:17 INFO  : Disconnected from the channel tcfchan#11.
+12:53:18 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+12:53:18 INFO  : Jtag cable 'Digilent Basys3 210183BB7A20A' is selected.
+12:53:18 INFO  : 'jtag frequency' command is executed.
+12:53:18 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Basys3 210183BB7A20A" && level==0 && jtag_device_ctx=="jsn-Basys3-210183BB7A20A-0362d093-0"}' command is executed.
+12:53:19 INFO  : Device configured successfully with "D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/Microblaze_fnd_upcount/_ide/bitstream/design_1_wrapper.bit"
+12:53:19 INFO  : Context for processor 'microblaze_0' is selected.
+12:53:19 INFO  : Hardware design and registers information is loaded from 'D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa'.
+12:53:19 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+12:53:19 INFO  : Context for processor 'microblaze_0' is selected.
+12:53:19 INFO  : System reset is completed.
+12:53:22 INFO  : 'after 3000' command is executed.
+12:53:22 INFO  : Context for processor 'microblaze_0' is selected.
+12:53:22 INFO  : The application 'D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/Microblaze_fnd_upcount/Debug/Microblaze_fnd_upcount.elf' is downloaded to processor 'microblaze_0'.
+12:53:22 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Basys3 210183BB7A20A" && level==0 && jtag_device_ctx=="jsn-Basys3-210183BB7A20A-0362d093-0"}
+fpga -file D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/Microblaze_fnd_upcount/_ide/bitstream/design_1_wrapper.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/Microblaze_fnd_upcount/Debug/Microblaze_fnd_upcount.elf
+----------------End of Script----------------
+
+12:53:22 INFO  : Context for processor 'microblaze_0' is selected.
+12:53:22 INFO  : 'con' command is executed.
+12:53:22 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+12:53:22 INFO  : Launch script is exported to file 'D:\vivado_first\20260427_Microblaze_GPIO_4\vitis_workspace\Microblaze_fnd_upcount_system\_ide\scripts\debugger_microblaze_fnd_upcount-default.tcl'
+12:53:32 INFO  : Checking for BSP changes to sync application flags for project 'Microblaze_fnd_upcount'...
+12:53:37 INFO  : Disconnected from the channel tcfchan#12.
+12:53:38 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+12:53:38 INFO  : Jtag cable 'Digilent Basys3 210183BB7A20A' is selected.
+12:53:38 INFO  : 'jtag frequency' command is executed.
+12:53:38 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Basys3 210183BB7A20A" && level==0 && jtag_device_ctx=="jsn-Basys3-210183BB7A20A-0362d093-0"}' command is executed.
+12:53:38 INFO  : Device configured successfully with "D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/Microblaze_fnd_upcount/_ide/bitstream/design_1_wrapper.bit"
+12:53:38 INFO  : Context for processor 'microblaze_0' is selected.
+12:53:38 INFO  : Hardware design and registers information is loaded from 'D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa'.
+12:53:38 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+12:53:38 INFO  : Context for processor 'microblaze_0' is selected.
+12:53:38 INFO  : System reset is completed.
+12:53:41 INFO  : 'after 3000' command is executed.
+12:53:41 INFO  : Context for processor 'microblaze_0' is selected.
+12:53:41 INFO  : The application 'D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/Microblaze_fnd_upcount/Debug/Microblaze_fnd_upcount.elf' is downloaded to processor 'microblaze_0'.
+12:53:41 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Basys3 210183BB7A20A" && level==0 && jtag_device_ctx=="jsn-Basys3-210183BB7A20A-0362d093-0"}
+fpga -file D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/Microblaze_fnd_upcount/_ide/bitstream/design_1_wrapper.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/Microblaze_fnd_upcount/Debug/Microblaze_fnd_upcount.elf
+----------------End of Script----------------
+
+12:53:42 INFO  : Context for processor 'microblaze_0' is selected.
+12:53:42 INFO  : 'con' command is executed.
+12:53:42 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+12:53:42 INFO  : Launch script is exported to file 'D:\vivado_first\20260427_Microblaze_GPIO_4\vitis_workspace\Microblaze_fnd_upcount_system\_ide\scripts\debugger_microblaze_fnd_upcount-default.tcl'
+12:53:53 INFO  : Checking for BSP changes to sync application flags for project 'Microblaze_fnd_upcount'...
+12:53:59 INFO  : Disconnected from the channel tcfchan#13.
+12:54:00 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+12:54:01 INFO  : Jtag cable 'Digilent Basys3 210183BB7A20A' is selected.
+12:54:01 INFO  : 'jtag frequency' command is executed.
+12:54:01 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Basys3 210183BB7A20A" && level==0 && jtag_device_ctx=="jsn-Basys3-210183BB7A20A-0362d093-0"}' command is executed.
+12:54:01 INFO  : Device configured successfully with "D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/Microblaze_fnd_upcount/_ide/bitstream/design_1_wrapper.bit"
+12:54:01 INFO  : Context for processor 'microblaze_0' is selected.
+12:54:01 INFO  : Hardware design and registers information is loaded from 'D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa'.
+12:54:01 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+12:54:01 INFO  : Context for processor 'microblaze_0' is selected.
+12:54:01 INFO  : System reset is completed.
+12:54:04 INFO  : 'after 3000' command is executed.
+12:54:04 INFO  : Context for processor 'microblaze_0' is selected.
+12:54:04 INFO  : The application 'D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/Microblaze_fnd_upcount/Debug/Microblaze_fnd_upcount.elf' is downloaded to processor 'microblaze_0'.
+12:54:04 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Basys3 210183BB7A20A" && level==0 && jtag_device_ctx=="jsn-Basys3-210183BB7A20A-0362d093-0"}
+fpga -file D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/Microblaze_fnd_upcount/_ide/bitstream/design_1_wrapper.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/Microblaze_fnd_upcount/Debug/Microblaze_fnd_upcount.elf
+----------------End of Script----------------
+
+12:54:04 INFO  : Context for processor 'microblaze_0' is selected.
+12:54:04 INFO  : 'con' command is executed.
+12:54:04 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+12:54:04 INFO  : Launch script is exported to file 'D:\vivado_first\20260427_Microblaze_GPIO_4\vitis_workspace\Microblaze_fnd_upcount_system\_ide\scripts\debugger_microblaze_fnd_upcount-default.tcl'
+12:54:32 INFO  : Checking for BSP changes to sync application flags for project 'Microblaze_fnd_upcount'...
+12:55:21 INFO  : Checking for BSP changes to sync application flags for project 'Microblaze_fnd_upcount'...
+12:55:27 INFO  : Disconnected from the channel tcfchan#14.
+12:55:28 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+12:55:28 INFO  : Jtag cable 'Digilent Basys3 210183BB7A20A' is selected.
+12:55:28 INFO  : 'jtag frequency' command is executed.
+12:55:28 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Basys3 210183BB7A20A" && level==0 && jtag_device_ctx=="jsn-Basys3-210183BB7A20A-0362d093-0"}' command is executed.
+12:55:29 INFO  : Device configured successfully with "D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/Microblaze_fnd_upcount/_ide/bitstream/design_1_wrapper.bit"
+12:55:29 INFO  : Context for processor 'microblaze_0' is selected.
+12:55:29 INFO  : Hardware design and registers information is loaded from 'D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa'.
+12:55:29 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+12:55:29 INFO  : Context for processor 'microblaze_0' is selected.
+12:55:29 INFO  : System reset is completed.
+12:55:32 INFO  : 'after 3000' command is executed.
+12:55:32 INFO  : Context for processor 'microblaze_0' is selected.
+12:55:32 INFO  : The application 'D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/Microblaze_fnd_upcount/Debug/Microblaze_fnd_upcount.elf' is downloaded to processor 'microblaze_0'.
+12:55:32 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Basys3 210183BB7A20A" && level==0 && jtag_device_ctx=="jsn-Basys3-210183BB7A20A-0362d093-0"}
+fpga -file D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/Microblaze_fnd_upcount/_ide/bitstream/design_1_wrapper.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/Microblaze_fnd_upcount/Debug/Microblaze_fnd_upcount.elf
+----------------End of Script----------------
+
+12:55:32 INFO  : Context for processor 'microblaze_0' is selected.
+12:55:32 INFO  : 'con' command is executed.
+12:55:32 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+12:55:32 INFO  : Launch script is exported to file 'D:\vivado_first\20260427_Microblaze_GPIO_4\vitis_workspace\Microblaze_fnd_upcount_system\_ide\scripts\debugger_microblaze_fnd_upcount-default.tcl'
+12:56:02 INFO  : Checking for BSP changes to sync application flags for project 'Microblaze_fnd_upcount'...
+12:56:07 INFO  : Disconnected from the channel tcfchan#15.
+12:56:08 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+12:56:08 INFO  : Jtag cable 'Digilent Basys3 210183BB7A20A' is selected.
+12:56:08 INFO  : 'jtag frequency' command is executed.
+12:56:08 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Basys3 210183BB7A20A" && level==0 && jtag_device_ctx=="jsn-Basys3-210183BB7A20A-0362d093-0"}' command is executed.
+12:56:09 INFO  : Device configured successfully with "D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/Microblaze_fnd_upcount/_ide/bitstream/design_1_wrapper.bit"
+12:56:09 INFO  : Context for processor 'microblaze_0' is selected.
+12:56:09 INFO  : Hardware design and registers information is loaded from 'D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa'.
+12:56:09 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+12:56:09 INFO  : Context for processor 'microblaze_0' is selected.
+12:56:09 INFO  : System reset is completed.
+12:56:12 INFO  : 'after 3000' command is executed.
+12:56:12 INFO  : Context for processor 'microblaze_0' is selected.
+12:56:12 INFO  : The application 'D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/Microblaze_fnd_upcount/Debug/Microblaze_fnd_upcount.elf' is downloaded to processor 'microblaze_0'.
+12:56:12 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Basys3 210183BB7A20A" && level==0 && jtag_device_ctx=="jsn-Basys3-210183BB7A20A-0362d093-0"}
+fpga -file D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/Microblaze_fnd_upcount/_ide/bitstream/design_1_wrapper.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/Microblaze_fnd_upcount/Debug/Microblaze_fnd_upcount.elf
+----------------End of Script----------------
+
+12:56:12 INFO  : Context for processor 'microblaze_0' is selected.
+12:56:12 INFO  : 'con' command is executed.
+12:56:12 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+12:56:12 INFO  : Launch script is exported to file 'D:\vivado_first\20260427_Microblaze_GPIO_4\vitis_workspace\Microblaze_fnd_upcount_system\_ide\scripts\debugger_microblaze_fnd_upcount-default.tcl'
+12:56:31 INFO  : Checking for BSP changes to sync application flags for project 'Microblaze_fnd_upcount'...
+12:56:35 INFO  : Disconnected from the channel tcfchan#16.
+12:56:36 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+12:56:36 INFO  : Jtag cable 'Digilent Basys3 210183BB7A20A' is selected.
+12:56:36 INFO  : 'jtag frequency' command is executed.
+12:56:36 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Basys3 210183BB7A20A" && level==0 && jtag_device_ctx=="jsn-Basys3-210183BB7A20A-0362d093-0"}' command is executed.
+12:56:37 INFO  : Device configured successfully with "D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/Microblaze_fnd_upcount/_ide/bitstream/design_1_wrapper.bit"
+12:56:37 INFO  : Context for processor 'microblaze_0' is selected.
+12:56:37 INFO  : Hardware design and registers information is loaded from 'D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa'.
+12:56:37 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+12:56:37 INFO  : Context for processor 'microblaze_0' is selected.
+12:56:37 INFO  : System reset is completed.
+12:56:40 INFO  : 'after 3000' command is executed.
+12:56:40 INFO  : Context for processor 'microblaze_0' is selected.
+12:56:40 INFO  : The application 'D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/Microblaze_fnd_upcount/Debug/Microblaze_fnd_upcount.elf' is downloaded to processor 'microblaze_0'.
+12:56:40 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Basys3 210183BB7A20A" && level==0 && jtag_device_ctx=="jsn-Basys3-210183BB7A20A-0362d093-0"}
+fpga -file D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/Microblaze_fnd_upcount/_ide/bitstream/design_1_wrapper.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/Microblaze_fnd_upcount/Debug/Microblaze_fnd_upcount.elf
+----------------End of Script----------------
+
+12:56:40 INFO  : Context for processor 'microblaze_0' is selected.
+12:56:40 INFO  : 'con' command is executed.
+12:56:40 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+12:56:40 INFO  : Launch script is exported to file 'D:\vivado_first\20260427_Microblaze_GPIO_4\vitis_workspace\Microblaze_fnd_upcount_system\_ide\scripts\debugger_microblaze_fnd_upcount-default.tcl'
+12:57:00 INFO  : Checking for BSP changes to sync application flags for project 'Microblaze_fnd_upcount'...
+12:57:06 INFO  : Disconnected from the channel tcfchan#17.
+12:57:07 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+12:57:07 INFO  : Jtag cable 'Digilent Basys3 210183BB7A20A' is selected.
+12:57:07 INFO  : 'jtag frequency' command is executed.
+12:57:07 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Basys3 210183BB7A20A" && level==0 && jtag_device_ctx=="jsn-Basys3-210183BB7A20A-0362d093-0"}' command is executed.
+12:57:07 INFO  : Device configured successfully with "D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/Microblaze_fnd_upcount/_ide/bitstream/design_1_wrapper.bit"
+12:57:07 INFO  : Context for processor 'microblaze_0' is selected.
+12:57:07 INFO  : Hardware design and registers information is loaded from 'D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa'.
+12:57:07 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+12:57:07 INFO  : Context for processor 'microblaze_0' is selected.
+12:57:07 INFO  : System reset is completed.
+12:57:10 INFO  : 'after 3000' command is executed.
+12:57:10 INFO  : Context for processor 'microblaze_0' is selected.
+12:57:10 INFO  : The application 'D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/Microblaze_fnd_upcount/Debug/Microblaze_fnd_upcount.elf' is downloaded to processor 'microblaze_0'.
+12:57:10 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Basys3 210183BB7A20A" && level==0 && jtag_device_ctx=="jsn-Basys3-210183BB7A20A-0362d093-0"}
+fpga -file D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/Microblaze_fnd_upcount/_ide/bitstream/design_1_wrapper.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/Microblaze_fnd_upcount/Debug/Microblaze_fnd_upcount.elf
+----------------End of Script----------------
+
+12:57:11 INFO  : Context for processor 'microblaze_0' is selected.
+12:57:11 INFO  : 'con' command is executed.
+12:57:11 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+12:57:11 INFO  : Launch script is exported to file 'D:\vivado_first\20260427_Microblaze_GPIO_4\vitis_workspace\Microblaze_fnd_upcount_system\_ide\scripts\debugger_microblaze_fnd_upcount-default.tcl'
+13:00:01 INFO  : Checking for BSP changes to sync application flags for project 'Microblaze_fnd_upcount'...
+13:00:09 INFO  : Disconnected from the channel tcfchan#18.
+13:00:10 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+13:00:10 INFO  : Jtag cable 'Digilent Basys3 210183BB7A20A' is selected.
+13:00:10 INFO  : 'jtag frequency' command is executed.
+13:00:10 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Basys3 210183BB7A20A" && level==0 && jtag_device_ctx=="jsn-Basys3-210183BB7A20A-0362d093-0"}' command is executed.
+13:00:10 INFO  : Device configured successfully with "D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/Microblaze_fnd_upcount/_ide/bitstream/design_1_wrapper.bit"
+13:00:10 INFO  : Context for processor 'microblaze_0' is selected.
+13:00:10 INFO  : Hardware design and registers information is loaded from 'D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa'.
+13:00:10 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+13:00:10 INFO  : Context for processor 'microblaze_0' is selected.
+13:00:10 INFO  : System reset is completed.
+13:00:13 INFO  : 'after 3000' command is executed.
+13:00:13 INFO  : Context for processor 'microblaze_0' is selected.
+13:00:13 INFO  : The application 'D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/Microblaze_fnd_upcount/Debug/Microblaze_fnd_upcount.elf' is downloaded to processor 'microblaze_0'.
+13:00:13 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Basys3 210183BB7A20A" && level==0 && jtag_device_ctx=="jsn-Basys3-210183BB7A20A-0362d093-0"}
+fpga -file D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/Microblaze_fnd_upcount/_ide/bitstream/design_1_wrapper.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/Microblaze_fnd_upcount/Debug/Microblaze_fnd_upcount.elf
+----------------End of Script----------------
+
+13:00:13 INFO  : Context for processor 'microblaze_0' is selected.
+13:00:13 INFO  : 'con' command is executed.
+13:00:13 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+13:00:13 INFO  : Launch script is exported to file 'D:\vivado_first\20260427_Microblaze_GPIO_4\vitis_workspace\Microblaze_fnd_upcount_system\_ide\scripts\debugger_microblaze_fnd_upcount-default.tcl'
+14:16:41 INFO  : Checking for BSP changes to sync application flags for project 'Microblaze_fnd_upcount'...
+14:17:11 INFO  : Checking for BSP changes to sync application flags for project 'Microblaze_fnd_upcount'...
+14:17:18 INFO  : Disconnected from the channel tcfchan#19.
+14:17:19 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+14:17:19 INFO  : Jtag cable 'Digilent Basys3 210183BB7A20A' is selected.
+14:17:19 INFO  : 'jtag frequency' command is executed.
+14:17:19 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Basys3 210183BB7A20A" && level==0 && jtag_device_ctx=="jsn-Basys3-210183BB7A20A-0362d093-0"}' command is executed.
+14:17:20 INFO  : Device configured successfully with "D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/Microblaze_fnd_upcount/_ide/bitstream/design_1_wrapper.bit"
+14:17:20 INFO  : Context for processor 'microblaze_0' is selected.
+14:17:20 INFO  : Hardware design and registers information is loaded from 'D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa'.
+14:17:20 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+14:17:20 INFO  : Context for processor 'microblaze_0' is selected.
+14:17:20 INFO  : System reset is completed.
+14:17:23 INFO  : 'after 3000' command is executed.
+14:17:23 INFO  : Context for processor 'microblaze_0' is selected.
+14:17:23 INFO  : The application 'D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/Microblaze_fnd_upcount/Debug/Microblaze_fnd_upcount.elf' is downloaded to processor 'microblaze_0'.
+14:17:23 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Basys3 210183BB7A20A" && level==0 && jtag_device_ctx=="jsn-Basys3-210183BB7A20A-0362d093-0"}
+fpga -file D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/Microblaze_fnd_upcount/_ide/bitstream/design_1_wrapper.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/Microblaze_fnd_upcount/Debug/Microblaze_fnd_upcount.elf
+----------------End of Script----------------
+
+14:17:23 INFO  : Context for processor 'microblaze_0' is selected.
+14:17:23 INFO  : 'con' command is executed.
+14:17:23 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+14:17:23 INFO  : Launch script is exported to file 'D:\vivado_first\20260427_Microblaze_GPIO_4\vitis_workspace\Microblaze_fnd_upcount_system\_ide\scripts\debugger_microblaze_fnd_upcount-default.tcl'
+14:36:19 INFO  : Checking for BSP changes to sync application flags for project 'Microblaze_fnd_upcount'...
+14:36:47 INFO  : Checking for BSP changes to sync application flags for project 'Microblaze_fnd_upcount'...
+14:37:27 INFO  : Checking for BSP changes to sync application flags for project 'Microblaze_fnd_upcount'...
+14:38:14 INFO  : Checking for BSP changes to sync application flags for project 'Microblaze_fnd_upcount'...
+14:38:22 INFO  : Disconnected from the channel tcfchan#20.
+14:38:23 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+14:38:23 INFO  : Jtag cable 'Digilent Basys3 210183BB7A20A' is selected.
+14:38:23 INFO  : 'jtag frequency' command is executed.
+14:38:23 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Basys3 210183BB7A20A" && level==0 && jtag_device_ctx=="jsn-Basys3-210183BB7A20A-0362d093-0"}' command is executed.
+14:38:24 INFO  : Device configured successfully with "D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/Microblaze_fnd_upcount/_ide/bitstream/design_1_wrapper.bit"
+14:38:24 INFO  : Context for processor 'microblaze_0' is selected.
+14:38:24 INFO  : Hardware design and registers information is loaded from 'D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa'.
+14:38:24 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+14:38:24 INFO  : Context for processor 'microblaze_0' is selected.
+14:38:24 INFO  : System reset is completed.
+14:38:27 INFO  : 'after 3000' command is executed.
+14:38:27 INFO  : Context for processor 'microblaze_0' is selected.
+14:38:27 INFO  : The application 'D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/Microblaze_fnd_upcount/Debug/Microblaze_fnd_upcount.elf' is downloaded to processor 'microblaze_0'.
+14:38:27 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Basys3 210183BB7A20A" && level==0 && jtag_device_ctx=="jsn-Basys3-210183BB7A20A-0362d093-0"}
+fpga -file D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/Microblaze_fnd_upcount/_ide/bitstream/design_1_wrapper.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/Microblaze_fnd_upcount/Debug/Microblaze_fnd_upcount.elf
+----------------End of Script----------------
+
+14:38:27 INFO  : Context for processor 'microblaze_0' is selected.
+14:38:27 INFO  : 'con' command is executed.
+14:38:27 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+14:38:27 INFO  : Launch script is exported to file 'D:\vivado_first\20260427_Microblaze_GPIO_4\vitis_workspace\Microblaze_fnd_upcount_system\_ide\scripts\debugger_microblaze_fnd_upcount-default.tcl'
+14:41:20 INFO  : Checking for BSP changes to sync application flags for project 'Microblaze_fnd_upcount'...
+14:43:17 INFO  : Checking for BSP changes to sync application flags for project 'Microblaze_fnd_upcount'...
+14:43:24 INFO  : Disconnected from the channel tcfchan#21.
+14:43:25 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+14:43:25 INFO  : Jtag cable 'Digilent Basys3 210183BB7A20A' is selected.
+14:43:25 INFO  : 'jtag frequency' command is executed.
+14:43:25 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Basys3 210183BB7A20A" && level==0 && jtag_device_ctx=="jsn-Basys3-210183BB7A20A-0362d093-0"}' command is executed.
+14:43:25 INFO  : Device configured successfully with "D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/Microblaze_fnd_upcount/_ide/bitstream/design_1_wrapper.bit"
+14:43:25 INFO  : Context for processor 'microblaze_0' is selected.
+14:43:25 INFO  : Hardware design and registers information is loaded from 'D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa'.
+14:43:25 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+14:43:25 INFO  : Context for processor 'microblaze_0' is selected.
+14:43:25 INFO  : System reset is completed.
+14:43:29 INFO  : 'after 3000' command is executed.
+14:43:29 INFO  : Context for processor 'microblaze_0' is selected.
+14:43:29 INFO  : The application 'D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/Microblaze_fnd_upcount/Debug/Microblaze_fnd_upcount.elf' is downloaded to processor 'microblaze_0'.
+14:43:29 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Basys3 210183BB7A20A" && level==0 && jtag_device_ctx=="jsn-Basys3-210183BB7A20A-0362d093-0"}
+fpga -file D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/Microblaze_fnd_upcount/_ide/bitstream/design_1_wrapper.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/Microblaze_fnd_upcount/Debug/Microblaze_fnd_upcount.elf
+----------------End of Script----------------
+
+14:43:29 INFO  : Context for processor 'microblaze_0' is selected.
+14:43:29 INFO  : 'con' command is executed.
+14:43:29 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+14:43:29 INFO  : Launch script is exported to file 'D:\vivado_first\20260427_Microblaze_GPIO_4\vitis_workspace\Microblaze_fnd_upcount_system\_ide\scripts\debugger_microblaze_fnd_upcount-default.tcl'
+14:50:04 INFO  : Checking for BSP changes to sync application flags for project 'Microblaze_fnd_upcount'...
+14:52:33 INFO  : Checking for BSP changes to sync application flags for project 'Microblaze_fnd_upcount'...
+14:52:42 INFO  : Checking for BSP changes to sync application flags for project 'Microblaze_fnd_upcount'...
+14:53:45 INFO  : Checking for BSP changes to sync application flags for project 'Microblaze_fnd_upcount'...
+14:54:09 INFO  : Checking for BSP changes to sync application flags for project 'Microblaze_fnd_upcount'...
+14:54:16 INFO  : Checking for BSP changes to sync application flags for project 'Microblaze_fnd_upcount'...
+14:54:25 INFO  : Disconnected from the channel tcfchan#22.
+14:54:26 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+14:54:26 INFO  : Jtag cable 'Digilent Basys3 210183BB7A20A' is selected.
+14:54:26 INFO  : 'jtag frequency' command is executed.
+14:54:27 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Basys3 210183BB7A20A" && level==0 && jtag_device_ctx=="jsn-Basys3-210183BB7A20A-0362d093-0"}' command is executed.
+14:54:27 INFO  : Device configured successfully with "D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/Microblaze_fnd_upcount/_ide/bitstream/design_1_wrapper.bit"
+14:54:27 INFO  : Context for processor 'microblaze_0' is selected.
+14:54:27 INFO  : Hardware design and registers information is loaded from 'D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa'.
+14:54:27 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+14:54:27 INFO  : Context for processor 'microblaze_0' is selected.
+14:54:27 INFO  : System reset is completed.
+14:54:30 INFO  : 'after 3000' command is executed.
+14:54:30 INFO  : Context for processor 'microblaze_0' is selected.
+14:54:30 INFO  : The application 'D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/Microblaze_fnd_upcount/Debug/Microblaze_fnd_upcount.elf' is downloaded to processor 'microblaze_0'.
+14:54:30 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Basys3 210183BB7A20A" && level==0 && jtag_device_ctx=="jsn-Basys3-210183BB7A20A-0362d093-0"}
+fpga -file D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/Microblaze_fnd_upcount/_ide/bitstream/design_1_wrapper.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/Microblaze_fnd_upcount/Debug/Microblaze_fnd_upcount.elf
+----------------End of Script----------------
+
+14:54:30 INFO  : Context for processor 'microblaze_0' is selected.
+14:54:30 INFO  : 'con' command is executed.
+14:54:30 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+14:54:30 INFO  : Launch script is exported to file 'D:\vivado_first\20260427_Microblaze_GPIO_4\vitis_workspace\Microblaze_fnd_upcount_system\_ide\scripts\debugger_microblaze_fnd_upcount-default.tcl'
+14:54:58 INFO  : Checking for BSP changes to sync application flags for project 'Microblaze_fnd_upcount'...
+14:55:39 INFO  : Checking for BSP changes to sync application flags for project 'Microblaze_fnd_upcount'...
+14:55:59 INFO  : Disconnected from the channel tcfchan#23.
+14:56:00 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+14:56:01 INFO  : Jtag cable 'Digilent Basys3 210183BB7A20A' is selected.
+14:56:01 INFO  : 'jtag frequency' command is executed.
+14:56:01 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Basys3 210183BB7A20A" && level==0 && jtag_device_ctx=="jsn-Basys3-210183BB7A20A-0362d093-0"}' command is executed.
+14:56:01 INFO  : Device configured successfully with "D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/Microblaze_fnd_upcount/_ide/bitstream/design_1_wrapper.bit"
+14:56:01 INFO  : Context for processor 'microblaze_0' is selected.
+14:56:01 INFO  : Hardware design and registers information is loaded from 'D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa'.
+14:56:01 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+14:56:01 INFO  : Context for processor 'microblaze_0' is selected.
+14:56:01 INFO  : System reset is completed.
+14:56:04 INFO  : 'after 3000' command is executed.
+14:56:04 INFO  : Context for processor 'microblaze_0' is selected.
+14:56:04 INFO  : The application 'D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/Microblaze_fnd_upcount/Debug/Microblaze_fnd_upcount.elf' is downloaded to processor 'microblaze_0'.
+14:56:04 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Basys3 210183BB7A20A" && level==0 && jtag_device_ctx=="jsn-Basys3-210183BB7A20A-0362d093-0"}
+fpga -file D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/Microblaze_fnd_upcount/_ide/bitstream/design_1_wrapper.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/Microblaze_fnd_upcount/Debug/Microblaze_fnd_upcount.elf
+----------------End of Script----------------
+
+14:56:04 INFO  : Context for processor 'microblaze_0' is selected.
+14:56:04 INFO  : 'con' command is executed.
+14:56:04 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+14:56:04 INFO  : Launch script is exported to file 'D:\vivado_first\20260427_Microblaze_GPIO_4\vitis_workspace\Microblaze_fnd_upcount_system\_ide\scripts\debugger_microblaze_fnd_upcount-default.tcl'
+15:04:23 INFO  : Checking for BSP changes to sync application flags for project 'Microblaze_fnd_upcount'...
+15:04:29 INFO  : Disconnected from the channel tcfchan#24.
+15:04:30 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+15:04:30 INFO  : Jtag cable 'Digilent Basys3 210183BB7A20A' is selected.
+15:04:30 INFO  : 'jtag frequency' command is executed.
+15:04:30 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Basys3 210183BB7A20A" && level==0 && jtag_device_ctx=="jsn-Basys3-210183BB7A20A-0362d093-0"}' command is executed.
+15:04:30 INFO  : Device configured successfully with "D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/Microblaze_fnd_upcount/_ide/bitstream/design_1_wrapper.bit"
+15:04:30 INFO  : Context for processor 'microblaze_0' is selected.
+15:04:30 INFO  : Hardware design and registers information is loaded from 'D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa'.
+15:04:30 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+15:04:30 INFO  : Context for processor 'microblaze_0' is selected.
+15:04:30 INFO  : System reset is completed.
+15:04:33 INFO  : 'after 3000' command is executed.
+15:04:33 INFO  : Context for processor 'microblaze_0' is selected.
+15:04:33 INFO  : The application 'D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/Microblaze_fnd_upcount/Debug/Microblaze_fnd_upcount.elf' is downloaded to processor 'microblaze_0'.
+15:04:33 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Basys3 210183BB7A20A" && level==0 && jtag_device_ctx=="jsn-Basys3-210183BB7A20A-0362d093-0"}
+fpga -file D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/Microblaze_fnd_upcount/_ide/bitstream/design_1_wrapper.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/Microblaze_fnd_upcount/Debug/Microblaze_fnd_upcount.elf
+----------------End of Script----------------
+
+15:04:33 INFO  : Context for processor 'microblaze_0' is selected.
+15:04:33 INFO  : 'con' command is executed.
+15:04:33 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+15:04:33 INFO  : Launch script is exported to file 'D:\vivado_first\20260427_Microblaze_GPIO_4\vitis_workspace\Microblaze_fnd_upcount_system\_ide\scripts\debugger_microblaze_fnd_upcount-default.tcl'
+15:05:24 INFO  : Checking for BSP changes to sync application flags for project 'Microblaze_fnd_upcount'...
+15:05:30 INFO  : Disconnected from the channel tcfchan#25.
+15:05:31 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+15:05:31 INFO  : Jtag cable 'Digilent Basys3 210183BB7A20A' is selected.
+15:05:31 INFO  : 'jtag frequency' command is executed.
+15:05:31 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Basys3 210183BB7A20A" && level==0 && jtag_device_ctx=="jsn-Basys3-210183BB7A20A-0362d093-0"}' command is executed.
+15:05:31 INFO  : Device configured successfully with "D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/Microblaze_fnd_upcount/_ide/bitstream/design_1_wrapper.bit"
+15:05:31 INFO  : Context for processor 'microblaze_0' is selected.
+15:05:31 INFO  : Hardware design and registers information is loaded from 'D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa'.
+15:05:31 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+15:05:31 INFO  : Context for processor 'microblaze_0' is selected.
+15:05:31 INFO  : System reset is completed.
+15:05:34 INFO  : 'after 3000' command is executed.
+15:05:34 INFO  : Context for processor 'microblaze_0' is selected.
+15:05:35 INFO  : The application 'D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/Microblaze_fnd_upcount/Debug/Microblaze_fnd_upcount.elf' is downloaded to processor 'microblaze_0'.
+15:05:35 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Basys3 210183BB7A20A" && level==0 && jtag_device_ctx=="jsn-Basys3-210183BB7A20A-0362d093-0"}
+fpga -file D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/Microblaze_fnd_upcount/_ide/bitstream/design_1_wrapper.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/Microblaze_fnd_upcount/Debug/Microblaze_fnd_upcount.elf
+----------------End of Script----------------
+
+15:05:35 INFO  : Context for processor 'microblaze_0' is selected.
+15:05:35 INFO  : 'con' command is executed.
+15:05:35 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+15:05:35 INFO  : Launch script is exported to file 'D:\vivado_first\20260427_Microblaze_GPIO_4\vitis_workspace\Microblaze_fnd_upcount_system\_ide\scripts\debugger_microblaze_fnd_upcount-default.tcl'
+15:25:59 INFO  : Checking for BSP changes to sync application flags for project 'Microblaze_fnd_upcount'...
+15:26:41 INFO  : Checking for BSP changes to sync application flags for project 'Microblaze_fnd_upcount'...
+15:26:58 INFO  : Checking for BSP changes to sync application flags for project 'Microblaze_fnd_upcount'...
+15:28:57 INFO  : Checking for BSP changes to sync application flags for project 'Microblaze_fnd_upcount'...
+15:30:19 INFO  : Checking for BSP changes to sync application flags for project 'Microblaze_fnd_upcount'...
+15:30:50 INFO  : Checking for BSP changes to sync application flags for project 'Microblaze_fnd_upcount'...
+15:31:08 INFO  : Checking for BSP changes to sync application flags for project 'Microblaze_fnd_upcount'...
+15:31:14 INFO  : Checking for BSP changes to sync application flags for project 'Microblaze_fnd_upcount'...
+15:31:30 INFO  : Checking for BSP changes to sync application flags for project 'Microblaze_fnd_upcount'...
+15:34:40 INFO  : Checking for BSP changes to sync application flags for project 'Microblaze_fnd_upcount'...
+15:34:52 INFO  : Checking for BSP changes to sync application flags for project 'Microblaze_fnd_upcount'...
+15:36:38 INFO  : Checking for BSP changes to sync application flags for project 'Microblaze_fnd_upcount'...
+15:36:58 INFO  : Checking for BSP changes to sync application flags for project 'Microblaze_fnd_upcount'...
+15:38:16 INFO  : Checking for BSP changes to sync application flags for project 'Microblaze_fnd_upcount'...
+15:40:49 INFO  : Checking for BSP changes to sync application flags for project 'Microblaze_fnd_upcount'...
+15:41:23 INFO  : Checking for BSP changes to sync application flags for project 'Microblaze_fnd_upcount'...
+15:41:46 INFO  : Checking for BSP changes to sync application flags for project 'Microblaze_fnd_upcount'...
+15:42:07 INFO  : Checking for BSP changes to sync application flags for project 'Microblaze_fnd_upcount'...
+15:47:37 INFO  : Checking for BSP changes to sync application flags for project 'Microblaze_fnd_upcount'...
+15:48:08 INFO  : Checking for BSP changes to sync application flags for project 'Microblaze_fnd_upcount'...
+15:49:52 INFO  : Checking for BSP changes to sync application flags for project 'Microblaze_fnd_upcount'...
+15:50:16 INFO  : Checking for BSP changes to sync application flags for project 'Microblaze_fnd_upcount'...
+15:50:21 INFO  : Disconnected from the channel tcfchan#26.
+15:50:22 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+15:50:22 INFO  : Jtag cable 'Digilent Basys3 210183BB7A20A' is selected.
+15:50:22 INFO  : 'jtag frequency' command is executed.
+15:50:23 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Basys3 210183BB7A20A" && level==0 && jtag_device_ctx=="jsn-Basys3-210183BB7A20A-0362d093-0"}' command is executed.
+15:50:23 INFO  : Device configured successfully with "D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/Microblaze_fnd_upcount/_ide/bitstream/design_1_wrapper.bit"
+15:50:23 INFO  : Context for processor 'microblaze_0' is selected.
+15:50:23 INFO  : Hardware design and registers information is loaded from 'D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa'.
+15:50:23 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+15:50:23 INFO  : Context for processor 'microblaze_0' is selected.
+15:50:23 INFO  : System reset is completed.
+15:50:26 INFO  : 'after 3000' command is executed.
+15:50:26 INFO  : Context for processor 'microblaze_0' is selected.
+15:50:26 INFO  : The application 'D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/Microblaze_fnd_upcount/Debug/Microblaze_fnd_upcount.elf' is downloaded to processor 'microblaze_0'.
+15:50:26 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Basys3 210183BB7A20A" && level==0 && jtag_device_ctx=="jsn-Basys3-210183BB7A20A-0362d093-0"}
+fpga -file D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/Microblaze_fnd_upcount/_ide/bitstream/design_1_wrapper.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/Microblaze_fnd_upcount/Debug/Microblaze_fnd_upcount.elf
+----------------End of Script----------------
+
+15:50:26 INFO  : Context for processor 'microblaze_0' is selected.
+15:50:26 INFO  : 'con' command is executed.
+15:50:26 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+15:50:26 INFO  : Launch script is exported to file 'D:\vivado_first\20260427_Microblaze_GPIO_4\vitis_workspace\Microblaze_fnd_upcount_system\_ide\scripts\debugger_microblaze_fnd_upcount-default.tcl'
+17:39:08 INFO  : Checking for BSP changes to sync application flags for project 'Microblaze_fnd_upcount'...
+17:40:02 INFO  : Checking for BSP changes to sync application flags for project 'Microblaze_fnd_upcount'...
+17:40:20 INFO  : Checking for BSP changes to sync application flags for project 'Microblaze_fnd_upcount'...
+17:40:36 INFO  : Checking for BSP changes to sync application flags for project 'Microblaze_fnd_upcount'...
+17:41:22 INFO  : Checking for BSP changes to sync application flags for project 'Microblaze_fnd_upcount'...
+17:42:11 INFO  : Checking for BSP changes to sync application flags for project 'Microblaze_fnd_upcount'...
+17:42:22 INFO  : Disconnected from the channel tcfchan#27.
+17:42:23 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+17:42:23 INFO  : Jtag cable 'Digilent Basys3 210183BB7A20A' is selected.
+17:42:23 INFO  : 'jtag frequency' command is executed.
+17:42:23 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Basys3 210183BB7A20A" && level==0 && jtag_device_ctx=="jsn-Basys3-210183BB7A20A-0362d093-0"}' command is executed.
+17:42:23 INFO  : Device configured successfully with "D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/Microblaze_fnd_upcount/_ide/bitstream/design_1_wrapper.bit"
+17:42:23 INFO  : Context for processor 'microblaze_0' is selected.
+17:42:23 INFO  : Hardware design and registers information is loaded from 'D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa'.
+17:42:24 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+17:42:24 INFO  : Context for processor 'microblaze_0' is selected.
+17:42:24 INFO  : System reset is completed.
+17:42:27 INFO  : 'after 3000' command is executed.
+17:42:27 INFO  : Context for processor 'microblaze_0' is selected.
+17:42:27 INFO  : The application 'D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/Microblaze_fnd_upcount/Debug/Microblaze_fnd_upcount.elf' is downloaded to processor 'microblaze_0'.
+17:42:27 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Basys3 210183BB7A20A" && level==0 && jtag_device_ctx=="jsn-Basys3-210183BB7A20A-0362d093-0"}
+fpga -file D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/Microblaze_fnd_upcount/_ide/bitstream/design_1_wrapper.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/Microblaze_fnd_upcount/Debug/Microblaze_fnd_upcount.elf
+----------------End of Script----------------
+
+17:42:27 INFO  : Context for processor 'microblaze_0' is selected.
+17:42:27 INFO  : 'con' command is executed.
+17:42:27 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+17:42:27 INFO  : Launch script is exported to file 'D:\vivado_first\20260427_Microblaze_GPIO_4\vitis_workspace\Microblaze_fnd_upcount_system\_ide\scripts\debugger_microblaze_fnd_upcount-default.tcl'
+17:43:52 INFO  : Checking for BSP changes to sync application flags for project 'Microblaze_fnd_upcount'...
+17:43:59 INFO  : Disconnected from the channel tcfchan#28.
+17:44:00 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+17:44:00 INFO  : Jtag cable 'Digilent Basys3 210183BB7A20A' is selected.
+17:44:00 INFO  : 'jtag frequency' command is executed.
+17:44:00 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Basys3 210183BB7A20A" && level==0 && jtag_device_ctx=="jsn-Basys3-210183BB7A20A-0362d093-0"}' command is executed.
+17:44:01 INFO  : Device configured successfully with "D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/Microblaze_fnd_upcount/_ide/bitstream/design_1_wrapper.bit"
+17:44:01 INFO  : Context for processor 'microblaze_0' is selected.
+17:44:01 INFO  : Hardware design and registers information is loaded from 'D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa'.
+17:44:01 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+17:44:01 INFO  : Context for processor 'microblaze_0' is selected.
+17:44:01 INFO  : System reset is completed.
+17:44:04 INFO  : 'after 3000' command is executed.
+17:44:04 INFO  : Context for processor 'microblaze_0' is selected.
+17:44:04 INFO  : The application 'D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/Microblaze_fnd_upcount/Debug/Microblaze_fnd_upcount.elf' is downloaded to processor 'microblaze_0'.
+17:44:04 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Basys3 210183BB7A20A" && level==0 && jtag_device_ctx=="jsn-Basys3-210183BB7A20A-0362d093-0"}
+fpga -file D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/Microblaze_fnd_upcount/_ide/bitstream/design_1_wrapper.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/Microblaze_fnd_upcount/Debug/Microblaze_fnd_upcount.elf
+----------------End of Script----------------
+
+17:44:04 INFO  : Context for processor 'microblaze_0' is selected.
+17:44:04 INFO  : 'con' command is executed.
+17:44:04 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+17:44:04 INFO  : Launch script is exported to file 'D:\vivado_first\20260427_Microblaze_GPIO_4\vitis_workspace\Microblaze_fnd_upcount_system\_ide\scripts\debugger_microblaze_fnd_upcount-default.tcl'
+17:53:16 INFO  : Checking for BSP changes to sync application flags for project 'Microblaze_fnd_upcount'...
+17:53:22 INFO  : Disconnected from the channel tcfchan#29.
+17:53:23 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+17:53:23 INFO  : Jtag cable 'Digilent Basys3 210183BB7A20A' is selected.
+17:53:23 INFO  : 'jtag frequency' command is executed.
+17:53:23 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Basys3 210183BB7A20A" && level==0 && jtag_device_ctx=="jsn-Basys3-210183BB7A20A-0362d093-0"}' command is executed.
+17:53:23 INFO  : Device configured successfully with "D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/Microblaze_fnd_upcount/_ide/bitstream/design_1_wrapper.bit"
+17:53:23 INFO  : Context for processor 'microblaze_0' is selected.
+17:53:23 INFO  : Hardware design and registers information is loaded from 'D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa'.
+17:53:23 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+17:53:23 INFO  : Context for processor 'microblaze_0' is selected.
+17:53:23 INFO  : System reset is completed.
+17:53:26 INFO  : 'after 3000' command is executed.
+17:53:26 INFO  : Context for processor 'microblaze_0' is selected.
+17:53:26 INFO  : The application 'D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/Microblaze_fnd_upcount/Debug/Microblaze_fnd_upcount.elf' is downloaded to processor 'microblaze_0'.
+17:53:26 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Basys3 210183BB7A20A" && level==0 && jtag_device_ctx=="jsn-Basys3-210183BB7A20A-0362d093-0"}
+fpga -file D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/Microblaze_fnd_upcount/_ide/bitstream/design_1_wrapper.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/Microblaze_fnd_upcount/Debug/Microblaze_fnd_upcount.elf
+----------------End of Script----------------
+
+17:53:27 INFO  : Context for processor 'microblaze_0' is selected.
+17:53:27 INFO  : 'con' command is executed.
+17:53:27 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+17:53:27 INFO  : Launch script is exported to file 'D:\vivado_first\20260427_Microblaze_GPIO_4\vitis_workspace\Microblaze_fnd_upcount_system\_ide\scripts\debugger_microblaze_fnd_upcount-default.tcl'
+18:04:22 INFO  : Checking for BSP changes to sync application flags for project 'Microblaze_fnd_upcount'...
+18:04:45 INFO  : Checking for BSP changes to sync application flags for project 'Microblaze_fnd_upcount'...
+18:04:51 INFO  : Disconnected from the channel tcfchan#30.
+18:04:52 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+18:04:53 INFO  : Jtag cable 'Digilent Basys3 210183BB7A20A' is selected.
+18:04:53 INFO  : 'jtag frequency' command is executed.
+18:04:53 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Basys3 210183BB7A20A" && level==0 && jtag_device_ctx=="jsn-Basys3-210183BB7A20A-0362d093-0"}' command is executed.
+18:04:53 INFO  : Device configured successfully with "D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/Microblaze_fnd_upcount/_ide/bitstream/design_1_wrapper.bit"
+18:04:53 INFO  : Context for processor 'microblaze_0' is selected.
+18:04:53 INFO  : Hardware design and registers information is loaded from 'D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa'.
+18:04:53 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+18:04:53 INFO  : Context for processor 'microblaze_0' is selected.
+18:04:53 INFO  : System reset is completed.
+18:04:56 INFO  : 'after 3000' command is executed.
+18:04:56 INFO  : Context for processor 'microblaze_0' is selected.
+18:04:56 INFO  : The application 'D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/Microblaze_fnd_upcount/Debug/Microblaze_fnd_upcount.elf' is downloaded to processor 'microblaze_0'.
+18:04:56 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Basys3 210183BB7A20A" && level==0 && jtag_device_ctx=="jsn-Basys3-210183BB7A20A-0362d093-0"}
+fpga -file D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/Microblaze_fnd_upcount/_ide/bitstream/design_1_wrapper.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/Microblaze_fnd_upcount/Debug/Microblaze_fnd_upcount.elf
+----------------End of Script----------------
+
+18:04:56 INFO  : Context for processor 'microblaze_0' is selected.
+18:04:56 INFO  : 'con' command is executed.
+18:04:56 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+18:04:56 INFO  : Launch script is exported to file 'D:\vivado_first\20260427_Microblaze_GPIO_4\vitis_workspace\Microblaze_fnd_upcount_system\_ide\scripts\debugger_microblaze_fnd_upcount-default.tcl'
+18:09:44 INFO  : Checking for BSP changes to sync application flags for project 'Microblaze_fnd_upcount'...
+18:12:18 INFO  : Checking for BSP changes to sync application flags for project 'Microblaze_fnd_upcount'...
+18:14:30 INFO  : Checking for BSP changes to sync application flags for project 'Microblaze_fnd_upcount'...
+18:14:54 INFO  : Checking for BSP changes to sync application flags for project 'Microblaze_fnd_upcount'...
+18:15:06 INFO  : Disconnected from the channel tcfchan#31.
+18:15:07 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+18:15:07 INFO  : Jtag cable 'Digilent Basys3 210183BB7A20A' is selected.
+18:15:07 INFO  : 'jtag frequency' command is executed.
+18:15:07 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Basys3 210183BB7A20A" && level==0 && jtag_device_ctx=="jsn-Basys3-210183BB7A20A-0362d093-0"}' command is executed.
+18:15:08 INFO  : Device configured successfully with "D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/Microblaze_fnd_upcount/_ide/bitstream/design_1_wrapper.bit"
+18:15:08 INFO  : Context for processor 'microblaze_0' is selected.
+18:15:08 INFO  : Hardware design and registers information is loaded from 'D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa'.
+18:15:08 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+18:15:08 INFO  : Context for processor 'microblaze_0' is selected.
+18:15:08 INFO  : System reset is completed.
+18:15:11 INFO  : 'after 3000' command is executed.
+18:15:11 INFO  : Context for processor 'microblaze_0' is selected.
+18:15:11 INFO  : The application 'D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/Microblaze_fnd_upcount/Debug/Microblaze_fnd_upcount.elf' is downloaded to processor 'microblaze_0'.
+18:15:11 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Basys3 210183BB7A20A" && level==0 && jtag_device_ctx=="jsn-Basys3-210183BB7A20A-0362d093-0"}
+fpga -file D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/Microblaze_fnd_upcount/_ide/bitstream/design_1_wrapper.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/Microblaze_fnd_upcount/Debug/Microblaze_fnd_upcount.elf
+----------------End of Script----------------
+
+18:15:11 INFO  : Context for processor 'microblaze_0' is selected.
+18:15:11 INFO  : 'con' command is executed.
+18:15:11 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+18:15:11 INFO  : Launch script is exported to file 'D:\vivado_first\20260427_Microblaze_GPIO_4\vitis_workspace\Microblaze_fnd_upcount_system\_ide\scripts\debugger_microblaze_fnd_upcount-default.tcl'
+18:45:05 INFO  : Checking for BSP changes to sync application flags for project 'Microblaze_fnd_upcount'...
+18:45:51 INFO  : Checking for BSP changes to sync application flags for project 'Microblaze_fnd_upcount'...
+18:46:09 INFO  : Checking for BSP changes to sync application flags for project 'Microblaze_fnd_upcount'...
+18:46:58 INFO  : Checking for BSP changes to sync application flags for project 'Microblaze_fnd_upcount'...
+18:47:16 INFO  : Disconnected from the channel tcfchan#32.
+18:47:17 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+18:47:18 INFO  : Jtag cable 'Digilent Basys3 210183BB7A20A' is selected.
+18:47:18 INFO  : 'jtag frequency' command is executed.
+18:47:18 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Basys3 210183BB7A20A" && level==0 && jtag_device_ctx=="jsn-Basys3-210183BB7A20A-0362d093-0"}' command is executed.
+18:47:18 INFO  : Device configured successfully with "D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/Microblaze_fnd_upcount/_ide/bitstream/design_1_wrapper.bit"
+18:47:18 INFO  : Context for processor 'microblaze_0' is selected.
+18:47:18 INFO  : Hardware design and registers information is loaded from 'D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa'.
+18:47:18 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+18:47:18 INFO  : Context for processor 'microblaze_0' is selected.
+18:47:18 INFO  : System reset is completed.
+18:47:21 INFO  : 'after 3000' command is executed.
+18:47:21 INFO  : Context for processor 'microblaze_0' is selected.
+18:47:21 INFO  : The application 'D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/Microblaze_fnd_upcount/Debug/Microblaze_fnd_upcount.elf' is downloaded to processor 'microblaze_0'.
+18:47:21 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Basys3 210183BB7A20A" && level==0 && jtag_device_ctx=="jsn-Basys3-210183BB7A20A-0362d093-0"}
+fpga -file D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/Microblaze_fnd_upcount/_ide/bitstream/design_1_wrapper.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/Microblaze_fnd_upcount/Debug/Microblaze_fnd_upcount.elf
+----------------End of Script----------------
+
+18:47:21 INFO  : Context for processor 'microblaze_0' is selected.
+18:47:21 INFO  : 'con' command is executed.
+18:47:21 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+18:47:21 INFO  : Launch script is exported to file 'D:\vivado_first\20260427_Microblaze_GPIO_4\vitis_workspace\Microblaze_fnd_upcount_system\_ide\scripts\debugger_microblaze_fnd_upcount-default.tcl'
+18:52:51 INFO  : Checking for BSP changes to sync application flags for project 'Microblaze_fnd_upcount'...
+18:52:58 INFO  : Disconnected from the channel tcfchan#33.
+18:52:59 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+18:52:59 INFO  : Jtag cable 'Digilent Basys3 210183BB7A20A' is selected.
+18:52:59 INFO  : 'jtag frequency' command is executed.
+18:52:59 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Basys3 210183BB7A20A" && level==0 && jtag_device_ctx=="jsn-Basys3-210183BB7A20A-0362d093-0"}' command is executed.
+18:52:59 INFO  : Device configured successfully with "D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/Microblaze_fnd_upcount/_ide/bitstream/design_1_wrapper.bit"
+18:52:59 INFO  : Context for processor 'microblaze_0' is selected.
+18:52:59 INFO  : Hardware design and registers information is loaded from 'D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa'.
+18:52:59 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+18:52:59 INFO  : Context for processor 'microblaze_0' is selected.
+18:52:59 INFO  : System reset is completed.
+18:53:02 INFO  : 'after 3000' command is executed.
+18:53:02 INFO  : Context for processor 'microblaze_0' is selected.
+18:53:02 INFO  : The application 'D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/Microblaze_fnd_upcount/Debug/Microblaze_fnd_upcount.elf' is downloaded to processor 'microblaze_0'.
+18:53:02 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Basys3 210183BB7A20A" && level==0 && jtag_device_ctx=="jsn-Basys3-210183BB7A20A-0362d093-0"}
+fpga -file D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/Microblaze_fnd_upcount/_ide/bitstream/design_1_wrapper.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/Microblaze_fnd_upcount/Debug/Microblaze_fnd_upcount.elf
+----------------End of Script----------------
+
+18:53:02 INFO  : Context for processor 'microblaze_0' is selected.
+18:53:02 INFO  : 'con' command is executed.
+18:53:02 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+18:53:02 INFO  : Launch script is exported to file 'D:\vivado_first\20260427_Microblaze_GPIO_4\vitis_workspace\Microblaze_fnd_upcount_system\_ide\scripts\debugger_microblaze_fnd_upcount-default.tcl'
+18:53:39 INFO  : Checking for BSP changes to sync application flags for project 'Microblaze_fnd_upcount'...
+18:53:44 INFO  : Disconnected from the channel tcfchan#34.
+18:53:45 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+18:53:45 INFO  : Jtag cable 'Digilent Basys3 210183BB7A20A' is selected.
+18:53:45 INFO  : 'jtag frequency' command is executed.
+18:53:45 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Basys3 210183BB7A20A" && level==0 && jtag_device_ctx=="jsn-Basys3-210183BB7A20A-0362d093-0"}' command is executed.
+18:53:46 INFO  : Device configured successfully with "D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/Microblaze_fnd_upcount/_ide/bitstream/design_1_wrapper.bit"
+18:53:46 INFO  : Context for processor 'microblaze_0' is selected.
+18:53:46 INFO  : Hardware design and registers information is loaded from 'D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa'.
+18:53:46 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+18:53:46 INFO  : Context for processor 'microblaze_0' is selected.
+18:53:46 INFO  : System reset is completed.
+18:53:49 INFO  : 'after 3000' command is executed.
+18:53:49 INFO  : Context for processor 'microblaze_0' is selected.
+18:53:49 INFO  : The application 'D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/Microblaze_fnd_upcount/Debug/Microblaze_fnd_upcount.elf' is downloaded to processor 'microblaze_0'.
+18:53:49 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Basys3 210183BB7A20A" && level==0 && jtag_device_ctx=="jsn-Basys3-210183BB7A20A-0362d093-0"}
+fpga -file D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/Microblaze_fnd_upcount/_ide/bitstream/design_1_wrapper.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/Microblaze_fnd_upcount/Debug/Microblaze_fnd_upcount.elf
+----------------End of Script----------------
+
+18:53:49 INFO  : Context for processor 'microblaze_0' is selected.
+18:53:49 INFO  : 'con' command is executed.
+18:53:49 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+18:53:49 INFO  : Launch script is exported to file 'D:\vivado_first\20260427_Microblaze_GPIO_4\vitis_workspace\Microblaze_fnd_upcount_system\_ide\scripts\debugger_microblaze_fnd_upcount-default.tcl'
+18:55:14 INFO  : Checking for BSP changes to sync application flags for project 'Microblaze_fnd_upcount'...
+18:55:19 INFO  : Disconnected from the channel tcfchan#35.
+18:55:20 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+18:55:20 INFO  : Jtag cable 'Digilent Basys3 210183BB7A20A' is selected.
+18:55:20 INFO  : 'jtag frequency' command is executed.
+18:55:20 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Basys3 210183BB7A20A" && level==0 && jtag_device_ctx=="jsn-Basys3-210183BB7A20A-0362d093-0"}' command is executed.
+18:55:20 INFO  : Device configured successfully with "D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/Microblaze_fnd_upcount/_ide/bitstream/design_1_wrapper.bit"
+18:55:20 INFO  : Context for processor 'microblaze_0' is selected.
+18:55:20 INFO  : Hardware design and registers information is loaded from 'D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa'.
+18:55:20 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+18:55:21 INFO  : Context for processor 'microblaze_0' is selected.
+18:55:21 INFO  : System reset is completed.
+18:55:24 INFO  : 'after 3000' command is executed.
+18:55:24 INFO  : Context for processor 'microblaze_0' is selected.
+18:55:24 INFO  : The application 'D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/Microblaze_fnd_upcount/Debug/Microblaze_fnd_upcount.elf' is downloaded to processor 'microblaze_0'.
+18:55:24 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Basys3 210183BB7A20A" && level==0 && jtag_device_ctx=="jsn-Basys3-210183BB7A20A-0362d093-0"}
+fpga -file D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/Microblaze_fnd_upcount/_ide/bitstream/design_1_wrapper.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/Microblaze_fnd_upcount/Debug/Microblaze_fnd_upcount.elf
+----------------End of Script----------------
+
+18:55:24 INFO  : Context for processor 'microblaze_0' is selected.
+18:55:24 INFO  : 'con' command is executed.
+18:55:24 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+18:55:24 INFO  : Launch script is exported to file 'D:\vivado_first\20260427_Microblaze_GPIO_4\vitis_workspace\Microblaze_fnd_upcount_system\_ide\scripts\debugger_microblaze_fnd_upcount-default.tcl'
+19:17:16 INFO  : Checking for BSP changes to sync application flags for project 'Microblaze_fnd_upcount'...
+19:17:25 INFO  : Disconnected from the channel tcfchan#36.
+19:17:26 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+19:17:26 INFO  : Jtag cable 'Digilent Basys3 210183BB7A20A' is selected.
+19:17:26 INFO  : 'jtag frequency' command is executed.
+19:17:26 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Basys3 210183BB7A20A" && level==0 && jtag_device_ctx=="jsn-Basys3-210183BB7A20A-0362d093-0"}' command is executed.
+19:17:27 INFO  : Device configured successfully with "D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/Microblaze_fnd_upcount/_ide/bitstream/design_1_wrapper.bit"
+19:17:27 INFO  : Context for processor 'microblaze_0' is selected.
+19:17:27 INFO  : Hardware design and registers information is loaded from 'D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa'.
+19:17:27 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+19:17:27 INFO  : Context for processor 'microblaze_0' is selected.
+19:17:27 INFO  : System reset is completed.
+19:17:30 INFO  : 'after 3000' command is executed.
+19:17:30 INFO  : Context for processor 'microblaze_0' is selected.
+19:17:30 INFO  : The application 'D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/Microblaze_fnd_upcount/Debug/Microblaze_fnd_upcount.elf' is downloaded to processor 'microblaze_0'.
+19:17:30 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Basys3 210183BB7A20A" && level==0 && jtag_device_ctx=="jsn-Basys3-210183BB7A20A-0362d093-0"}
+fpga -file D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/Microblaze_fnd_upcount/_ide/bitstream/design_1_wrapper.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/Microblaze_fnd_upcount/Debug/Microblaze_fnd_upcount.elf
+----------------End of Script----------------
+
+19:17:30 INFO  : Context for processor 'microblaze_0' is selected.
+19:17:30 INFO  : 'con' command is executed.
+19:17:30 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+19:17:30 INFO  : Launch script is exported to file 'D:\vivado_first\20260427_Microblaze_GPIO_4\vitis_workspace\Microblaze_fnd_upcount_system\_ide\scripts\debugger_microblaze_fnd_upcount-default.tcl'
+19:18:18 INFO  : Checking for BSP changes to sync application flags for project 'Microblaze_fnd_upcount'...
+19:18:23 INFO  : Disconnected from the channel tcfchan#37.
+19:18:24 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+19:18:24 INFO  : Jtag cable 'Digilent Basys3 210183BB7A20A' is selected.
+19:18:24 INFO  : 'jtag frequency' command is executed.
+19:18:24 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Basys3 210183BB7A20A" && level==0 && jtag_device_ctx=="jsn-Basys3-210183BB7A20A-0362d093-0"}' command is executed.
+19:18:24 INFO  : Device configured successfully with "D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/Microblaze_fnd_upcount/_ide/bitstream/design_1_wrapper.bit"
+19:18:24 INFO  : Context for processor 'microblaze_0' is selected.
+19:18:24 INFO  : Hardware design and registers information is loaded from 'D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa'.
+19:18:24 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+19:18:24 INFO  : Context for processor 'microblaze_0' is selected.
+19:18:24 INFO  : System reset is completed.
+19:18:27 INFO  : 'after 3000' command is executed.
+19:18:27 INFO  : Context for processor 'microblaze_0' is selected.
+19:18:27 INFO  : The application 'D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/Microblaze_fnd_upcount/Debug/Microblaze_fnd_upcount.elf' is downloaded to processor 'microblaze_0'.
+19:18:27 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Basys3 210183BB7A20A" && level==0 && jtag_device_ctx=="jsn-Basys3-210183BB7A20A-0362d093-0"}
+fpga -file D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/Microblaze_fnd_upcount/_ide/bitstream/design_1_wrapper.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/Microblaze_fnd_upcount/Debug/Microblaze_fnd_upcount.elf
+----------------End of Script----------------
+
+19:18:28 INFO  : Context for processor 'microblaze_0' is selected.
+19:18:28 INFO  : 'con' command is executed.
+19:18:28 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+19:18:28 INFO  : Launch script is exported to file 'D:\vivado_first\20260427_Microblaze_GPIO_4\vitis_workspace\Microblaze_fnd_upcount_system\_ide\scripts\debugger_microblaze_fnd_upcount-default.tcl'
+19:55:58 INFO  : Checking for BSP changes to sync application flags for project 'Microblaze_fnd_upcount'...
+19:56:42 INFO  : Checking for BSP changes to sync application flags for project 'Microblaze_fnd_upcount'...
+19:57:34 INFO  : Checking for BSP changes to sync application flags for project 'Microblaze_fnd_upcount'...
+19:57:45 INFO  : Disconnected from the channel tcfchan#38.
+19:57:46 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+19:57:46 INFO  : Jtag cable 'Digilent Basys3 210183BB7A20A' is selected.
+19:57:46 INFO  : 'jtag frequency' command is executed.
+19:57:46 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Basys3 210183BB7A20A" && level==0 && jtag_device_ctx=="jsn-Basys3-210183BB7A20A-0362d093-0"}' command is executed.
+19:57:46 INFO  : Device configured successfully with "D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/Microblaze_fnd_upcount/_ide/bitstream/design_1_wrapper.bit"
+19:57:46 INFO  : Context for processor 'microblaze_0' is selected.
+19:57:46 INFO  : Hardware design and registers information is loaded from 'D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa'.
+19:57:46 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+19:57:46 INFO  : Context for processor 'microblaze_0' is selected.
+19:57:46 INFO  : System reset is completed.
+19:57:49 INFO  : 'after 3000' command is executed.
+19:57:49 INFO  : Context for processor 'microblaze_0' is selected.
+19:57:49 INFO  : The application 'D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/Microblaze_fnd_upcount/Debug/Microblaze_fnd_upcount.elf' is downloaded to processor 'microblaze_0'.
+19:57:49 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Basys3 210183BB7A20A" && level==0 && jtag_device_ctx=="jsn-Basys3-210183BB7A20A-0362d093-0"}
+fpga -file D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/Microblaze_fnd_upcount/_ide/bitstream/design_1_wrapper.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/Microblaze_fnd_upcount/Debug/Microblaze_fnd_upcount.elf
+----------------End of Script----------------
+
+19:57:49 INFO  : Context for processor 'microblaze_0' is selected.
+19:57:49 INFO  : 'con' command is executed.
+19:57:49 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+19:57:49 INFO  : Launch script is exported to file 'D:\vivado_first\20260427_Microblaze_GPIO_4\vitis_workspace\Microblaze_fnd_upcount_system\_ide\scripts\debugger_microblaze_fnd_upcount-default.tcl'
+20:08:32 INFO  : Checking for BSP changes to sync application flags for project 'Microblaze_fnd_upcount'...
+20:08:39 INFO  : Disconnected from the channel tcfchan#39.
+20:08:40 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+20:08:40 INFO  : Jtag cable 'Digilent Basys3 210183BB7A20A' is selected.
+20:08:40 INFO  : 'jtag frequency' command is executed.
+20:08:40 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Basys3 210183BB7A20A" && level==0 && jtag_device_ctx=="jsn-Basys3-210183BB7A20A-0362d093-0"}' command is executed.
+20:08:41 INFO  : Device configured successfully with "D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/Microblaze_fnd_upcount/_ide/bitstream/design_1_wrapper.bit"
+20:08:41 INFO  : Context for processor 'microblaze_0' is selected.
+20:08:41 INFO  : Hardware design and registers information is loaded from 'D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa'.
+20:08:41 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+20:08:41 INFO  : Context for processor 'microblaze_0' is selected.
+20:08:41 INFO  : System reset is completed.
+20:08:44 INFO  : 'after 3000' command is executed.
+20:08:44 INFO  : Context for processor 'microblaze_0' is selected.
+20:08:44 INFO  : The application 'D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/Microblaze_fnd_upcount/Debug/Microblaze_fnd_upcount.elf' is downloaded to processor 'microblaze_0'.
+20:08:44 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Basys3 210183BB7A20A" && level==0 && jtag_device_ctx=="jsn-Basys3-210183BB7A20A-0362d093-0"}
+fpga -file D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/Microblaze_fnd_upcount/_ide/bitstream/design_1_wrapper.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/Microblaze_fnd_upcount/Debug/Microblaze_fnd_upcount.elf
+----------------End of Script----------------
+
+20:08:44 INFO  : Context for processor 'microblaze_0' is selected.
+20:08:44 INFO  : 'con' command is executed.
+20:08:44 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+20:08:44 INFO  : Launch script is exported to file 'D:\vivado_first\20260427_Microblaze_GPIO_4\vitis_workspace\Microblaze_fnd_upcount_system\_ide\scripts\debugger_microblaze_fnd_upcount-default.tcl'
+20:20:57 INFO  : Checking for BSP changes to sync application flags for project 'Microblaze_fnd_upcount'...
+20:21:04 INFO  : Disconnected from the channel tcfchan#40.
+20:21:05 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+20:21:05 INFO  : Jtag cable 'Digilent Basys3 210183BB7A20A' is selected.
+20:21:05 INFO  : 'jtag frequency' command is executed.
+20:21:05 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Basys3 210183BB7A20A" && level==0 && jtag_device_ctx=="jsn-Basys3-210183BB7A20A-0362d093-0"}' command is executed.
+20:21:06 INFO  : Device configured successfully with "D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/Microblaze_fnd_upcount/_ide/bitstream/design_1_wrapper.bit"
+20:21:06 INFO  : Context for processor 'microblaze_0' is selected.
+20:21:06 INFO  : Hardware design and registers information is loaded from 'D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa'.
+20:21:06 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+20:21:06 INFO  : Context for processor 'microblaze_0' is selected.
+20:21:06 INFO  : System reset is completed.
+20:21:09 INFO  : 'after 3000' command is executed.
+20:21:09 INFO  : Context for processor 'microblaze_0' is selected.
+20:21:09 INFO  : The application 'D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/Microblaze_fnd_upcount/Debug/Microblaze_fnd_upcount.elf' is downloaded to processor 'microblaze_0'.
+20:21:09 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Basys3 210183BB7A20A" && level==0 && jtag_device_ctx=="jsn-Basys3-210183BB7A20A-0362d093-0"}
+fpga -file D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/Microblaze_fnd_upcount/_ide/bitstream/design_1_wrapper.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/Microblaze_fnd_upcount/Debug/Microblaze_fnd_upcount.elf
+----------------End of Script----------------
+
+20:21:09 INFO  : Context for processor 'microblaze_0' is selected.
+20:21:09 INFO  : 'con' command is executed.
+20:21:09 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+20:21:09 INFO  : Launch script is exported to file 'D:\vivado_first\20260427_Microblaze_GPIO_4\vitis_workspace\Microblaze_fnd_upcount_system\_ide\scripts\debugger_microblaze_fnd_upcount-default.tcl'
+20:21:47 INFO  : Checking for BSP changes to sync application flags for project 'Microblaze_fnd_upcount'...
+20:21:54 INFO  : Disconnected from the channel tcfchan#41.
+20:21:55 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+20:21:55 INFO  : Jtag cable 'Digilent Basys3 210183BB7A20A' is selected.
+20:21:55 INFO  : 'jtag frequency' command is executed.
+20:21:55 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Basys3 210183BB7A20A" && level==0 && jtag_device_ctx=="jsn-Basys3-210183BB7A20A-0362d093-0"}' command is executed.
+20:21:56 INFO  : Device configured successfully with "D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/Microblaze_fnd_upcount/_ide/bitstream/design_1_wrapper.bit"
+20:21:56 INFO  : Context for processor 'microblaze_0' is selected.
+20:21:56 INFO  : Hardware design and registers information is loaded from 'D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa'.
+20:21:56 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+20:21:56 INFO  : Context for processor 'microblaze_0' is selected.
+20:21:56 INFO  : System reset is completed.
+20:21:59 INFO  : 'after 3000' command is executed.
+20:21:59 INFO  : Context for processor 'microblaze_0' is selected.
+20:21:59 INFO  : The application 'D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/Microblaze_fnd_upcount/Debug/Microblaze_fnd_upcount.elf' is downloaded to processor 'microblaze_0'.
+20:21:59 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Basys3 210183BB7A20A" && level==0 && jtag_device_ctx=="jsn-Basys3-210183BB7A20A-0362d093-0"}
+fpga -file D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/Microblaze_fnd_upcount/_ide/bitstream/design_1_wrapper.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/Microblaze_fnd_upcount/Debug/Microblaze_fnd_upcount.elf
+----------------End of Script----------------
+
+20:21:59 INFO  : Context for processor 'microblaze_0' is selected.
+20:21:59 INFO  : 'con' command is executed.
+20:21:59 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+20:21:59 INFO  : Launch script is exported to file 'D:\vivado_first\20260427_Microblaze_GPIO_4\vitis_workspace\Microblaze_fnd_upcount_system\_ide\scripts\debugger_microblaze_fnd_upcount-default.tcl'
+20:22:16 INFO  : Checking for BSP changes to sync application flags for project 'Microblaze_fnd_upcount'...
+20:22:21 INFO  : Disconnected from the channel tcfchan#42.
+20:22:22 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+20:22:22 INFO  : Jtag cable 'Digilent Basys3 210183BB7A20A' is selected.
+20:22:22 INFO  : 'jtag frequency' command is executed.
+20:22:22 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Basys3 210183BB7A20A" && level==0 && jtag_device_ctx=="jsn-Basys3-210183BB7A20A-0362d093-0"}' command is executed.
+20:22:23 INFO  : Device configured successfully with "D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/Microblaze_fnd_upcount/_ide/bitstream/design_1_wrapper.bit"
+20:22:23 INFO  : Context for processor 'microblaze_0' is selected.
+20:22:23 INFO  : Hardware design and registers information is loaded from 'D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa'.
+20:22:23 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+20:22:23 INFO  : Context for processor 'microblaze_0' is selected.
+20:22:23 INFO  : System reset is completed.
+20:22:26 INFO  : 'after 3000' command is executed.
+20:22:26 INFO  : Context for processor 'microblaze_0' is selected.
+20:22:26 INFO  : The application 'D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/Microblaze_fnd_upcount/Debug/Microblaze_fnd_upcount.elf' is downloaded to processor 'microblaze_0'.
+20:22:26 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Basys3 210183BB7A20A" && level==0 && jtag_device_ctx=="jsn-Basys3-210183BB7A20A-0362d093-0"}
+fpga -file D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/Microblaze_fnd_upcount/_ide/bitstream/design_1_wrapper.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/Microblaze_fnd_upcount/Debug/Microblaze_fnd_upcount.elf
+----------------End of Script----------------
+
+20:22:26 INFO  : Context for processor 'microblaze_0' is selected.
+20:22:26 INFO  : 'con' command is executed.
+20:22:26 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+20:22:26 INFO  : Launch script is exported to file 'D:\vivado_first\20260427_Microblaze_GPIO_4\vitis_workspace\Microblaze_fnd_upcount_system\_ide\scripts\debugger_microblaze_fnd_upcount-default.tcl'
+20:26:21 INFO  : Checking for BSP changes to sync application flags for project 'Microblaze_fnd_upcount'...
+20:26:31 INFO  : Checking for BSP changes to sync application flags for project 'Microblaze_fnd_upcount'...
+20:26:36 INFO  : Disconnected from the channel tcfchan#43.
+20:26:37 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+20:26:37 INFO  : Jtag cable 'Digilent Basys3 210183BB7A20A' is selected.
+20:26:37 INFO  : 'jtag frequency' command is executed.
+20:26:37 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Basys3 210183BB7A20A" && level==0 && jtag_device_ctx=="jsn-Basys3-210183BB7A20A-0362d093-0"}' command is executed.
+20:26:38 INFO  : Device configured successfully with "D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/Microblaze_fnd_upcount/_ide/bitstream/design_1_wrapper.bit"
+20:26:38 INFO  : Context for processor 'microblaze_0' is selected.
+20:26:38 INFO  : Hardware design and registers information is loaded from 'D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa'.
+20:26:38 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+20:26:38 INFO  : Context for processor 'microblaze_0' is selected.
+20:26:38 INFO  : System reset is completed.
+20:26:41 INFO  : 'after 3000' command is executed.
+20:26:41 INFO  : Context for processor 'microblaze_0' is selected.
+20:26:41 INFO  : The application 'D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/Microblaze_fnd_upcount/Debug/Microblaze_fnd_upcount.elf' is downloaded to processor 'microblaze_0'.
+20:26:41 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Basys3 210183BB7A20A" && level==0 && jtag_device_ctx=="jsn-Basys3-210183BB7A20A-0362d093-0"}
+fpga -file D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/Microblaze_fnd_upcount/_ide/bitstream/design_1_wrapper.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/Microblaze_fnd_upcount/Debug/Microblaze_fnd_upcount.elf
+----------------End of Script----------------
+
+20:26:41 INFO  : Context for processor 'microblaze_0' is selected.
+20:26:41 INFO  : 'con' command is executed.
+20:26:41 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+20:26:41 INFO  : Launch script is exported to file 'D:\vivado_first\20260427_Microblaze_GPIO_4\vitis_workspace\Microblaze_fnd_upcount_system\_ide\scripts\debugger_microblaze_fnd_upcount-default.tcl'
+20:38:05 INFO  : Checking for BSP changes to sync application flags for project 'Microblaze_fnd_upcount'...
+20:38:18 INFO  : Checking for BSP changes to sync application flags for project 'Microblaze_fnd_upcount'...
+20:38:26 INFO  : Disconnected from the channel tcfchan#44.
+20:38:27 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+20:38:27 INFO  : Jtag cable 'Digilent Basys3 210183BB7A20A' is selected.
+20:38:27 INFO  : 'jtag frequency' command is executed.
+20:38:27 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Basys3 210183BB7A20A" && level==0 && jtag_device_ctx=="jsn-Basys3-210183BB7A20A-0362d093-0"}' command is executed.
+20:38:27 INFO  : Device configured successfully with "D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/Microblaze_fnd_upcount/_ide/bitstream/design_1_wrapper.bit"
+20:38:27 INFO  : Context for processor 'microblaze_0' is selected.
+20:38:27 INFO  : Hardware design and registers information is loaded from 'D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa'.
+20:38:27 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+20:38:27 INFO  : Context for processor 'microblaze_0' is selected.
+20:38:27 INFO  : System reset is completed.
+20:38:30 INFO  : 'after 3000' command is executed.
+20:38:30 INFO  : Context for processor 'microblaze_0' is selected.
+20:38:31 INFO  : The application 'D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/Microblaze_fnd_upcount/Debug/Microblaze_fnd_upcount.elf' is downloaded to processor 'microblaze_0'.
+20:38:31 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Basys3 210183BB7A20A" && level==0 && jtag_device_ctx=="jsn-Basys3-210183BB7A20A-0362d093-0"}
+fpga -file D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/Microblaze_fnd_upcount/_ide/bitstream/design_1_wrapper.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/Microblaze_fnd_upcount/Debug/Microblaze_fnd_upcount.elf
+----------------End of Script----------------
+
+20:38:31 INFO  : Context for processor 'microblaze_0' is selected.
+20:38:31 INFO  : 'con' command is executed.
+20:38:31 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+20:38:31 INFO  : Launch script is exported to file 'D:\vivado_first\20260427_Microblaze_GPIO_4\vitis_workspace\Microblaze_fnd_upcount_system\_ide\scripts\debugger_microblaze_fnd_upcount-default.tcl'
+20:43:38 INFO  : Checking for BSP changes to sync application flags for project 'Microblaze_fnd_upcount'...
+20:46:10 INFO  : Checking for BSP changes to sync application flags for project 'Microblaze_fnd_upcount'...
+20:46:53 INFO  : Checking for BSP changes to sync application flags for project 'Microblaze_fnd_upcount'...
+20:47:41 INFO  : Checking for BSP changes to sync application flags for project 'Microblaze_fnd_upcount'...
+20:47:54 INFO  : Checking for BSP changes to sync application flags for project 'Microblaze_fnd_upcount'...
+20:47:59 INFO  : Disconnected from the channel tcfchan#45.
+20:48:00 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+20:48:00 INFO  : Jtag cable 'Digilent Basys3 210183BB7A20A' is selected.
+20:48:00 INFO  : 'jtag frequency' command is executed.
+20:48:01 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Basys3 210183BB7A20A" && level==0 && jtag_device_ctx=="jsn-Basys3-210183BB7A20A-0362d093-0"}' command is executed.
+20:48:01 INFO  : Device configured successfully with "D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/Microblaze_fnd_upcount/_ide/bitstream/design_1_wrapper.bit"
+20:48:01 INFO  : Context for processor 'microblaze_0' is selected.
+20:48:01 INFO  : Hardware design and registers information is loaded from 'D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa'.
+20:48:01 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+20:48:01 INFO  : Context for processor 'microblaze_0' is selected.
+20:48:01 INFO  : System reset is completed.
+20:48:04 INFO  : 'after 3000' command is executed.
+20:48:04 INFO  : Context for processor 'microblaze_0' is selected.
+20:48:04 INFO  : The application 'D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/Microblaze_fnd_upcount/Debug/Microblaze_fnd_upcount.elf' is downloaded to processor 'microblaze_0'.
+20:48:04 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Basys3 210183BB7A20A" && level==0 && jtag_device_ctx=="jsn-Basys3-210183BB7A20A-0362d093-0"}
+fpga -file D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/Microblaze_fnd_upcount/_ide/bitstream/design_1_wrapper.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/Microblaze_fnd_upcount/Debug/Microblaze_fnd_upcount.elf
+----------------End of Script----------------
+
+20:48:04 INFO  : Context for processor 'microblaze_0' is selected.
+20:48:04 INFO  : 'con' command is executed.
+20:48:04 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+20:48:04 INFO  : Launch script is exported to file 'D:\vivado_first\20260427_Microblaze_GPIO_4\vitis_workspace\Microblaze_fnd_upcount_system\_ide\scripts\debugger_microblaze_fnd_upcount-default.tcl'
+20:49:22 INFO  : Checking for BSP changes to sync application flags for project 'Microblaze_fnd_upcount'...
+20:49:27 INFO  : Disconnected from the channel tcfchan#46.
+20:49:28 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+20:49:28 INFO  : Jtag cable 'Digilent Basys3 210183BB7A20A' is selected.
+20:49:28 INFO  : 'jtag frequency' command is executed.
+20:49:28 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Basys3 210183BB7A20A" && level==0 && jtag_device_ctx=="jsn-Basys3-210183BB7A20A-0362d093-0"}' command is executed.
+20:49:28 INFO  : Device configured successfully with "D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/Microblaze_fnd_upcount/_ide/bitstream/design_1_wrapper.bit"
+20:49:28 INFO  : Context for processor 'microblaze_0' is selected.
+20:49:28 INFO  : Hardware design and registers information is loaded from 'D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa'.
+20:49:28 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+20:49:28 INFO  : Context for processor 'microblaze_0' is selected.
+20:49:28 INFO  : System reset is completed.
+20:49:31 INFO  : 'after 3000' command is executed.
+20:49:31 INFO  : Context for processor 'microblaze_0' is selected.
+20:49:31 INFO  : The application 'D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/Microblaze_fnd_upcount/Debug/Microblaze_fnd_upcount.elf' is downloaded to processor 'microblaze_0'.
+20:49:31 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Basys3 210183BB7A20A" && level==0 && jtag_device_ctx=="jsn-Basys3-210183BB7A20A-0362d093-0"}
+fpga -file D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/Microblaze_fnd_upcount/_ide/bitstream/design_1_wrapper.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/Microblaze_fnd_upcount/Debug/Microblaze_fnd_upcount.elf
+----------------End of Script----------------
+
+20:49:31 INFO  : Context for processor 'microblaze_0' is selected.
+20:49:31 INFO  : 'con' command is executed.
+20:49:31 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+20:49:31 INFO  : Launch script is exported to file 'D:\vivado_first\20260427_Microblaze_GPIO_4\vitis_workspace\Microblaze_fnd_upcount_system\_ide\scripts\debugger_microblaze_fnd_upcount-default.tcl'
+20:52:51 INFO  : Checking for BSP changes to sync application flags for project 'Microblaze_fnd_upcount'...
+20:52:56 INFO  : Disconnected from the channel tcfchan#47.
+20:52:57 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+20:52:57 INFO  : Jtag cable 'Digilent Basys3 210183BB7A20A' is selected.
+20:52:57 INFO  : 'jtag frequency' command is executed.
+20:52:57 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Basys3 210183BB7A20A" && level==0 && jtag_device_ctx=="jsn-Basys3-210183BB7A20A-0362d093-0"}' command is executed.
+20:52:57 INFO  : Device configured successfully with "D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/Microblaze_fnd_upcount/_ide/bitstream/design_1_wrapper.bit"
+20:52:57 INFO  : Context for processor 'microblaze_0' is selected.
+20:52:57 INFO  : Hardware design and registers information is loaded from 'D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa'.
+20:52:57 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+20:52:57 INFO  : Context for processor 'microblaze_0' is selected.
+20:52:57 INFO  : System reset is completed.
+20:53:00 INFO  : 'after 3000' command is executed.
+20:53:00 INFO  : Context for processor 'microblaze_0' is selected.
+20:53:01 INFO  : The application 'D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/Microblaze_fnd_upcount/Debug/Microblaze_fnd_upcount.elf' is downloaded to processor 'microblaze_0'.
+20:53:01 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Basys3 210183BB7A20A" && level==0 && jtag_device_ctx=="jsn-Basys3-210183BB7A20A-0362d093-0"}
+fpga -file D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/Microblaze_fnd_upcount/_ide/bitstream/design_1_wrapper.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/Microblaze_fnd_upcount/Debug/Microblaze_fnd_upcount.elf
+----------------End of Script----------------
+
+20:53:01 INFO  : Context for processor 'microblaze_0' is selected.
+20:53:01 INFO  : 'con' command is executed.
+20:53:01 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+20:53:01 INFO  : Launch script is exported to file 'D:\vivado_first\20260427_Microblaze_GPIO_4\vitis_workspace\Microblaze_fnd_upcount_system\_ide\scripts\debugger_microblaze_fnd_upcount-default.tcl'
+21:03:03 INFO  : Checking for BSP changes to sync application flags for project 'Microblaze_fnd_upcount'...
+21:03:09 INFO  : Disconnected from the channel tcfchan#48.
+21:03:10 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+21:03:10 INFO  : Jtag cable 'Digilent Basys3 210183BB7A20A' is selected.
+21:03:10 INFO  : 'jtag frequency' command is executed.
+21:03:10 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Basys3 210183BB7A20A" && level==0 && jtag_device_ctx=="jsn-Basys3-210183BB7A20A-0362d093-0"}' command is executed.
+21:03:11 INFO  : Device configured successfully with "D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/Microblaze_fnd_upcount/_ide/bitstream/design_1_wrapper.bit"
+21:03:11 INFO  : Context for processor 'microblaze_0' is selected.
+21:03:11 INFO  : Hardware design and registers information is loaded from 'D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa'.
+21:03:11 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+21:03:11 INFO  : Context for processor 'microblaze_0' is selected.
+21:03:11 INFO  : System reset is completed.
+21:03:14 INFO  : 'after 3000' command is executed.
+21:03:14 INFO  : Context for processor 'microblaze_0' is selected.
+21:03:14 INFO  : The application 'D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/Microblaze_fnd_upcount/Debug/Microblaze_fnd_upcount.elf' is downloaded to processor 'microblaze_0'.
+21:03:14 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Basys3 210183BB7A20A" && level==0 && jtag_device_ctx=="jsn-Basys3-210183BB7A20A-0362d093-0"}
+fpga -file D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/Microblaze_fnd_upcount/_ide/bitstream/design_1_wrapper.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/Microblaze_fnd_upcount/Debug/Microblaze_fnd_upcount.elf
+----------------End of Script----------------
+
+21:03:14 INFO  : Context for processor 'microblaze_0' is selected.
+21:03:14 INFO  : 'con' command is executed.
+21:03:14 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+21:03:14 INFO  : Launch script is exported to file 'D:\vivado_first\20260427_Microblaze_GPIO_4\vitis_workspace\Microblaze_fnd_upcount_system\_ide\scripts\debugger_microblaze_fnd_upcount-default.tcl'
+21:30:22 INFO  : Checking for BSP changes to sync application flags for project 'Microblaze_fnd_upcount'...
+21:30:50 INFO  : Checking for BSP changes to sync application flags for project 'Microblaze_fnd_upcount'...
+21:31:08 INFO  : Checking for BSP changes to sync application flags for project 'Microblaze_fnd_upcount'...
+21:31:44 INFO  : Checking for BSP changes to sync application flags for project 'Microblaze_fnd_upcount'...
+21:31:58 INFO  : Disconnected from the channel tcfchan#49.
+21:31:59 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+21:31:59 INFO  : Jtag cable 'Digilent Basys3 210183BB7A20A' is selected.
+21:31:59 INFO  : 'jtag frequency' command is executed.
+21:31:59 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Basys3 210183BB7A20A" && level==0 && jtag_device_ctx=="jsn-Basys3-210183BB7A20A-0362d093-0"}' command is executed.
+21:31:59 INFO  : Device configured successfully with "D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/Microblaze_fnd_upcount/_ide/bitstream/design_1_wrapper.bit"
+21:31:59 INFO  : Context for processor 'microblaze_0' is selected.
+21:31:59 INFO  : Hardware design and registers information is loaded from 'D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa'.
+21:31:59 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+21:31:59 INFO  : Context for processor 'microblaze_0' is selected.
+21:31:59 INFO  : System reset is completed.
+21:32:02 INFO  : 'after 3000' command is executed.
+21:32:02 INFO  : Context for processor 'microblaze_0' is selected.
+21:32:02 INFO  : The application 'D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/Microblaze_fnd_upcount/Debug/Microblaze_fnd_upcount.elf' is downloaded to processor 'microblaze_0'.
+21:32:02 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Basys3 210183BB7A20A" && level==0 && jtag_device_ctx=="jsn-Basys3-210183BB7A20A-0362d093-0"}
+fpga -file D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/Microblaze_fnd_upcount/_ide/bitstream/design_1_wrapper.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/Microblaze_fnd_upcount/Debug/Microblaze_fnd_upcount.elf
+----------------End of Script----------------
+
+21:32:03 INFO  : Context for processor 'microblaze_0' is selected.
+21:32:03 INFO  : 'con' command is executed.
+21:32:03 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+21:32:03 INFO  : Launch script is exported to file 'D:\vivado_first\20260427_Microblaze_GPIO_4\vitis_workspace\Microblaze_fnd_upcount_system\_ide\scripts\debugger_microblaze_fnd_upcount-default.tcl'
+21:46:15 INFO  : Checking for BSP changes to sync application flags for project 'Microblaze_fnd_upcount'...
+21:46:24 INFO  : Disconnected from the channel tcfchan#50.
+21:46:25 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+21:46:25 INFO  : Jtag cable 'Digilent Basys3 210183BB7A20A' is selected.
+21:46:25 INFO  : 'jtag frequency' command is executed.
+21:46:25 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Basys3 210183BB7A20A" && level==0 && jtag_device_ctx=="jsn-Basys3-210183BB7A20A-0362d093-0"}' command is executed.
+21:46:25 INFO  : Device configured successfully with "D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/Microblaze_fnd_upcount/_ide/bitstream/design_1_wrapper.bit"
+21:46:25 INFO  : Context for processor 'microblaze_0' is selected.
+21:46:25 INFO  : Hardware design and registers information is loaded from 'D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa'.
+21:46:25 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+21:46:25 INFO  : Context for processor 'microblaze_0' is selected.
+21:46:25 INFO  : System reset is completed.
+21:46:28 INFO  : 'after 3000' command is executed.
+21:46:28 INFO  : Context for processor 'microblaze_0' is selected.
+21:46:28 INFO  : The application 'D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/Microblaze_fnd_upcount/Debug/Microblaze_fnd_upcount.elf' is downloaded to processor 'microblaze_0'.
+21:46:28 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Basys3 210183BB7A20A" && level==0 && jtag_device_ctx=="jsn-Basys3-210183BB7A20A-0362d093-0"}
+fpga -file D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/Microblaze_fnd_upcount/_ide/bitstream/design_1_wrapper.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/Microblaze_fnd_upcount/Debug/Microblaze_fnd_upcount.elf
+----------------End of Script----------------
+
+21:46:28 INFO  : Context for processor 'microblaze_0' is selected.
+21:46:28 INFO  : 'con' command is executed.
+21:46:28 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+21:46:28 INFO  : Launch script is exported to file 'D:\vivado_first\20260427_Microblaze_GPIO_4\vitis_workspace\Microblaze_fnd_upcount_system\_ide\scripts\debugger_microblaze_fnd_upcount-default.tcl'
+08:18:31 INFO  : Disconnected from the channel tcfchan#51.
+08:33:40 INFO  : Launching XSCT server: xsct.bat -n  -interactive D:\vivado_first\20260427_Microblaze_GPIO_4\vitis_workspace\temp_xsdb_launch_script.tcl
+08:33:43 INFO  : XSCT server has started successfully.
+08:33:43 INFO  : plnx-install-location is set to ''
+08:33:43 INFO  : Successfully done setting XSCT server connection channel  
+08:33:43 INFO  : Successfully done setting workspace for the tool. 
+08:33:46 INFO  : Platform repository initialization has completed.
+08:33:46 INFO  : Registering command handlers for Vitis TCF services
+08:33:50 INFO  : Successfully done query RDI_DATADIR 
+08:35:44 INFO  : Checking for BSP changes to sync application flags for project 'Microblaze_fnd_upcount'...
+08:35:55 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+08:35:56 INFO  : Jtag cable 'Digilent Basys3 210183BB7A20A' is selected.
+08:35:56 INFO  : 'jtag frequency' command is executed.
+08:35:56 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Basys3 210183BB7A20A" && level==0 && jtag_device_ctx=="jsn-Basys3-210183BB7A20A-0362d093-0"}' command is executed.
+08:35:56 INFO  : Device configured successfully with "D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/Microblaze_fnd_upcount/_ide/bitstream/design_1_wrapper.bit"
+08:35:56 INFO  : Context for processor 'microblaze_0' is selected.
+08:35:56 INFO  : Hardware design and registers information is loaded from 'D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa'.
+08:35:56 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+08:35:56 INFO  : Context for processor 'microblaze_0' is selected.
+08:35:56 INFO  : System reset is completed.
+08:35:59 INFO  : 'after 3000' command is executed.
+08:35:59 INFO  : Context for processor 'microblaze_0' is selected.
+08:35:59 INFO  : The application 'D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/Microblaze_fnd_upcount/Debug/Microblaze_fnd_upcount.elf' is downloaded to processor 'microblaze_0'.
+08:35:59 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Basys3 210183BB7A20A" && level==0 && jtag_device_ctx=="jsn-Basys3-210183BB7A20A-0362d093-0"}
+fpga -file D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/Microblaze_fnd_upcount/_ide/bitstream/design_1_wrapper.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/Microblaze_fnd_upcount/Debug/Microblaze_fnd_upcount.elf
+----------------End of Script----------------
+
+08:35:59 INFO  : Context for processor 'microblaze_0' is selected.
+08:35:59 INFO  : 'con' command is executed.
+08:35:59 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+08:35:59 INFO  : Launch script is exported to file 'D:\vivado_first\20260427_Microblaze_GPIO_4\vitis_workspace\Microblaze_fnd_upcount_system\_ide\scripts\debugger_microblaze_fnd_upcount-default.tcl'
+08:36:32 INFO  : Checking for BSP changes to sync application flags for project 'Microblaze_fnd_upcount'...
+08:36:37 INFO  : Disconnected from the channel tcfchan#1.
+08:36:38 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+08:36:38 INFO  : Jtag cable 'Digilent Basys3 210183BB7A20A' is selected.
+08:36:38 INFO  : 'jtag frequency' command is executed.
+08:36:38 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Basys3 210183BB7A20A" && level==0 && jtag_device_ctx=="jsn-Basys3-210183BB7A20A-0362d093-0"}' command is executed.
+08:36:39 INFO  : Device configured successfully with "D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/Microblaze_fnd_upcount/_ide/bitstream/design_1_wrapper.bit"
+08:36:39 INFO  : Context for processor 'microblaze_0' is selected.
+08:36:39 INFO  : Hardware design and registers information is loaded from 'D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa'.
+08:36:39 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+08:36:39 INFO  : Context for processor 'microblaze_0' is selected.
+08:36:39 INFO  : System reset is completed.
+08:36:42 INFO  : 'after 3000' command is executed.
+08:36:42 INFO  : Context for processor 'microblaze_0' is selected.
+08:36:42 INFO  : The application 'D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/Microblaze_fnd_upcount/Debug/Microblaze_fnd_upcount.elf' is downloaded to processor 'microblaze_0'.
+08:36:42 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Basys3 210183BB7A20A" && level==0 && jtag_device_ctx=="jsn-Basys3-210183BB7A20A-0362d093-0"}
+fpga -file D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/Microblaze_fnd_upcount/_ide/bitstream/design_1_wrapper.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/Microblaze_fnd_upcount/Debug/Microblaze_fnd_upcount.elf
+----------------End of Script----------------
+
+08:36:42 INFO  : Context for processor 'microblaze_0' is selected.
+08:36:42 INFO  : 'con' command is executed.
+08:36:42 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+08:36:42 INFO  : Launch script is exported to file 'D:\vivado_first\20260427_Microblaze_GPIO_4\vitis_workspace\Microblaze_fnd_upcount_system\_ide\scripts\debugger_microblaze_fnd_upcount-default.tcl'
+08:40:27 INFO  : Checking for BSP changes to sync application flags for project 'Microblaze_fnd_upcount'...
+08:40:33 INFO  : Disconnected from the channel tcfchan#2.
+08:40:34 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+08:40:34 INFO  : Jtag cable 'Digilent Basys3 210183BB7A20A' is selected.
+08:40:34 INFO  : 'jtag frequency' command is executed.
+08:40:34 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Basys3 210183BB7A20A" && level==0 && jtag_device_ctx=="jsn-Basys3-210183BB7A20A-0362d093-0"}' command is executed.
+08:40:35 INFO  : Device configured successfully with "D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/Microblaze_fnd_upcount/_ide/bitstream/design_1_wrapper.bit"
+08:40:35 INFO  : Context for processor 'microblaze_0' is selected.
+08:40:35 INFO  : Hardware design and registers information is loaded from 'D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa'.
+08:40:35 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+08:40:35 INFO  : Context for processor 'microblaze_0' is selected.
+08:40:35 INFO  : System reset is completed.
+08:40:38 INFO  : 'after 3000' command is executed.
+08:40:38 INFO  : Context for processor 'microblaze_0' is selected.
+08:40:38 INFO  : The application 'D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/Microblaze_fnd_upcount/Debug/Microblaze_fnd_upcount.elf' is downloaded to processor 'microblaze_0'.
+08:40:38 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Basys3 210183BB7A20A" && level==0 && jtag_device_ctx=="jsn-Basys3-210183BB7A20A-0362d093-0"}
+fpga -file D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/Microblaze_fnd_upcount/_ide/bitstream/design_1_wrapper.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/Microblaze_fnd_upcount/Debug/Microblaze_fnd_upcount.elf
+----------------End of Script----------------
+
+08:40:38 INFO  : Context for processor 'microblaze_0' is selected.
+08:40:38 INFO  : 'con' command is executed.
+08:40:38 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+08:40:38 INFO  : Launch script is exported to file 'D:\vivado_first\20260427_Microblaze_GPIO_4\vitis_workspace\Microblaze_fnd_upcount_system\_ide\scripts\debugger_microblaze_fnd_upcount-default.tcl'
+14:28:13 INFO  : Disconnected from the channel tcfchan#3.

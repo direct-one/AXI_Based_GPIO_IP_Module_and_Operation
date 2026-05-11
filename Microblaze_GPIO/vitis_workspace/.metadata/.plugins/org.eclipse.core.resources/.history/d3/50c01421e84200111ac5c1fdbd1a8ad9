@@ -1,0 +1,56 @@
+/*
+ * Watch.c
+ *
+ *  Created on: 2026. 4. 28.
+ *      Author: kccistc
+ */
+#include "Watch.h"
+
+
+
+
+typedef struct{
+	uint16_t MIN;
+	uint16_t SEC;
+}clock_state_t;  //struct
+
+
+
+void blink_dot(){
+	FND_DispDigit_100();
+
+}
+
+void Watch_Init(){
+	FND_init();
+
+}
+
+void Watch_Excute(clock_state_t *Clock){
+
+		FND_DispDigit();
+
+		static uint32_t prevTimeCounter = 0;
+		uint32_t sec_count = 0;
+
+
+			if(millis() - prevTimeCounter < 1000){  //turn to ms -> original: 1sec 10count
+				return;
+			}
+			prevTimeCounter = millis();
+			sec_count++;
+
+
+
+		Clock->MIN = (sec_count / 60) % 60;
+		Clock->SEC = sec_count / 60;
+
+		FND_SetNum((Clock->MIN*100) + Clock->SEC);
+
+
+}
+
+
+
+
+

@@ -1,0 +1,1377 @@
+TRACE::2026-04-27.19:07:50::SCWPlatform::Trying to open the hw design at D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-04-27.19:07:50::SCWPlatform::DSA given D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-04-27.19:07:50::SCWPlatform::DSA absoulate path D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-04-27.19:07:51::SCWPlatform::DSA directory D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/design_1_wrapper/hw
+TRACE::2026-04-27.19:07:51::SCWPlatform:: Platform Path D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-04-27.19:07:51::SCWPlatform:: Unique name xilinx:basys3::0.0
+TRACE::2026-04-27.19:07:51::SCWPlatform::Do not have an existing db opened. 
+TRACE::2026-04-27.19:07:51::SCWPlatform::Opened new HwDB with name design_1_wrapper_0
+TRACE::2026-04-27.19:07:51::SCWWriter::formatted JSON is {
+	"platformName":	"design_1_wrapper",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"design_1_wrapper",
+	"platHandOff":	"D:/vivado_first/20260427_Microblaze_GPIO_4/XSA/design_1_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/design_1_wrapper.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	""
+}
+TRACE::2026-04-27.19:07:51::SCWWriter::formatted JSON is {
+	"platformName":	"design_1_wrapper",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"design_1_wrapper",
+	"platHandOff":	"D:/vivado_first/20260427_Microblaze_GPIO_4/XSA/design_1_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/design_1_wrapper.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"design_1_wrapper",
+	"systems":	[{
+			"systemName":	"design_1_wrapper",
+			"systemDesc":	"design_1_wrapper",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"design_1_wrapper"
+		}]
+}
+TRACE::2026-04-27.19:07:51::SCWPlatform::Boot application domains not present, creating them
+TRACE::2026-04-27.19:07:51::SCWPlatform::Pure FPGA device, no boot application will be created.
+TRACE::2026-04-27.19:07:51::SCWWriter::formatted JSON is {
+	"platformName":	"design_1_wrapper",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"design_1_wrapper",
+	"platHandOff":	"D:/vivado_first/20260427_Microblaze_GPIO_4/XSA/design_1_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/design_1_wrapper.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"design_1_wrapper",
+	"systems":	[{
+			"systemName":	"design_1_wrapper",
+			"systemDesc":	"design_1_wrapper",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"design_1_wrapper"
+		}]
+}
+TRACE::2026-04-27.19:07:51::SCWWriter::formatted JSON is {
+	"platformName":	"design_1_wrapper",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"design_1_wrapper",
+	"platHandOff":	"D:/vivado_first/20260427_Microblaze_GPIO_4/XSA/design_1_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/design_1_wrapper.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"design_1_wrapper",
+	"systems":	[{
+			"systemName":	"design_1_wrapper",
+			"systemDesc":	"design_1_wrapper",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"design_1_wrapper"
+		}]
+}
+TRACE::2026-04-27.19:07:51::SCWPlatform::Trying to open the hw design at D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-04-27.19:07:51::SCWPlatform::DSA given D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-04-27.19:07:51::SCWPlatform::DSA absoulate path D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-04-27.19:07:51::SCWPlatform::DSA directory D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/design_1_wrapper/hw
+TRACE::2026-04-27.19:07:51::SCWPlatform:: Platform Path D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-04-27.19:07:51::SCWPlatform:: Unique name xilinx:basys3::0.0
+TRACE::2026-04-27.19:07:51::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2026-04-27.19:07:51::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2026-04-27.19:07:51::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2026-04-27.19:07:51::SCWDomain::checking for install qemu data   : 
+TRACE::2026-04-27.19:07:51::SCWPlatform::Trying to open the hw design at D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-04-27.19:07:51::SCWPlatform::DSA given D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-04-27.19:07:51::SCWPlatform::DSA absoulate path D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-04-27.19:07:51::SCWPlatform::DSA directory D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/design_1_wrapper/hw
+TRACE::2026-04-27.19:07:51::SCWPlatform:: Platform Path D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-04-27.19:07:51::SCWPlatform:: Unique name xilinx:basys3::0.0
+TRACE::2026-04-27.19:07:51::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2026-04-27.19:07:51::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2026-04-27.19:07:51::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2026-04-27.19:07:51::SCWPlatform::Trying to open the hw design at D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-04-27.19:07:51::SCWPlatform::DSA given D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-04-27.19:07:51::SCWPlatform::DSA absoulate path D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-04-27.19:07:51::SCWPlatform::DSA directory D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/design_1_wrapper/hw
+TRACE::2026-04-27.19:07:51::SCWPlatform:: Platform Path D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-04-27.19:07:51::SCWPlatform:: Unique name xilinx:basys3::0.0
+TRACE::2026-04-27.19:07:51::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2026-04-27.19:07:51::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2026-04-27.19:07:51::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2026-04-27.19:07:51::SCWPlatform::Trying to open the hw design at D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-04-27.19:07:51::SCWPlatform::DSA given D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-04-27.19:07:51::SCWPlatform::DSA absoulate path D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-04-27.19:07:51::SCWPlatform::DSA directory D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/design_1_wrapper/hw
+TRACE::2026-04-27.19:07:51::SCWPlatform:: Platform Path D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-04-27.19:07:51::SCWPlatform:: Unique name xilinx:basys3::0.0
+TRACE::2026-04-27.19:07:51::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2026-04-27.19:07:51::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2026-04-27.19:07:51::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2026-04-27.19:07:51::SCWMssOS::Checking the sw design at  D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2026-04-27.19:07:51::SCWMssOS::DEBUG:  swdes dump  
+TRACE::2026-04-27.19:07:51::SCWMssOS::No sw design opened at  D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2026-04-27.19:07:51::SCWMssOS::mss does not exists at D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2026-04-27.19:07:51::SCWMssOS::Creating sw design at  D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2026-04-27.19:07:51::SCWMssOS::Adding the swdes entry, created swdb D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss with des name D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2026-04-27.19:07:51::SCWMssOS::updating the scw layer changes to swdes at   D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2026-04-27.19:07:51::SCWMssOS::Writing mss at D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2026-04-27.19:07:51::SCWMssOS::Completed writing the mss file at D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp
+TRACE::2026-04-27.19:07:51::SCWMssOS::Picking up changes from newly written mss file into SCW Layer. 
+TRACE::2026-04-27.19:07:51::SCWMssOS::Updated the changes from newly written mss file into SCW Layer. 
+TRACE::2026-04-27.19:07:51::SCWMssOS::Completed writing the mss file at D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp
+TRACE::2026-04-27.19:07:51::SCWMssOS::Forcing BSP Sources regeneration.
+TRACE::2026-04-27.19:07:53::SCWMssOS::Saving the mss changes D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2026-04-27.19:07:53::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2026-04-27.19:07:53::SCWMssOS::Running validate of swdbs.
+KEYINFO::2026-04-27.19:07:53::SCWMssOS::Could not open the swdb for D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+KEYINFO::2026-04-27.19:07:53::SCWMssOS::Could not open the sw design at  D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+ERROR: [Hsi 55-1558] Software Design D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss is not found
+
+TRACE::2026-04-27.19:07:53::SCWMssOS::Cleared the swdb table entry
+TRACE::2026-04-27.19:07:53::SCWMssOS::Adding the swdes entry, mss present, able to open swdb D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss with des name system
+TRACE::2026-04-27.19:07:53::SCWMssOS::Writing the mss file completed D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2026-04-27.19:07:53::SCWMssOS::Commit changes completed.
+TRACE::2026-04-27.19:07:53::SCWPlatform::Trying to open the hw design at D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-04-27.19:07:53::SCWPlatform::DSA given D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-04-27.19:07:53::SCWPlatform::DSA absoulate path D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-04-27.19:07:53::SCWPlatform::DSA directory D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/design_1_wrapper/hw
+TRACE::2026-04-27.19:07:53::SCWPlatform:: Platform Path D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-04-27.19:07:53::SCWPlatform:: Unique name xilinx:basys3::0.0
+TRACE::2026-04-27.19:07:53::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2026-04-27.19:07:53::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2026-04-27.19:07:53::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2026-04-27.19:07:53::SCWMssOS::Checking the sw design at  D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2026-04-27.19:07:53::SCWMssOS::DEBUG:  swdes dump  D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2026-04-27.19:07:53::SCWMssOS::Sw design exists and opened at  D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2026-04-27.19:07:53::SCWPlatform::Trying to open the hw design at D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-04-27.19:07:53::SCWPlatform::DSA given D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-04-27.19:07:53::SCWPlatform::DSA absoulate path D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-04-27.19:07:53::SCWPlatform::DSA directory D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/design_1_wrapper/hw
+TRACE::2026-04-27.19:07:53::SCWPlatform:: Platform Path D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-04-27.19:07:53::SCWPlatform:: Unique name xilinx:basys3::0.0
+TRACE::2026-04-27.19:07:53::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2026-04-27.19:07:53::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2026-04-27.19:07:53::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2026-04-27.19:07:53::SCWMssOS::Checking the sw design at  D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2026-04-27.19:07:53::SCWMssOS::DEBUG:  swdes dump  D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2026-04-27.19:07:53::SCWMssOS::Sw design exists and opened at  D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2026-04-27.19:07:53::SCWPlatform::Trying to open the hw design at D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-04-27.19:07:53::SCWPlatform::DSA given D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-04-27.19:07:53::SCWPlatform::DSA absoulate path D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-04-27.19:07:53::SCWPlatform::DSA directory D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/design_1_wrapper/hw
+TRACE::2026-04-27.19:07:53::SCWPlatform:: Platform Path D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-04-27.19:07:53::SCWPlatform:: Unique name xilinx:basys3::0.0
+TRACE::2026-04-27.19:07:53::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2026-04-27.19:07:53::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2026-04-27.19:07:53::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2026-04-27.19:07:53::SCWMssOS::Checking the sw design at  D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2026-04-27.19:07:53::SCWMssOS::DEBUG:  swdes dump  D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2026-04-27.19:07:53::SCWMssOS::Sw design exists and opened at  D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2026-04-27.19:07:53::SCWWriter::formatted JSON is {
+	"platformName":	"design_1_wrapper",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"design_1_wrapper",
+	"platHandOff":	"D:/vivado_first/20260427_Microblaze_GPIO_4/XSA/design_1_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/design_1_wrapper.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"design_1_wrapper",
+	"systems":	[{
+			"systemName":	"design_1_wrapper",
+			"systemDesc":	"design_1_wrapper",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"design_1_wrapper",
+			"sysActiveDom":	"standalone_microblaze_0",
+			"sysDefaultDom":	"standalone_microblaze_0",
+			"domains":	[{
+					"domainName":	"standalone_microblaze_0",
+					"domainDispName":	"standalone_microblaze_0",
+					"domainDesc":	"standalone_microblaze_0",
+					"processors":	"microblaze_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.3",
+					"mssFile":	"",
+					"md5Digest":	"1dbb8bdcce274b38e22204fc595e662e",
+					"compatibleApp":	"empty_application",
+					"domType":	"mssDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+LOG::2026-04-27.19:07:53::SCWPlatform::Started generating the artifacts platform design_1_wrapper
+TRACE::2026-04-27.19:07:53::SCWPlatform::Sanity checking of platform is completed
+LOG::2026-04-27.19:07:53::SCWPlatform::Started generating the artifacts for system configuration design_1_wrapper
+LOG::2026-04-27.19:07:53::SCWSystem::Checking the domain standalone_microblaze_0
+LOG::2026-04-27.19:07:53::SCWSystem::Not a boot domain 
+LOG::2026-04-27.19:07:53::SCWSystem::Started Processing the domain standalone_microblaze_0
+TRACE::2026-04-27.19:07:53::SCWDomain::Generating domain artifcats
+TRACE::2026-04-27.19:07:53::SCWMssOS::Generating standalone artifcats
+TRACE::2026-04-27.19:07:53::SCWMssOS:: Copying the user libraries. 
+TRACE::2026-04-27.19:07:53::SCWPlatform::Trying to open the hw design at D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-04-27.19:07:53::SCWPlatform::DSA given D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-04-27.19:07:53::SCWPlatform::DSA absoulate path D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-04-27.19:07:53::SCWPlatform::DSA directory D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/design_1_wrapper/hw
+TRACE::2026-04-27.19:07:53::SCWPlatform:: Platform Path D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-04-27.19:07:53::SCWPlatform:: Unique name xilinx:basys3::0.0
+TRACE::2026-04-27.19:07:53::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2026-04-27.19:07:53::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2026-04-27.19:07:53::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2026-04-27.19:07:53::SCWMssOS::Checking the sw design at  D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2026-04-27.19:07:53::SCWMssOS::DEBUG:  swdes dump  D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2026-04-27.19:07:53::SCWMssOS::Sw design exists and opened at  D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2026-04-27.19:07:53::SCWMssOS::Completed writing the mss file at D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp
+TRACE::2026-04-27.19:07:53::SCWMssOS::Mss edits present, copying mssfile into export location D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2026-04-27.19:07:53::SCWMssOS::bsp generated is upto date with the mss file. Skipping bsp generation.
+TRACE::2026-04-27.19:07:53::SCWMssOS::BSP is already built. skipping the bsp build ... 
+TRACE::2026-04-27.19:07:53::SCWDomain::Skipping the build for domain :  standalone_microblaze_0
+TRACE::2026-04-27.19:07:53::SCWMssOS::skipping the bsp build ... 
+TRACE::2026-04-27.19:07:53::SCWMssOS::Copying to export directory.
+TRACE::2026-04-27.19:07:53::SCWMssOS:: Checking if to create the Supporting Applications
+TRACE::2026-04-27.19:07:53::SCWMssOS:: No Linux domain exists, trying to generate FSBL 
+LOG::2026-04-27.19:07:53::SCWSystem::Completed Processing the domain standalone_microblaze_0
+LOG::2026-04-27.19:07:53::SCWSystem::Completed Processing the sysconfig design_1_wrapper
+LOG::2026-04-27.19:07:53::SCWPlatform::Completed generating the artifacts for system configuration design_1_wrapper
+TRACE::2026-04-27.19:07:53::SCWPlatform::Started preparing the platform 
+TRACE::2026-04-27.19:07:53::SCWSystem::Writing the bif file for system config design_1_wrapper
+TRACE::2026-04-27.19:07:53::SCWSystem::dir created 
+TRACE::2026-04-27.19:07:53::SCWSystem::Writing the bif 
+TRACE::2026-04-27.19:07:53::SCWPlatform::Started writing the spfm file 
+TRACE::2026-04-27.19:07:53::SCWPlatform::Started writing the xpfm file 
+TRACE::2026-04-27.19:07:53::SCWPlatform::Completed generating the platform
+TRACE::2026-04-27.19:07:53::SCWMssOS::Saving the mss changes D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2026-04-27.19:07:53::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2026-04-27.19:07:53::SCWMssOS::Completed writemss as part of save.
+TRACE::2026-04-27.19:07:53::SCWMssOS::Commit changes completed.
+TRACE::2026-04-27.19:07:53::SCWPlatform::Trying to open the hw design at D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-04-27.19:07:53::SCWPlatform::DSA given D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-04-27.19:07:53::SCWPlatform::DSA absoulate path D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-04-27.19:07:53::SCWPlatform::DSA directory D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/design_1_wrapper/hw
+TRACE::2026-04-27.19:07:53::SCWPlatform:: Platform Path D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-04-27.19:07:53::SCWPlatform:: Unique name xilinx:basys3::0.0
+TRACE::2026-04-27.19:07:53::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2026-04-27.19:07:53::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2026-04-27.19:07:53::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2026-04-27.19:07:53::SCWMssOS::Checking the sw design at  D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2026-04-27.19:07:53::SCWMssOS::DEBUG:  swdes dump  D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2026-04-27.19:07:53::SCWMssOS::Sw design exists and opened at  D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2026-04-27.19:07:53::SCWPlatform::Trying to open the hw design at D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-04-27.19:07:53::SCWPlatform::DSA given D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-04-27.19:07:53::SCWPlatform::DSA absoulate path D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-04-27.19:07:53::SCWPlatform::DSA directory D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/design_1_wrapper/hw
+TRACE::2026-04-27.19:07:53::SCWPlatform:: Platform Path D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-04-27.19:07:53::SCWPlatform:: Unique name xilinx:basys3::0.0
+TRACE::2026-04-27.19:07:53::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2026-04-27.19:07:53::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2026-04-27.19:07:53::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2026-04-27.19:07:53::SCWMssOS::Checking the sw design at  D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2026-04-27.19:07:53::SCWMssOS::DEBUG:  swdes dump  D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2026-04-27.19:07:53::SCWMssOS::Sw design exists and opened at  D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2026-04-27.19:07:53::SCWPlatform::Trying to open the hw design at D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-04-27.19:07:53::SCWPlatform::DSA given D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-04-27.19:07:53::SCWPlatform::DSA absoulate path D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-04-27.19:07:53::SCWPlatform::DSA directory D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/design_1_wrapper/hw
+TRACE::2026-04-27.19:07:53::SCWPlatform:: Platform Path D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-04-27.19:07:53::SCWPlatform:: Unique name xilinx:basys3::0.0
+TRACE::2026-04-27.19:07:53::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2026-04-27.19:07:53::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2026-04-27.19:07:53::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2026-04-27.19:07:53::SCWMssOS::Checking the sw design at  D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2026-04-27.19:07:53::SCWMssOS::DEBUG:  swdes dump  D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2026-04-27.19:07:53::SCWMssOS::Sw design exists and opened at  D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2026-04-27.19:07:53::SCWWriter::formatted JSON is {
+	"platformName":	"design_1_wrapper",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"design_1_wrapper",
+	"platHandOff":	"D:/vivado_first/20260427_Microblaze_GPIO_4/XSA/design_1_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/design_1_wrapper.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"design_1_wrapper",
+	"systems":	[{
+			"systemName":	"design_1_wrapper",
+			"systemDesc":	"design_1_wrapper",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"design_1_wrapper",
+			"sysActiveDom":	"standalone_microblaze_0",
+			"sysDefaultDom":	"standalone_microblaze_0",
+			"domains":	[{
+					"domainName":	"standalone_microblaze_0",
+					"domainDispName":	"standalone_microblaze_0",
+					"domainDesc":	"standalone_microblaze_0",
+					"processors":	"microblaze_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.3",
+					"mssFile":	"",
+					"md5Digest":	"1dbb8bdcce274b38e22204fc595e662e",
+					"compatibleApp":	"empty_application",
+					"domType":	"mssDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+KEYINFO::2026-04-27.19:07:53::SCWPlatform::updated the xpfm file.
+TRACE::2026-04-27.19:07:53::SCWPlatform::Trying to open the hw design at D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-04-27.19:07:53::SCWPlatform::DSA given D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-04-27.19:07:53::SCWPlatform::DSA absoulate path D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-04-27.19:07:53::SCWPlatform::DSA directory D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/design_1_wrapper/hw
+TRACE::2026-04-27.19:07:53::SCWPlatform:: Platform Path D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-04-27.19:07:53::SCWPlatform:: Unique name xilinx:basys3::0.0
+TRACE::2026-04-27.19:07:53::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2026-04-27.19:07:53::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2026-04-27.19:07:53::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2026-04-27.19:07:53::SCWMssOS::Checking the sw design at  D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2026-04-27.19:07:53::SCWMssOS::DEBUG:  swdes dump  D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2026-04-27.19:07:53::SCWMssOS::Sw design exists and opened at  D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2026-04-27.19:07:53::SCWMssOS::Saving the mss changes D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2026-04-27.19:07:53::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2026-04-27.19:07:53::SCWMssOS::Completed writemss as part of save.
+TRACE::2026-04-27.19:07:53::SCWMssOS::Commit changes completed.
+TRACE::2026-04-27.19:07:53::SCWPlatform::Trying to open the hw design at D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-04-27.19:07:53::SCWPlatform::DSA given D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-04-27.19:07:53::SCWPlatform::DSA absoulate path D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-04-27.19:07:53::SCWPlatform::DSA directory D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/design_1_wrapper/hw
+TRACE::2026-04-27.19:07:53::SCWPlatform:: Platform Path D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-04-27.19:07:53::SCWPlatform:: Unique name xilinx:basys3::0.0
+TRACE::2026-04-27.19:07:53::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2026-04-27.19:07:53::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2026-04-27.19:07:53::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2026-04-27.19:07:53::SCWMssOS::Checking the sw design at  D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2026-04-27.19:07:53::SCWMssOS::DEBUG:  swdes dump  D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2026-04-27.19:07:53::SCWMssOS::Sw design exists and opened at  D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2026-04-27.19:07:53::SCWPlatform::Trying to open the hw design at D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-04-27.19:07:53::SCWPlatform::DSA given D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-04-27.19:07:53::SCWPlatform::DSA absoulate path D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-04-27.19:07:53::SCWPlatform::DSA directory D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/design_1_wrapper/hw
+TRACE::2026-04-27.19:07:53::SCWPlatform:: Platform Path D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-04-27.19:07:53::SCWPlatform:: Unique name xilinx:basys3::0.0
+TRACE::2026-04-27.19:07:53::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2026-04-27.19:07:53::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2026-04-27.19:07:53::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2026-04-27.19:07:53::SCWMssOS::Checking the sw design at  D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2026-04-27.19:07:53::SCWMssOS::DEBUG:  swdes dump  D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2026-04-27.19:07:53::SCWMssOS::Sw design exists and opened at  D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2026-04-27.19:07:53::SCWPlatform::Trying to open the hw design at D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-04-27.19:07:53::SCWPlatform::DSA given D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-04-27.19:07:53::SCWPlatform::DSA absoulate path D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-04-27.19:07:53::SCWPlatform::DSA directory D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/design_1_wrapper/hw
+TRACE::2026-04-27.19:07:53::SCWPlatform:: Platform Path D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-04-27.19:07:53::SCWPlatform:: Unique name xilinx:basys3::0.0
+TRACE::2026-04-27.19:07:53::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2026-04-27.19:07:53::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2026-04-27.19:07:53::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2026-04-27.19:07:53::SCWMssOS::Checking the sw design at  D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2026-04-27.19:07:53::SCWMssOS::DEBUG:  swdes dump  D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2026-04-27.19:07:53::SCWMssOS::Sw design exists and opened at  D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2026-04-27.19:07:53::SCWWriter::formatted JSON is {
+	"platformName":	"design_1_wrapper",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"design_1_wrapper",
+	"platHandOff":	"D:/vivado_first/20260427_Microblaze_GPIO_4/XSA/design_1_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/design_1_wrapper.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"design_1_wrapper",
+	"systems":	[{
+			"systemName":	"design_1_wrapper",
+			"systemDesc":	"design_1_wrapper",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"design_1_wrapper",
+			"sysActiveDom":	"standalone_microblaze_0",
+			"sysDefaultDom":	"standalone_microblaze_0",
+			"domains":	[{
+					"domainName":	"standalone_microblaze_0",
+					"domainDispName":	"standalone_microblaze_0",
+					"domainDesc":	"standalone_microblaze_0",
+					"processors":	"microblaze_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.3",
+					"mssFile":	"",
+					"md5Digest":	"1dbb8bdcce274b38e22204fc595e662e",
+					"compatibleApp":	"empty_application",
+					"domType":	"mssDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+TRACE::2026-04-27.19:07:53::SCWPlatform::Trying to open the hw design at D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-04-27.19:07:53::SCWPlatform::DSA given D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-04-27.19:07:53::SCWPlatform::DSA absoulate path D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-04-27.19:07:53::SCWPlatform::DSA directory D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/design_1_wrapper/hw
+TRACE::2026-04-27.19:07:53::SCWPlatform:: Platform Path D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-04-27.19:07:53::SCWPlatform:: Unique name xilinx:basys3::0.0
+TRACE::2026-04-27.19:07:53::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2026-04-27.19:07:53::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2026-04-27.19:07:53::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2026-04-27.19:07:53::SCWMssOS::Checking the sw design at  D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2026-04-27.19:07:53::SCWMssOS::DEBUG:  swdes dump  D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2026-04-27.19:07:53::SCWMssOS::Sw design exists and opened at  D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2026-04-27.19:07:53::SCWPlatform::Trying to open the hw design at D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-04-27.19:07:53::SCWPlatform::DSA given D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-04-27.19:07:53::SCWPlatform::DSA absoulate path D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-04-27.19:07:53::SCWPlatform::DSA directory D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/design_1_wrapper/hw
+TRACE::2026-04-27.19:07:53::SCWPlatform:: Platform Path D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-04-27.19:07:53::SCWPlatform:: Unique name xilinx:basys3::0.0
+TRACE::2026-04-27.19:07:53::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2026-04-27.19:07:53::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2026-04-27.19:07:53::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2026-04-27.19:07:53::SCWMssOS::Checking the sw design at  D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2026-04-27.19:07:53::SCWMssOS::DEBUG:  swdes dump  D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2026-04-27.19:07:53::SCWMssOS::Sw design exists and opened at  D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2026-04-27.19:07:53::SCWMssOS::Saving the mss changes D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2026-04-27.19:07:53::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2026-04-27.19:07:53::SCWMssOS::Completed writemss as part of save.
+TRACE::2026-04-27.19:07:53::SCWMssOS::Commit changes completed.
+TRACE::2026-04-27.19:07:53::SCWPlatform::Trying to open the hw design at D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-04-27.19:07:53::SCWPlatform::DSA given D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-04-27.19:07:53::SCWPlatform::DSA absoulate path D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-04-27.19:07:53::SCWPlatform::DSA directory D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/design_1_wrapper/hw
+TRACE::2026-04-27.19:07:53::SCWPlatform:: Platform Path D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-04-27.19:07:53::SCWPlatform:: Unique name xilinx:basys3::0.0
+TRACE::2026-04-27.19:07:53::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2026-04-27.19:07:53::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2026-04-27.19:07:53::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2026-04-27.19:07:53::SCWMssOS::Checking the sw design at  D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2026-04-27.19:07:53::SCWMssOS::DEBUG:  swdes dump  D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2026-04-27.19:07:53::SCWMssOS::Sw design exists and opened at  D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2026-04-27.19:07:53::SCWPlatform::Trying to open the hw design at D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-04-27.19:07:53::SCWPlatform::DSA given D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-04-27.19:07:53::SCWPlatform::DSA absoulate path D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-04-27.19:07:53::SCWPlatform::DSA directory D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/design_1_wrapper/hw
+TRACE::2026-04-27.19:07:53::SCWPlatform:: Platform Path D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-04-27.19:07:53::SCWPlatform:: Unique name xilinx:basys3::0.0
+TRACE::2026-04-27.19:07:53::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2026-04-27.19:07:53::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2026-04-27.19:07:53::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2026-04-27.19:07:53::SCWMssOS::Checking the sw design at  D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2026-04-27.19:07:53::SCWMssOS::DEBUG:  swdes dump  D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2026-04-27.19:07:53::SCWMssOS::Sw design exists and opened at  D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2026-04-27.19:07:53::SCWPlatform::Trying to open the hw design at D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-04-27.19:07:53::SCWPlatform::DSA given D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-04-27.19:07:53::SCWPlatform::DSA absoulate path D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-04-27.19:07:53::SCWPlatform::DSA directory D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/design_1_wrapper/hw
+TRACE::2026-04-27.19:07:53::SCWPlatform:: Platform Path D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-04-27.19:07:53::SCWPlatform:: Unique name xilinx:basys3::0.0
+TRACE::2026-04-27.19:07:53::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2026-04-27.19:07:53::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2026-04-27.19:07:53::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2026-04-27.19:07:53::SCWMssOS::Checking the sw design at  D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2026-04-27.19:07:53::SCWMssOS::DEBUG:  swdes dump  D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2026-04-27.19:07:53::SCWMssOS::Sw design exists and opened at  D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2026-04-27.19:07:53::SCWWriter::formatted JSON is {
+	"platformName":	"design_1_wrapper",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"design_1_wrapper",
+	"platHandOff":	"D:/vivado_first/20260427_Microblaze_GPIO_4/XSA/design_1_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/design_1_wrapper.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"design_1_wrapper",
+	"systems":	[{
+			"systemName":	"design_1_wrapper",
+			"systemDesc":	"design_1_wrapper",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"design_1_wrapper",
+			"sysActiveDom":	"standalone_microblaze_0",
+			"sysDefaultDom":	"standalone_microblaze_0",
+			"domains":	[{
+					"domainName":	"standalone_microblaze_0",
+					"domainDispName":	"standalone_microblaze_0",
+					"domainDesc":	"standalone_microblaze_0",
+					"processors":	"microblaze_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.3",
+					"mssFile":	"",
+					"md5Digest":	"1dbb8bdcce274b38e22204fc595e662e",
+					"compatibleApp":	"empty_application",
+					"domType":	"mssDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+LOG::2026-04-27.19:07:53::SCWPlatform::Started generating the artifacts platform design_1_wrapper
+TRACE::2026-04-27.19:07:53::SCWPlatform::Sanity checking of platform is completed
+LOG::2026-04-27.19:07:53::SCWPlatform::Started generating the artifacts for system configuration design_1_wrapper
+LOG::2026-04-27.19:07:53::SCWSystem::Started Processing the domain standalone_microblaze_0
+TRACE::2026-04-27.19:07:53::SCWDomain::Generating domain artifcats
+TRACE::2026-04-27.19:07:53::SCWMssOS::Generating standalone artifcats
+TRACE::2026-04-27.19:07:53::SCWMssOS:: Copying the user libraries. 
+TRACE::2026-04-27.19:07:53::SCWPlatform::Trying to open the hw design at D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-04-27.19:07:53::SCWPlatform::DSA given D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-04-27.19:07:53::SCWPlatform::DSA absoulate path D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-04-27.19:07:53::SCWPlatform::DSA directory D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/design_1_wrapper/hw
+TRACE::2026-04-27.19:07:53::SCWPlatform:: Platform Path D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-04-27.19:07:53::SCWPlatform:: Unique name xilinx:basys3::0.0
+TRACE::2026-04-27.19:07:53::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2026-04-27.19:07:53::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2026-04-27.19:07:53::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2026-04-27.19:07:53::SCWMssOS::Checking the sw design at  D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2026-04-27.19:07:53::SCWMssOS::DEBUG:  swdes dump  D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2026-04-27.19:07:53::SCWMssOS::Sw design exists and opened at  D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2026-04-27.19:07:53::SCWMssOS::Completed writing the mss file at D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp
+TRACE::2026-04-27.19:07:53::SCWMssOS::Mss edits present, copying mssfile into export location D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2026-04-27.19:07:53::SCWMssOS::bsp generated is upto date with the mss file. Skipping bsp generation.
+TRACE::2026-04-27.19:07:53::SCWMssOS::BSP is already built. skipping the bsp build ... 
+TRACE::2026-04-27.19:07:53::SCWDomain::Building the domain as part of full build :  standalone_microblaze_0
+TRACE::2026-04-27.19:07:53::SCWMssOS::skipping the bsp build ... 
+TRACE::2026-04-27.19:07:53::SCWMssOS::Copying to export directory.
+TRACE::2026-04-27.19:07:53::SCWMssOS:: Checking if to create the Supporting Applications
+TRACE::2026-04-27.19:07:53::SCWMssOS:: No Linux domain exists, trying to generate FSBL 
+LOG::2026-04-27.19:07:53::SCWSystem::Completed Processing the domain standalone_microblaze_0
+LOG::2026-04-27.19:07:53::SCWSystem::Completed Processing the sysconfig design_1_wrapper
+LOG::2026-04-27.19:07:53::SCWPlatform::Completed generating the artifacts for system configuration design_1_wrapper
+TRACE::2026-04-27.19:07:53::SCWPlatform::Started preparing the platform 
+TRACE::2026-04-27.19:07:53::SCWSystem::Writing the bif file for system config design_1_wrapper
+TRACE::2026-04-27.19:07:53::SCWSystem::dir created 
+TRACE::2026-04-27.19:07:53::SCWSystem::Writing the bif 
+TRACE::2026-04-27.19:07:53::SCWPlatform::Started writing the spfm file 
+TRACE::2026-04-27.19:07:53::SCWPlatform::Started writing the xpfm file 
+TRACE::2026-04-27.19:07:53::SCWPlatform::Completed generating the platform
+TRACE::2026-04-27.19:07:53::SCWMssOS::Saving the mss changes D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2026-04-27.19:07:53::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2026-04-27.19:07:53::SCWMssOS::Completed writemss as part of save.
+TRACE::2026-04-27.19:07:53::SCWMssOS::Commit changes completed.
+TRACE::2026-04-27.19:07:53::SCWPlatform::Trying to open the hw design at D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-04-27.19:07:53::SCWPlatform::DSA given D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-04-27.19:07:53::SCWPlatform::DSA absoulate path D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-04-27.19:07:53::SCWPlatform::DSA directory D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/design_1_wrapper/hw
+TRACE::2026-04-27.19:07:53::SCWPlatform:: Platform Path D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-04-27.19:07:53::SCWPlatform:: Unique name xilinx:basys3::0.0
+TRACE::2026-04-27.19:07:53::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2026-04-27.19:07:53::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2026-04-27.19:07:53::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2026-04-27.19:07:53::SCWMssOS::Checking the sw design at  D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2026-04-27.19:07:53::SCWMssOS::DEBUG:  swdes dump  D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2026-04-27.19:07:53::SCWMssOS::Sw design exists and opened at  D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2026-04-27.19:07:53::SCWPlatform::Trying to open the hw design at D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-04-27.19:07:53::SCWPlatform::DSA given D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-04-27.19:07:53::SCWPlatform::DSA absoulate path D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-04-27.19:07:53::SCWPlatform::DSA directory D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/design_1_wrapper/hw
+TRACE::2026-04-27.19:07:53::SCWPlatform:: Platform Path D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-04-27.19:07:53::SCWPlatform:: Unique name xilinx:basys3::0.0
+TRACE::2026-04-27.19:07:53::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2026-04-27.19:07:53::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2026-04-27.19:07:53::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2026-04-27.19:07:53::SCWMssOS::Checking the sw design at  D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2026-04-27.19:07:53::SCWMssOS::DEBUG:  swdes dump  D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2026-04-27.19:07:53::SCWMssOS::Sw design exists and opened at  D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2026-04-27.19:07:53::SCWPlatform::Trying to open the hw design at D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-04-27.19:07:53::SCWPlatform::DSA given D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-04-27.19:07:53::SCWPlatform::DSA absoulate path D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-04-27.19:07:53::SCWPlatform::DSA directory D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/design_1_wrapper/hw
+TRACE::2026-04-27.19:07:53::SCWPlatform:: Platform Path D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-04-27.19:07:53::SCWPlatform:: Unique name xilinx:basys3::0.0
+TRACE::2026-04-27.19:07:53::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2026-04-27.19:07:53::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2026-04-27.19:07:53::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2026-04-27.19:07:53::SCWMssOS::Checking the sw design at  D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2026-04-27.19:07:53::SCWMssOS::DEBUG:  swdes dump  D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2026-04-27.19:07:53::SCWMssOS::Sw design exists and opened at  D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2026-04-27.19:07:53::SCWWriter::formatted JSON is {
+	"platformName":	"design_1_wrapper",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"design_1_wrapper",
+	"platHandOff":	"D:/vivado_first/20260427_Microblaze_GPIO_4/XSA/design_1_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/design_1_wrapper.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"design_1_wrapper",
+	"systems":	[{
+			"systemName":	"design_1_wrapper",
+			"systemDesc":	"design_1_wrapper",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"design_1_wrapper",
+			"sysActiveDom":	"standalone_microblaze_0",
+			"sysDefaultDom":	"standalone_microblaze_0",
+			"domains":	[{
+					"domainName":	"standalone_microblaze_0",
+					"domainDispName":	"standalone_microblaze_0",
+					"domainDesc":	"standalone_microblaze_0",
+					"processors":	"microblaze_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.3",
+					"mssFile":	"",
+					"md5Digest":	"1dbb8bdcce274b38e22204fc595e662e",
+					"compatibleApp":	"empty_application",
+					"domType":	"mssDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+KEYINFO::2026-04-27.19:07:53::SCWPlatform::updated the xpfm file.
+LOG::2026-04-27.19:08:57::SCWPlatform::Started generating the artifacts platform design_1_wrapper
+TRACE::2026-04-27.19:08:57::SCWPlatform::Sanity checking of platform is completed
+LOG::2026-04-27.19:08:57::SCWPlatform::Started generating the artifacts for system configuration design_1_wrapper
+LOG::2026-04-27.19:08:57::SCWSystem::Checking the domain standalone_microblaze_0
+LOG::2026-04-27.19:08:57::SCWSystem::Not a boot domain 
+LOG::2026-04-27.19:08:57::SCWSystem::Started Processing the domain standalone_microblaze_0
+TRACE::2026-04-27.19:08:57::SCWDomain::Generating domain artifcats
+TRACE::2026-04-27.19:08:57::SCWMssOS::Generating standalone artifcats
+TRACE::2026-04-27.19:08:57::SCWMssOS:: Copying the user libraries. 
+TRACE::2026-04-27.19:08:57::SCWPlatform::Trying to open the hw design at D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-04-27.19:08:57::SCWPlatform::DSA given D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-04-27.19:08:57::SCWPlatform::DSA absoulate path D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-04-27.19:08:57::SCWPlatform::DSA directory D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/design_1_wrapper/hw
+TRACE::2026-04-27.19:08:57::SCWPlatform:: Platform Path D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-04-27.19:08:57::SCWPlatform:: Unique name xilinx:basys3::0.0
+TRACE::2026-04-27.19:08:57::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2026-04-27.19:08:57::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2026-04-27.19:08:57::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2026-04-27.19:08:57::SCWMssOS::Checking the sw design at  D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2026-04-27.19:08:57::SCWMssOS::DEBUG:  swdes dump  D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2026-04-27.19:08:57::SCWMssOS::Sw design exists and opened at  D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2026-04-27.19:08:57::SCWMssOS::Completed writing the mss file at D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp
+TRACE::2026-04-27.19:08:57::SCWMssOS::Mss edits present, copying mssfile into export location D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2026-04-27.19:08:57::SCWMssOS::bsp generated is upto date with the mss file. Skipping bsp generation.
+TRACE::2026-04-27.19:08:57::SCWMssOS::BSP is already built. skipping the bsp build ... 
+TRACE::2026-04-27.19:08:57::SCWDomain::Building the domain as part of full build :  standalone_microblaze_0
+TRACE::2026-04-27.19:08:57::SCWMssOS::doing bsp build ... 
+TRACE::2026-04-27.19:08:57::SCWMssOS::System Command Ran  D: & cd  D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp & make 
+TRACE::2026-04-27.19:08:58::SCWMssOS::make --no-print-directory seq_libs
+
+TRACE::2026-04-27.19:08:58::SCWMssOS::"Running Make include in microblaze_0/libsrc/bram_v4_5/src"
+
+TRACE::2026-04-27.19:08:58::SCWMssOS::make -C microblaze_0/libsrc/bram_v4_5/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILE
+TRACE::2026-04-27.19:08:58::SCWMssOS::R_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall 
+TRACE::2026-04-27.19:08:58::SCWMssOS::-Wextra"
+
+TRACE::2026-04-27.19:08:58::SCWMssOS::"Running Make include in microblaze_0/libsrc/cpu_v2_12/src"
+
+TRACE::2026-04-27.19:08:58::SCWMssOS::make -C microblaze_0/libsrc/cpu_v2_12/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILE
+TRACE::2026-04-27.19:08:58::SCWMssOS::R_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall 
+TRACE::2026-04-27.19:08:58::SCWMssOS::-Wextra"
+
+TRACE::2026-04-27.19:08:58::SCWMssOS::"Running Make include in microblaze_0/libsrc/Microblaze_GPIO_4_v1_0/src"
+
+TRACE::2026-04-27.19:08:58::SCWMssOS::make -C microblaze_0/libsrc/Microblaze_GPIO_4_v1_0/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb
+TRACE::2026-04-27.19:08:58::SCWMssOS::-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-se
+TRACE::2026-04-27.19:08:58::SCWMssOS::ctions -Wall -Wextra"
+
+TRACE::2026-04-27.19:08:58::SCWMssOS::"Running Make include in microblaze_0/libsrc/standalone_v7_3/src"
+
+TRACE::2026-04-27.19:08:58::SCWMssOS::make -C microblaze_0/libsrc/standalone_v7_3/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "C
+TRACE::2026-04-27.19:08:58::SCWMssOS::OMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections 
+TRACE::2026-04-27.19:08:58::SCWMssOS::-Wall -Wextra"
+
+TRACE::2026-04-27.19:08:58::SCWMssOS::"Running Make include in microblaze_0/libsrc/uartlite_v3_5/src"
+
+TRACE::2026-04-27.19:08:58::SCWMssOS::make -C microblaze_0/libsrc/uartlite_v3_5/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COM
+TRACE::2026-04-27.19:08:58::SCWMssOS::PILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -W
+TRACE::2026-04-27.19:08:58::SCWMssOS::all -Wextra"
+
+TRACE::2026-04-27.19:08:58::SCWMssOS::"Running Make libs in microblaze_0/libsrc/Microblaze_GPIO_4_v1_0/src"
+
+TRACE::2026-04-27.19:08:58::SCWMssOS::make -C microblaze_0/libsrc/Microblaze_GPIO_4_v1_0/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar
+TRACE::2026-04-27.19:08:58::SCWMssOS::" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-secti
+TRACE::2026-04-27.19:08:58::SCWMssOS::ons -Wall -Wextra"
+
+TRACE::2026-04-27.19:08:59::SCWMssOS::"Compiling Microblaze_GPIO_4..."
+
+TRACE::2026-04-27.19:08:59::SCWMssOS::'Finished building libraries sequentially.'
+
+TRACE::2026-04-27.19:08:59::SCWMssOS::make -j --no-print-directory par_libs
+
+TRACE::2026-04-27.19:08:59::SCWMssOS::"Running Make include in microblaze_0/libsrc/bram_v4_5/src"
+
+TRACE::2026-04-27.19:08:59::SCWMssOS::make -C microblaze_0/libsrc/bram_v4_5/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILE
+TRACE::2026-04-27.19:08:59::SCWMssOS::R_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall 
+TRACE::2026-04-27.19:08:59::SCWMssOS::-Wextra"
+
+TRACE::2026-04-27.19:08:59::SCWMssOS::"Running Make include in microblaze_0/libsrc/cpu_v2_12/src"
+
+TRACE::2026-04-27.19:08:59::SCWMssOS::make -C microblaze_0/libsrc/cpu_v2_12/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILE
+TRACE::2026-04-27.19:08:59::SCWMssOS::R_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall 
+TRACE::2026-04-27.19:08:59::SCWMssOS::-Wextra"
+
+TRACE::2026-04-27.19:08:59::SCWMssOS::"Running Make include in microblaze_0/libsrc/Microblaze_GPIO_4_v1_0/src"
+
+TRACE::2026-04-27.19:08:59::SCWMssOS::make -C microblaze_0/libsrc/Microblaze_GPIO_4_v1_0/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb
+TRACE::2026-04-27.19:08:59::SCWMssOS::-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-se
+TRACE::2026-04-27.19:08:59::SCWMssOS::ctions -Wall -Wextra"
+
+TRACE::2026-04-27.19:08:59::SCWMssOS::"Running Make include in microblaze_0/libsrc/standalone_v7_3/src"
+
+TRACE::2026-04-27.19:08:59::SCWMssOS::make -C microblaze_0/libsrc/standalone_v7_3/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "C
+TRACE::2026-04-27.19:08:59::SCWMssOS::OMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections 
+TRACE::2026-04-27.19:08:59::SCWMssOS::-Wall -Wextra"
+
+TRACE::2026-04-27.19:08:59::SCWMssOS::"Running Make include in microblaze_0/libsrc/uartlite_v3_5/src"
+
+TRACE::2026-04-27.19:08:59::SCWMssOS::make -C microblaze_0/libsrc/uartlite_v3_5/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COM
+TRACE::2026-04-27.19:08:59::SCWMssOS::PILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -W
+TRACE::2026-04-27.19:08:59::SCWMssOS::all -Wextra"
+
+TRACE::2026-04-27.19:08:59::SCWMssOS::"Running Make libs in microblaze_0/libsrc/bram_v4_5/src"
+
+TRACE::2026-04-27.19:08:59::SCWMssOS::make -C microblaze_0/libsrc/bram_v4_5/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILER_F
+TRACE::2026-04-27.19:08:59::SCWMssOS::LAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -We
+TRACE::2026-04-27.19:08:59::SCWMssOS::xtra"
+
+TRACE::2026-04-27.19:08:59::SCWMssOS::"Running Make libs in microblaze_0/libsrc/cpu_v2_12/src"
+
+TRACE::2026-04-27.19:08:59::SCWMssOS::make -C microblaze_0/libsrc/cpu_v2_12/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILER_F
+TRACE::2026-04-27.19:08:59::SCWMssOS::LAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -We
+TRACE::2026-04-27.19:08:59::SCWMssOS::xtra"
+
+TRACE::2026-04-27.19:08:59::SCWMssOS::"Running Make libs in microblaze_0/libsrc/standalone_v7_3/src"
+
+TRACE::2026-04-27.19:08:59::SCWMssOS::make -C microblaze_0/libsrc/standalone_v7_3/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMP
+TRACE::2026-04-27.19:08:59::SCWMssOS::ILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wa
+TRACE::2026-04-27.19:08:59::SCWMssOS::ll -Wextra"
+
+TRACE::2026-04-27.19:08:59::SCWMssOS::"Running Make libs in microblaze_0/libsrc/uartlite_v3_5/src"
+
+TRACE::2026-04-27.19:08:59::SCWMssOS::make -C microblaze_0/libsrc/uartlite_v3_5/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPIL
+TRACE::2026-04-27.19:08:59::SCWMssOS::ER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall
+TRACE::2026-04-27.19:08:59::SCWMssOS:: -Wextra"
+
+TRACE::2026-04-27.19:09:00::SCWMssOS::"DEBUG NON_LTO_OBJECTS is ../../../lib/microblaze_interrupt_handler.o"
+
+TRACE::2026-04-27.19:09:00::SCWMssOS::'Finished building libraries parallelly.'
+
+TRACE::2026-04-27.19:09:00::SCWMssOS::make --no-print-directory archive
+
+TRACE::2026-04-27.19:09:00::SCWMssOS::mb-ar -r  microblaze_0/lib/libxil.a microblaze_0/lib/xplatform_info.o microblaze_0/lib/xuartlite.o microblaze_0/lib/microblaze_
+TRACE::2026-04-27.19:09:00::SCWMssOS::disable_exceptions.o microblaze_0/lib/print.o microblaze_0/lib/_exit.o microblaze_0/lib/microblaze_disable_dcache.o microblaze_
+TRACE::2026-04-27.19:09:00::SCWMssOS::0/lib/microblaze_flush_dcache_range.o microblaze_0/lib/microblaze_flush_cache_ext.o microblaze_0/lib/xbram_sinit.o microblaze_0
+TRACE::2026-04-27.19:09:00::SCWMssOS::/lib/xil_misc_psreset_api.o microblaze_0/lib/xil_cache.o microblaze_0/lib/inbyte.o microblaze_0/lib/xbram_g.o microblaze_0/lib/
+TRACE::2026-04-27.19:09:00::SCWMssOS::microblaze_exception_handler.o microblaze_0/lib/microblaze_scrub.o microblaze_0/lib/microblaze_invalidate_dcache.o microblaze_0
+TRACE::2026-04-27.19:09:00::SCWMssOS::/lib/microblaze_disable_interrupts.o microblaze_0/lib/xbram_selftest.o microblaze_0/lib/microblaze_interrupt_handler.o microbla
+TRACE::2026-04-27.19:09:00::SCWMssOS::ze_0/lib/microblaze_disable_icache.o microblaze_0/lib/xil_mem.o microblaze_0/lib/microblaze_flush_cache_ext_range.o microblaze_
+TRACE::2026-04-27.19:09:00::SCWMssOS::0/lib/xbram_intr.o microblaze_0/lib/xil_sleepcommon.o microblaze_0/lib/xil_printf.o microblaze_0/lib/xio.o microblaze_0/lib/out
+TRACE::2026-04-27.19:09:00::SCWMssOS::byte.o microblaze_0/lib/microblaze_invalidate_dcache_range.o microblaze_0/lib/xuartlite_g.o microblaze_0/lib/microblaze_invalid
+TRACE::2026-04-27.19:09:00::SCWMssOS::ate_cache_ext.o microblaze_0/lib/microblaze_sleep.o microblaze_0/lib/hw_exception_handler.o microblaze_0/lib/xuartlite_selftest
+TRACE::2026-04-27.19:09:00::SCWMssOS::.o microblaze_0/lib/xil_util.o microblaze_0/lib/microblaze_update_dcache.o microblaze_0/lib/xil_testcache.o microblaze_0/lib/mi
+TRACE::2026-04-27.19:09:00::SCWMssOS::croblaze_selftest.o microblaze_0/lib/microblaze_interrupts_g.o microblaze_0/lib/microblaze_enable_exceptions.o microblaze_0/lib
+TRACE::2026-04-27.19:09:00::SCWMssOS::/microblaze_enable_dcache.o microblaze_0/lib/xbram.o microblaze_0/lib/xuartlite_intr.o microblaze_0/lib/microblaze_invalidate_i
+TRACE::2026-04-27.19:09:00::SCWMssOS::cache_range.o microblaze_0/lib/xuartlite_sinit.o microblaze_0/lib/microblaze_init_dcache_range.o microblaze_0/lib/microblaze_in
+TRACE::2026-04-27.19:09:00::SCWMssOS::validate_icache.o microblaze_0/lib/errno.o microblaze_0/lib/xuartlite_l.o microblaze_0/lib/xuartlite_stats.o microblaze_0/lib/m
+TRACE::2026-04-27.19:09:00::SCWMssOS::icroblaze_invalidate_cache_ext_range.o microblaze_0/lib/xil_exception.o microblaze_0/lib/pvr.o microblaze_0/lib/xil_testmem.o m
+TRACE::2026-04-27.19:09:00::SCWMssOS::icroblaze_0/lib/microblaze_update_icache.o microblaze_0/lib/microblaze_flush_dcache.o microblaze_0/lib/xil_clocking.o microblaz
+TRACE::2026-04-27.19:09:00::SCWMssOS::e_0/lib/xil_assert.o microblaze_0/lib/microblaze_enable_interrupts.o microblaze_0/lib/microblaze_enable_icache.o microblaze_0/l
+TRACE::2026-04-27.19:09:00::SCWMssOS::ib/xil_testio.o microblaze_0/lib/fcntl.o microblaze_0/lib/microblaze_init_icache_range.o
+
+TRACE::2026-04-27.19:09:00::SCWMssOS::'Finished building libraries'
+
+TRACE::2026-04-27.19:09:00::SCWMssOS::Copying to export directory.
+TRACE::2026-04-27.19:09:00::SCWMssOS:: Checking if to create the Supporting Applications
+TRACE::2026-04-27.19:09:00::SCWMssOS:: No Linux domain exists, trying to generate FSBL 
+LOG::2026-04-27.19:09:00::SCWSystem::Completed Processing the domain standalone_microblaze_0
+LOG::2026-04-27.19:09:00::SCWSystem::Completed Processing the sysconfig design_1_wrapper
+LOG::2026-04-27.19:09:00::SCWPlatform::Completed generating the artifacts for system configuration design_1_wrapper
+TRACE::2026-04-27.19:09:00::SCWPlatform::Started preparing the platform 
+TRACE::2026-04-27.19:09:00::SCWSystem::Writing the bif file for system config design_1_wrapper
+TRACE::2026-04-27.19:09:00::SCWSystem::dir created 
+TRACE::2026-04-27.19:09:00::SCWSystem::Writing the bif 
+TRACE::2026-04-27.19:09:00::SCWPlatform::Started writing the spfm file 
+TRACE::2026-04-27.19:09:00::SCWPlatform::Started writing the xpfm file 
+TRACE::2026-04-27.19:09:00::SCWPlatform::Completed generating the platform
+TRACE::2026-04-27.19:09:00::SCWMssOS::Saving the mss changes D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2026-04-27.19:09:00::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2026-04-27.19:09:00::SCWMssOS::Completed writemss as part of save.
+TRACE::2026-04-27.19:09:00::SCWMssOS::Commit changes completed.
+TRACE::2026-04-27.19:09:00::SCWPlatform::Trying to open the hw design at D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-04-27.19:09:00::SCWPlatform::DSA given D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-04-27.19:09:00::SCWPlatform::DSA absoulate path D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-04-27.19:09:00::SCWPlatform::DSA directory D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/design_1_wrapper/hw
+TRACE::2026-04-27.19:09:00::SCWPlatform:: Platform Path D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-04-27.19:09:00::SCWPlatform:: Unique name xilinx:basys3::0.0
+TRACE::2026-04-27.19:09:00::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2026-04-27.19:09:00::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2026-04-27.19:09:00::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2026-04-27.19:09:00::SCWMssOS::Checking the sw design at  D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2026-04-27.19:09:00::SCWMssOS::DEBUG:  swdes dump  D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2026-04-27.19:09:00::SCWMssOS::Sw design exists and opened at  D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2026-04-27.19:09:00::SCWPlatform::Trying to open the hw design at D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-04-27.19:09:00::SCWPlatform::DSA given D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-04-27.19:09:00::SCWPlatform::DSA absoulate path D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-04-27.19:09:00::SCWPlatform::DSA directory D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/design_1_wrapper/hw
+TRACE::2026-04-27.19:09:00::SCWPlatform:: Platform Path D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-04-27.19:09:00::SCWPlatform:: Unique name xilinx:basys3::0.0
+TRACE::2026-04-27.19:09:00::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2026-04-27.19:09:00::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2026-04-27.19:09:00::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2026-04-27.19:09:00::SCWMssOS::Checking the sw design at  D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2026-04-27.19:09:00::SCWMssOS::DEBUG:  swdes dump  D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2026-04-27.19:09:00::SCWMssOS::Sw design exists and opened at  D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2026-04-27.19:09:00::SCWPlatform::Trying to open the hw design at D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-04-27.19:09:00::SCWPlatform::DSA given D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-04-27.19:09:00::SCWPlatform::DSA absoulate path D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-04-27.19:09:00::SCWPlatform::DSA directory D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/design_1_wrapper/hw
+TRACE::2026-04-27.19:09:00::SCWPlatform:: Platform Path D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-04-27.19:09:00::SCWPlatform:: Unique name xilinx:basys3::0.0
+TRACE::2026-04-27.19:09:00::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2026-04-27.19:09:00::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2026-04-27.19:09:00::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2026-04-27.19:09:00::SCWMssOS::Checking the sw design at  D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2026-04-27.19:09:00::SCWMssOS::DEBUG:  swdes dump  D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2026-04-27.19:09:00::SCWMssOS::Sw design exists and opened at  D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2026-04-27.19:09:00::SCWWriter::formatted JSON is {
+	"platformName":	"design_1_wrapper",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"design_1_wrapper",
+	"platHandOff":	"D:/vivado_first/20260427_Microblaze_GPIO_4/XSA/design_1_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/design_1_wrapper.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"design_1_wrapper",
+	"systems":	[{
+			"systemName":	"design_1_wrapper",
+			"systemDesc":	"design_1_wrapper",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"design_1_wrapper",
+			"sysActiveDom":	"standalone_microblaze_0",
+			"sysDefaultDom":	"standalone_microblaze_0",
+			"domains":	[{
+					"domainName":	"standalone_microblaze_0",
+					"domainDispName":	"standalone_microblaze_0",
+					"domainDesc":	"standalone_microblaze_0",
+					"processors":	"microblaze_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.3",
+					"mssFile":	"",
+					"md5Digest":	"1dbb8bdcce274b38e22204fc595e662e",
+					"compatibleApp":	"empty_application",
+					"domType":	"mssDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+KEYINFO::2026-04-27.19:09:00::SCWPlatform::updated the xpfm file.
+TRACE::2026-04-27.19:09:00::SCWPlatform::Trying to open the hw design at D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-04-27.19:09:00::SCWPlatform::DSA given D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-04-27.19:09:00::SCWPlatform::DSA absoulate path D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-04-27.19:09:00::SCWPlatform::DSA directory D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/design_1_wrapper/hw
+TRACE::2026-04-27.19:09:00::SCWPlatform:: Platform Path D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-04-27.19:09:00::SCWPlatform:: Unique name xilinx:basys3::0.0
+TRACE::2026-04-27.19:09:00::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2026-04-27.19:09:00::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2026-04-27.19:09:00::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2026-04-27.19:09:00::SCWMssOS::Checking the sw design at  D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2026-04-27.19:09:00::SCWMssOS::DEBUG:  swdes dump  D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2026-04-27.19:09:00::SCWMssOS::Sw design exists and opened at  D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2026-04-28.09:38:35::SCWPlatform::Trying to open the hw design at D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-04-28.09:38:35::SCWPlatform::DSA given D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-04-28.09:38:35::SCWPlatform::DSA absoulate path D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-04-28.09:38:36::SCWPlatform::DSA directory D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/design_1_wrapper/hw
+TRACE::2026-04-28.09:38:36::SCWPlatform:: Platform Path D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-04-28.09:38:36::SCWPlatform:: Unique name xilinx:basys3::0.0
+TRACE::2026-04-28.09:38:36::SCWPlatform::Do not have an existing db opened. 
+TRACE::2026-04-28.09:38:36::SCWPlatform::Opened new HwDB with name design_1_wrapper
+TRACE::2026-04-28.09:38:36::SCWReader::Active system found as  design_1_wrapper
+TRACE::2026-04-28.09:38:36::SCWReader::Handling sysconfig design_1_wrapper
+TRACE::2026-04-28.09:38:36::SCWDomain::checking for install qemu data   : 
+TRACE::2026-04-28.09:38:36::SCWPlatform::Trying to open the hw design at D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-04-28.09:38:36::SCWPlatform::DSA given D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-04-28.09:38:36::SCWPlatform::DSA absoulate path D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-04-28.09:38:36::SCWPlatform::DSA directory D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/design_1_wrapper/hw
+TRACE::2026-04-28.09:38:36::SCWPlatform:: Platform Path D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-04-28.09:38:36::SCWPlatform:: Unique name xilinx:basys3::0.0
+TRACE::2026-04-28.09:38:36::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper
+TRACE::2026-04-28.09:38:36::SCWPlatform::Opened existing hwdb design_1_wrapper
+TRACE::2026-04-28.09:38:36::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2026-04-28.09:38:36::SCWPlatform::Trying to open the hw design at D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-04-28.09:38:36::SCWPlatform::DSA given D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-04-28.09:38:36::SCWPlatform::DSA absoulate path D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-04-28.09:38:36::SCWPlatform::DSA directory D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/design_1_wrapper/hw
+TRACE::2026-04-28.09:38:36::SCWPlatform:: Platform Path D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-04-28.09:38:36::SCWPlatform:: Unique name xilinx:basys3::0.0
+TRACE::2026-04-28.09:38:36::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper
+TRACE::2026-04-28.09:38:36::SCWPlatform::Opened existing hwdb design_1_wrapper
+TRACE::2026-04-28.09:38:36::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2026-04-28.09:38:36::SCWPlatform::Trying to open the hw design at D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-04-28.09:38:36::SCWPlatform::DSA given D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-04-28.09:38:36::SCWPlatform::DSA absoulate path D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-04-28.09:38:36::SCWPlatform::DSA directory D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/design_1_wrapper/hw
+TRACE::2026-04-28.09:38:36::SCWPlatform:: Platform Path D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-04-28.09:38:36::SCWPlatform:: Unique name xilinx:basys3::0.0
+TRACE::2026-04-28.09:38:36::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper
+TRACE::2026-04-28.09:38:36::SCWPlatform::Opened existing hwdb design_1_wrapper
+TRACE::2026-04-28.09:38:36::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2026-04-28.09:38:36::SCWPlatform::Trying to open the hw design at D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-04-28.09:38:36::SCWPlatform::DSA given D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-04-28.09:38:36::SCWPlatform::DSA absoulate path D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-04-28.09:38:36::SCWPlatform::DSA directory D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/design_1_wrapper/hw
+TRACE::2026-04-28.09:38:36::SCWPlatform:: Platform Path D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-04-28.09:38:36::SCWPlatform:: Unique name xilinx:basys3::0.0
+TRACE::2026-04-28.09:38:36::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper
+TRACE::2026-04-28.09:38:36::SCWPlatform::Opened existing hwdb design_1_wrapper
+TRACE::2026-04-28.09:38:36::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2026-04-28.09:38:36::SCWMssOS::Checking the sw design at  D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2026-04-28.09:38:36::SCWMssOS::DEBUG:  swdes dump  
+TRACE::2026-04-28.09:38:36::SCWMssOS::No sw design opened at  D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2026-04-28.09:38:36::SCWMssOS::mss exists loading the mss file  D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2026-04-28.09:38:36::SCWMssOS::Opened the sw design from mss  D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2026-04-28.09:38:36::SCWMssOS::Adding the swdes entry D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss with des name system
+TRACE::2026-04-28.09:38:36::SCWMssOS::updating the scw layer about changes
+TRACE::2026-04-28.09:38:36::SCWMssOS::Opened the sw design.  D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2026-04-28.09:38:36::SCWMssOS::Saving the mss changes D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2026-04-28.09:38:36::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2026-04-28.09:38:36::SCWMssOS::Completed writemss as part of save.
+TRACE::2026-04-28.09:38:36::SCWMssOS::Commit changes completed.
+TRACE::2026-04-28.09:38:36::SCWReader::Adding prebuilt librarypaths as   
+TRACE::2026-04-28.09:38:36::SCWReader::Adding prebuilt incpaths  as   
+TRACE::2026-04-28.09:38:36::SCWPlatform::Trying to open the hw design at D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-04-28.09:38:36::SCWPlatform::DSA given D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-04-28.09:38:36::SCWPlatform::DSA absoulate path D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-04-28.09:38:36::SCWPlatform::DSA directory D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/design_1_wrapper/hw
+TRACE::2026-04-28.09:38:36::SCWPlatform:: Platform Path D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-04-28.09:38:36::SCWPlatform:: Unique name xilinx:basys3::0.0
+TRACE::2026-04-28.09:38:36::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper
+TRACE::2026-04-28.09:38:36::SCWPlatform::Opened existing hwdb design_1_wrapper
+TRACE::2026-04-28.09:38:36::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2026-04-28.09:38:36::SCWMssOS::Checking the sw design at  D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2026-04-28.09:38:36::SCWMssOS::DEBUG:  swdes dump  D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2026-04-28.09:38:36::SCWMssOS::Sw design exists and opened at  D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2026-04-28.09:38:36::SCWReader::No isolation master present  
+LOG::2026-04-28.09:38:36::SCWPlatform::Started generating the artifacts platform design_1_wrapper
+TRACE::2026-04-28.09:38:36::SCWPlatform::Sanity checking of platform is completed
+LOG::2026-04-28.09:38:36::SCWPlatform::Started generating the artifacts for system configuration design_1_wrapper
+LOG::2026-04-28.09:38:36::SCWSystem::Checking the domain standalone_microblaze_0
+LOG::2026-04-28.09:38:36::SCWSystem::Not a boot domain 
+LOG::2026-04-28.09:38:36::SCWSystem::Started Processing the domain standalone_microblaze_0
+TRACE::2026-04-28.09:38:36::SCWDomain::Generating domain artifcats
+TRACE::2026-04-28.09:38:36::SCWMssOS::Generating standalone artifcats
+TRACE::2026-04-28.09:38:36::SCWMssOS:: Copying the user libraries. 
+TRACE::2026-04-28.09:38:36::SCWPlatform::Trying to open the hw design at D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-04-28.09:38:36::SCWPlatform::DSA given D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-04-28.09:38:36::SCWPlatform::DSA absoulate path D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-04-28.09:38:36::SCWPlatform::DSA directory D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/design_1_wrapper/hw
+TRACE::2026-04-28.09:38:36::SCWPlatform:: Platform Path D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-04-28.09:38:36::SCWPlatform:: Unique name xilinx:basys3::0.0
+TRACE::2026-04-28.09:38:36::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper
+TRACE::2026-04-28.09:38:36::SCWPlatform::Opened existing hwdb design_1_wrapper
+TRACE::2026-04-28.09:38:36::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2026-04-28.09:38:36::SCWMssOS::Checking the sw design at  D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2026-04-28.09:38:36::SCWMssOS::DEBUG:  swdes dump  D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2026-04-28.09:38:36::SCWMssOS::Sw design exists and opened at  D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2026-04-28.09:38:36::SCWMssOS::Completed writing the mss file at D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp
+TRACE::2026-04-28.09:38:36::SCWMssOS::Mss edits present, copying mssfile into export location D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2026-04-28.09:38:36::SCWMssOS::bsp generated is upto date with the mss file. Skipping bsp generation.
+TRACE::2026-04-28.09:38:36::SCWMssOS::BSP is already built. skipping the bsp build ... 
+TRACE::2026-04-28.09:38:36::SCWDomain::Building the domain as part of full build :  standalone_microblaze_0
+TRACE::2026-04-28.09:38:36::SCWMssOS::doing bsp build ... 
+TRACE::2026-04-28.09:38:36::SCWMssOS::System Command Ran  D: & cd  D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp & make 
+TRACE::2026-04-28.09:38:37::SCWMssOS::make --no-print-directory seq_libs
+
+TRACE::2026-04-28.09:38:37::SCWMssOS::"Running Make include in microblaze_0/libsrc/bram_v4_5/src"
+
+TRACE::2026-04-28.09:38:37::SCWMssOS::make -C microblaze_0/libsrc/bram_v4_5/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILE
+TRACE::2026-04-28.09:38:37::SCWMssOS::R_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall 
+TRACE::2026-04-28.09:38:37::SCWMssOS::-Wextra"
+
+TRACE::2026-04-28.09:38:37::SCWMssOS::"Running Make include in microblaze_0/libsrc/cpu_v2_12/src"
+
+TRACE::2026-04-28.09:38:37::SCWMssOS::make -C microblaze_0/libsrc/cpu_v2_12/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILE
+TRACE::2026-04-28.09:38:37::SCWMssOS::R_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall 
+TRACE::2026-04-28.09:38:37::SCWMssOS::-Wextra"
+
+TRACE::2026-04-28.09:38:37::SCWMssOS::"Running Make include in microblaze_0/libsrc/Microblaze_GPIO_4_v1_0/src"
+
+TRACE::2026-04-28.09:38:37::SCWMssOS::make -C microblaze_0/libsrc/Microblaze_GPIO_4_v1_0/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb
+TRACE::2026-04-28.09:38:37::SCWMssOS::-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-se
+TRACE::2026-04-28.09:38:37::SCWMssOS::ctions -Wall -Wextra"
+
+TRACE::2026-04-28.09:38:37::SCWMssOS::"Running Make include in microblaze_0/libsrc/standalone_v7_3/src"
+
+TRACE::2026-04-28.09:38:37::SCWMssOS::make -C microblaze_0/libsrc/standalone_v7_3/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "C
+TRACE::2026-04-28.09:38:37::SCWMssOS::OMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections 
+TRACE::2026-04-28.09:38:37::SCWMssOS::-Wall -Wextra"
+
+TRACE::2026-04-28.09:38:38::SCWMssOS::"Running Make include in microblaze_0/libsrc/uartlite_v3_5/src"
+
+TRACE::2026-04-28.09:38:38::SCWMssOS::make -C microblaze_0/libsrc/uartlite_v3_5/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COM
+TRACE::2026-04-28.09:38:38::SCWMssOS::PILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -W
+TRACE::2026-04-28.09:38:38::SCWMssOS::all -Wextra"
+
+TRACE::2026-04-28.09:38:38::SCWMssOS::"Running Make libs in microblaze_0/libsrc/Microblaze_GPIO_4_v1_0/src"
+
+TRACE::2026-04-28.09:38:38::SCWMssOS::make -C microblaze_0/libsrc/Microblaze_GPIO_4_v1_0/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar
+TRACE::2026-04-28.09:38:38::SCWMssOS::" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-secti
+TRACE::2026-04-28.09:38:38::SCWMssOS::ons -Wall -Wextra"
+
+TRACE::2026-04-28.09:38:38::SCWMssOS::"Compiling Microblaze_GPIO_4..."
+
+TRACE::2026-04-28.09:38:41::SCWMssOS::'Finished building libraries sequentially.'
+
+TRACE::2026-04-28.09:38:41::SCWMssOS::make -j --no-print-directory par_libs
+
+TRACE::2026-04-28.09:38:41::SCWMssOS::"Running Make include in microblaze_0/libsrc/bram_v4_5/src"
+
+TRACE::2026-04-28.09:38:41::SCWMssOS::make -C microblaze_0/libsrc/bram_v4_5/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILE
+TRACE::2026-04-28.09:38:41::SCWMssOS::R_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall 
+TRACE::2026-04-28.09:38:41::SCWMssOS::-Wextra"
+
+TRACE::2026-04-28.09:38:41::SCWMssOS::"Running Make include in microblaze_0/libsrc/cpu_v2_12/src"
+
+TRACE::2026-04-28.09:38:41::SCWMssOS::make -C microblaze_0/libsrc/cpu_v2_12/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILE
+TRACE::2026-04-28.09:38:41::SCWMssOS::R_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall 
+TRACE::2026-04-28.09:38:41::SCWMssOS::-Wextra"
+
+TRACE::2026-04-28.09:38:41::SCWMssOS::"Running Make include in microblaze_0/libsrc/Microblaze_GPIO_4_v1_0/src"
+
+TRACE::2026-04-28.09:38:41::SCWMssOS::make -C microblaze_0/libsrc/Microblaze_GPIO_4_v1_0/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb
+TRACE::2026-04-28.09:38:41::SCWMssOS::-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-se
+TRACE::2026-04-28.09:38:41::SCWMssOS::ctions -Wall -Wextra"
+
+TRACE::2026-04-28.09:38:41::SCWMssOS::"Running Make include in microblaze_0/libsrc/standalone_v7_3/src"
+
+TRACE::2026-04-28.09:38:41::SCWMssOS::make -C microblaze_0/libsrc/standalone_v7_3/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "C
+TRACE::2026-04-28.09:38:41::SCWMssOS::OMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections 
+TRACE::2026-04-28.09:38:41::SCWMssOS::-Wall -Wextra"
+
+TRACE::2026-04-28.09:38:41::SCWMssOS::"Running Make include in microblaze_0/libsrc/uartlite_v3_5/src"
+
+TRACE::2026-04-28.09:38:41::SCWMssOS::make -C microblaze_0/libsrc/uartlite_v3_5/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COM
+TRACE::2026-04-28.09:38:41::SCWMssOS::PILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -W
+TRACE::2026-04-28.09:38:41::SCWMssOS::all -Wextra"
+
+TRACE::2026-04-28.09:38:41::SCWMssOS::"Running Make libs in microblaze_0/libsrc/bram_v4_5/src"
+
+TRACE::2026-04-28.09:38:41::SCWMssOS::make -C microblaze_0/libsrc/bram_v4_5/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILER_F
+TRACE::2026-04-28.09:38:41::SCWMssOS::LAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -We
+TRACE::2026-04-28.09:38:41::SCWMssOS::xtra"
+
+TRACE::2026-04-28.09:38:41::SCWMssOS::"Running Make libs in microblaze_0/libsrc/cpu_v2_12/src"
+
+TRACE::2026-04-28.09:38:41::SCWMssOS::make -C microblaze_0/libsrc/cpu_v2_12/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILER_F
+TRACE::2026-04-28.09:38:41::SCWMssOS::LAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -We
+TRACE::2026-04-28.09:38:41::SCWMssOS::xtra"
+
+TRACE::2026-04-28.09:38:41::SCWMssOS::"Running Make libs in microblaze_0/libsrc/standalone_v7_3/src"
+
+TRACE::2026-04-28.09:38:41::SCWMssOS::make -C microblaze_0/libsrc/standalone_v7_3/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMP
+TRACE::2026-04-28.09:38:41::SCWMssOS::ILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wa
+TRACE::2026-04-28.09:38:41::SCWMssOS::ll -Wextra"
+
+TRACE::2026-04-28.09:38:41::SCWMssOS::"Running Make libs in microblaze_0/libsrc/uartlite_v3_5/src"
+
+TRACE::2026-04-28.09:38:41::SCWMssOS::make -C microblaze_0/libsrc/uartlite_v3_5/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPIL
+TRACE::2026-04-28.09:38:41::SCWMssOS::ER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall
+TRACE::2026-04-28.09:38:41::SCWMssOS:: -Wextra"
+
+TRACE::2026-04-28.09:38:41::SCWMssOS::'Finished building libraries parallelly.'
+
+TRACE::2026-04-28.09:38:41::SCWMssOS::make --no-print-directory archive
+
+TRACE::2026-04-28.09:38:41::SCWMssOS::mb-ar -r  microblaze_0/lib/libxil.a microblaze_0/lib/xplatform_info.o microblaze_0/lib/xuartlite.o microblaze_0/lib/microblaze_
+TRACE::2026-04-28.09:38:41::SCWMssOS::disable_exceptions.o microblaze_0/lib/print.o microblaze_0/lib/_exit.o microblaze_0/lib/microblaze_disable_dcache.o microblaze_
+TRACE::2026-04-28.09:38:41::SCWMssOS::0/lib/microblaze_flush_dcache_range.o microblaze_0/lib/microblaze_flush_cache_ext.o microblaze_0/lib/xbram_sinit.o microblaze_0
+TRACE::2026-04-28.09:38:41::SCWMssOS::/lib/xil_misc_psreset_api.o microblaze_0/lib/xil_cache.o microblaze_0/lib/inbyte.o microblaze_0/lib/xbram_g.o microblaze_0/lib/
+TRACE::2026-04-28.09:38:41::SCWMssOS::microblaze_exception_handler.o microblaze_0/lib/microblaze_scrub.o microblaze_0/lib/microblaze_invalidate_dcache.o microblaze_0
+TRACE::2026-04-28.09:38:41::SCWMssOS::/lib/microblaze_disable_interrupts.o microblaze_0/lib/xbram_selftest.o microblaze_0/lib/microblaze_interrupt_handler.o microbla
+TRACE::2026-04-28.09:38:41::SCWMssOS::ze_0/lib/microblaze_disable_icache.o microblaze_0/lib/xil_mem.o microblaze_0/lib/microblaze_flush_cache_ext_range.o microblaze_
+TRACE::2026-04-28.09:38:41::SCWMssOS::0/lib/xbram_intr.o microblaze_0/lib/xil_sleepcommon.o microblaze_0/lib/xil_printf.o microblaze_0/lib/xio.o microblaze_0/lib/out
+TRACE::2026-04-28.09:38:41::SCWMssOS::byte.o microblaze_0/lib/microblaze_invalidate_dcache_range.o microblaze_0/lib/xuartlite_g.o microblaze_0/lib/microblaze_invalid
+TRACE::2026-04-28.09:38:41::SCWMssOS::ate_cache_ext.o microblaze_0/lib/microblaze_sleep.o microblaze_0/lib/hw_exception_handler.o microblaze_0/lib/xuartlite_selftest
+TRACE::2026-04-28.09:38:41::SCWMssOS::.o microblaze_0/lib/xil_util.o microblaze_0/lib/microblaze_update_dcache.o microblaze_0/lib/xil_testcache.o microblaze_0/lib/mi
+TRACE::2026-04-28.09:38:41::SCWMssOS::croblaze_selftest.o microblaze_0/lib/microblaze_interrupts_g.o microblaze_0/lib/microblaze_enable_exceptions.o microblaze_0/lib
+TRACE::2026-04-28.09:38:41::SCWMssOS::/microblaze_enable_dcache.o microblaze_0/lib/xbram.o microblaze_0/lib/xuartlite_intr.o microblaze_0/lib/microblaze_invalidate_i
+TRACE::2026-04-28.09:38:41::SCWMssOS::cache_range.o microblaze_0/lib/xuartlite_sinit.o microblaze_0/lib/microblaze_init_dcache_range.o microblaze_0/lib/microblaze_in
+TRACE::2026-04-28.09:38:41::SCWMssOS::validate_icache.o microblaze_0/lib/errno.o microblaze_0/lib/xuartlite_l.o microblaze_0/lib/xuartlite_stats.o microblaze_0/lib/m
+TRACE::2026-04-28.09:38:41::SCWMssOS::icroblaze_invalidate_cache_ext_range.o microblaze_0/lib/xil_exception.o microblaze_0/lib/pvr.o microblaze_0/lib/xil_testmem.o m
+TRACE::2026-04-28.09:38:41::SCWMssOS::icroblaze_0/lib/microblaze_update_icache.o microblaze_0/lib/microblaze_flush_dcache.o microblaze_0/lib/xil_clocking.o microblaz
+TRACE::2026-04-28.09:38:41::SCWMssOS::e_0/lib/xil_assert.o microblaze_0/lib/microblaze_enable_interrupts.o microblaze_0/lib/microblaze_enable_icache.o microblaze_0/l
+TRACE::2026-04-28.09:38:41::SCWMssOS::ib/xil_testio.o microblaze_0/lib/fcntl.o microblaze_0/lib/microblaze_init_icache_range.o
+
+TRACE::2026-04-28.09:38:42::SCWMssOS::'Finished building libraries'
+
+TRACE::2026-04-28.09:38:42::SCWMssOS::Copying to export directory.
+TRACE::2026-04-28.09:38:42::SCWMssOS:: Checking if to create the Supporting Applications
+TRACE::2026-04-28.09:38:42::SCWMssOS:: No Linux domain exists, trying to generate FSBL 
+LOG::2026-04-28.09:38:42::SCWSystem::Completed Processing the domain standalone_microblaze_0
+LOG::2026-04-28.09:38:42::SCWSystem::Completed Processing the sysconfig design_1_wrapper
+LOG::2026-04-28.09:38:42::SCWPlatform::Completed generating the artifacts for system configuration design_1_wrapper
+TRACE::2026-04-28.09:38:42::SCWPlatform::Started preparing the platform 
+TRACE::2026-04-28.09:38:42::SCWSystem::Writing the bif file for system config design_1_wrapper
+TRACE::2026-04-28.09:38:42::SCWSystem::dir created 
+TRACE::2026-04-28.09:38:42::SCWSystem::Writing the bif 
+TRACE::2026-04-28.09:38:42::SCWPlatform::Started writing the spfm file 
+TRACE::2026-04-28.09:38:42::SCWPlatform::Started writing the xpfm file 
+TRACE::2026-04-28.09:38:42::SCWPlatform::Completed generating the platform
+TRACE::2026-04-28.09:38:42::SCWMssOS::Saving the mss changes D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2026-04-28.09:38:42::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2026-04-28.09:38:42::SCWMssOS::Completed writemss as part of save.
+TRACE::2026-04-28.09:38:42::SCWMssOS::Commit changes completed.
+TRACE::2026-04-28.09:38:42::SCWPlatform::Trying to open the hw design at D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-04-28.09:38:42::SCWPlatform::DSA given D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-04-28.09:38:42::SCWPlatform::DSA absoulate path D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-04-28.09:38:42::SCWPlatform::DSA directory D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/design_1_wrapper/hw
+TRACE::2026-04-28.09:38:42::SCWPlatform:: Platform Path D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-04-28.09:38:42::SCWPlatform:: Unique name xilinx:basys3::0.0
+TRACE::2026-04-28.09:38:42::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper
+TRACE::2026-04-28.09:38:42::SCWPlatform::Opened existing hwdb design_1_wrapper
+TRACE::2026-04-28.09:38:42::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2026-04-28.09:38:42::SCWMssOS::Checking the sw design at  D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2026-04-28.09:38:42::SCWMssOS::DEBUG:  swdes dump  D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2026-04-28.09:38:42::SCWMssOS::Sw design exists and opened at  D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2026-04-28.09:38:42::SCWWriter::formatted JSON is {
+	"platformName":	"design_1_wrapper",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"design_1_wrapper",
+	"platHandOff":	"D:/vivado_first/20260427_Microblaze_GPIO_4/XSA/design_1_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/design_1_wrapper.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"design_1_wrapper",
+	"systems":	[{
+			"systemName":	"design_1_wrapper",
+			"systemDesc":	"design_1_wrapper",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"design_1_wrapper",
+			"sysActiveDom":	"standalone_microblaze_0",
+			"sysDefaultDom":	"standalone_microblaze_0",
+			"domains":	[{
+					"domainName":	"standalone_microblaze_0",
+					"domainDispName":	"standalone_microblaze_0",
+					"domainDesc":	"standalone_microblaze_0",
+					"processors":	"microblaze_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.3",
+					"mssFile":	"",
+					"md5Digest":	"1dbb8bdcce274b38e22204fc595e662e",
+					"compatibleApp":	"",
+					"domType":	"mssDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+KEYINFO::2026-04-28.09:38:42::SCWPlatform::updated the xpfm file.
+TRACE::2026-04-28.09:38:42::SCWPlatform::Trying to open the hw design at D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-04-28.09:38:42::SCWPlatform::DSA given D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-04-28.09:38:42::SCWPlatform::DSA absoulate path D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-04-28.09:38:42::SCWPlatform::DSA directory D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/design_1_wrapper/hw
+TRACE::2026-04-28.09:38:42::SCWPlatform:: Platform Path D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-04-28.09:38:42::SCWPlatform:: Unique name xilinx:basys3::0.0
+TRACE::2026-04-28.09:38:42::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper
+TRACE::2026-04-28.09:38:42::SCWPlatform::Opened existing hwdb design_1_wrapper
+TRACE::2026-04-28.09:38:42::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2026-04-28.09:38:42::SCWMssOS::Checking the sw design at  D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2026-04-28.09:38:42::SCWMssOS::DEBUG:  swdes dump  D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2026-04-28.09:38:42::SCWMssOS::Sw design exists and opened at  D:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss

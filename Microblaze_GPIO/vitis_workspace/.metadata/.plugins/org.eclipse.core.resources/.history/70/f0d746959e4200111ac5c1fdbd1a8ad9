@@ -1,0 +1,64 @@
+#include <stdint.h>
+#include "xparameters.h"
+#include "sleep.h"
+#include "xil_printf.h"
+#include "HAL/GPIO/GPIO.h"
+
+
+
+int main()
+{
+
+	//GPIOA_CR = 0xff;
+	//GPIOB_CR = 0x0f;
+
+	GPIOA->CR = 0x0f;
+	GPIOB->CR = 0xff;
+
+	GPIO_SetMode(GPIOA, GPIO_PIN_0|GPIO_PIN_1|GPIO_PIN_2|GPIO_PIN_3, OUTPUT);
+	GPIO_SetMode(GPIOA, GPIO_PIN_4|GPIO_PIN_5|GPIO_PIN_6|GPIO_PIN_7, INPUT);
+	GPIO_SetMode(GPIOB, GPIO_PIN_0|GPIO_PIN_1|GPIO_PIN_2|GPIO_PIN_3|GPIO_PIN_4|GPIO_PIN_5|GPIO_PIN_6|GPIO_PIN_7, OUPUT);
+
+
+
+		while(1)
+		{
+			GPIOB_ODR = 0x00;
+
+			GPIO_WritePin(GPIOA, GPIO_PIN_0, RESET);
+			GPIO_WritePin(GPIOA, GPIO_PIN_1, SET);
+
+			//if((GPIOA_IDR & (1<<4))) {
+			//		GPIOA_ODR &= ~(1<<0);
+			//			}
+
+			if(GPIO_ReadPin(GPIOA, GPIO_PIN_4)){
+				//GPIOA->ODR &= ~(1<<0);
+				GPIO_WritePin(GPIOA, GPIO_PIN_0, RESET);
+
+			}
+			else if(GPIO_ReadPin(GPIOA, GPIO_PIN_5)){
+				//GPIOA->ODR &= ~(1<<1);
+				GPIO_WritePin(GPIOA, GPIO_PIN_1, RESET);
+
+			}
+
+			else if(GPIO_ReadPin(GPIOA, GPIO_PIN_6)){
+				//GPIOA->ODR &= ~(1<<2);
+				GPIO_WritePin(GPIOA, GPIO_PIN_2, RESET);
+
+			}
+
+			else if(GPIO_ReadPin(GPIOA, GPIO_PIN_7)){
+				//GPIOA->ODR &= ~(1<<3);
+				GPIO_WritePin(GPIOA, GPIO_PIN_3, RESET);
+			}
+
+			else {
+				GPIOA_ODR |= (0x0f);
+			}
+
+		}
+		return 0;
+
+}

@@ -1,0 +1,43 @@
+/*
+ * Watch.c
+ *
+ *  Created on: 2026. 4. 28.
+ *      Author: kccistc
+ */
+#include "Watch.h"
+
+
+
+
+typedef enum{
+	MIN,
+	SEC
+}clock_state_t;  //struct
+
+
+clock_state_t Clock;
+
+
+void Watch_Init(){
+	FND_init();
+	counter = 0;
+}
+
+void Watch_Excute(){
+
+		FND_DisDigit();
+		UpCounter_Run();
+
+		uint16_t total_second = counter / 10;
+		uint16_t seconds = total_second % 60;
+		uint16_t min = total_second / 60;
+
+		FND_SetNum((min*100) + seconds);
+
+
+}
+
+
+
+
+

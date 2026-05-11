@@ -1,0 +1,21 @@
+08:40:27 **** Incremental Build of configuration Debug for project Microblaze_fnd_upcount ****
+make all 
+'Building file: ../src/ap/Watch/Watch.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/ap/Watch/Watch.o" -ID:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/design_1_wrapper/export/design_1_wrapper/sw/design_1_wrapper/standalone_microblaze_0/bspinclude/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/ap/Watch/Watch.d" -MT"src/ap/Watch/Watch.o" -o "src/ap/Watch/Watch.o" "../src/ap/Watch/Watch.c"
+'Finished building: ../src/ap/Watch/Watch.c'
+' '
+'Building target: Microblaze_fnd_upcount.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -LD:/vivado_first/20260427_Microblaze_GPIO_4/vitis_workspace/design_1_wrapper/export/design_1_wrapper/sw/design_1_wrapper/standalone_microblaze_0/bsplib/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "Microblaze_fnd_upcount.elf"  ./src/driver/FND/FND.o  ./src/driver/Button/Button.o  ./src/common/common.o  ./src/ap/Watch/Watch.o  ./src/ap/UpCounter/UpCounter.o  ./src/ap/ap_main.o  ./src/HAL/GPIO/GPIO.o  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: Microblaze_fnd_upcount.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size Microblaze_fnd_upcount.elf  |tee "Microblaze_fnd_upcount.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   9744	    268	   3188	  13200	   3390	Microblaze_fnd_upcount.elf
+'Finished building: Microblaze_fnd_upcount.elf.size'
+' '
+
+08:40:28 Build Finished (took 547ms)
+

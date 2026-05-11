@@ -1,0 +1,22 @@
+/*
+ * Watch.h
+ *
+ *  Created on: 2026. 4. 28.
+ *      Author: kccistc
+ */
+
+#ifndef SRC_AP_WATCH_WATCH_H_
+#define SRC_AP_WATCH_WATCH_H_
+#include "../../driver/FND/FND.h"
+#include "../../driver/Button/Button.h"
+#include "../../common/common.h"
+#include "../UpCounter/UpCounter.h"
+
+
+
+void Watch_Init();
+void Watch_Excute();
+
+
+
+#endif /* SRC_AP_WATCH_WATCH_H_ */

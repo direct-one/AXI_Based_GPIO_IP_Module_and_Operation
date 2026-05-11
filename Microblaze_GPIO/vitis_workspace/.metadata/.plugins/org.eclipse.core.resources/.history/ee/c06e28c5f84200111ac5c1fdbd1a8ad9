@@ -1,0 +1,63 @@
+/*
+ * ap_main.c
+ *
+ *  Created on: 2026. 4. 28.
+ *      Author: kccistc
+ */
+
+
+#include "ap_main.h"
+#include "../driver/FND/FND.h"
+#include "../common/common.h"
+#include "UpCounter/UpCounter.h"
+#include "Watch/Watch.h"
+#include "../driver/Button/Button.h"
+
+typedef enum{
+	Watch,
+	UpCounter
+}mode_t;
+
+//initial -> Watch
+mode_t c_mode = Watch;
+
+hBtn_t hBtn_Mode;
+
+//clock_state_t Clock;
+
+void ap_init(){
+
+	Watch_Init();
+	UpCounter_Init();
+
+	Button_Init(&hBtn_Mode, GPIOA, GPIO_PIN_5);
+
+}
+
+void ap_excute(){
+
+			while(1)
+			{
+				if(Button_GetState(&hBtn_Mode) == ACT_PUSHED){
+					if(c_mode == Watch){
+						c_mode = UpCounter;
+					}
+					else{
+						c_mode = Watch;
+					}
+				}
+				switch(c_mode){
+				case Watch:
+					Watch_Excute();
+					break;
+				case UpCounter:
+					UpCounter_Excute();
+					break;
+				}
+
+				millis_inc();
+				delay_ms(1);
+			}
+
+}
+

@@ -1,0 +1,32 @@
+/*
+ * ap_main.c
+ *
+ *  Created on: 2026. 4. 28.
+ *      Author: kccistc
+ */
+
+
+#include "ap_main.h"
+#include "../driver/FND/FND.h"
+#include "../common/common.h"
+#include "UpCounter/UpCounter.h"
+#include "Watch/Watch.h"
+
+void ap_init(){
+
+	Watch_Init();
+
+}
+
+void ap_excute(){
+
+			while(1)
+			{
+				Watch_Excute();
+
+				millis_inc();
+				delay_ms(1);
+			}
+
+}
+
