@@ -19,9 +19,10 @@
 - **GPIO( 3_State_Buffer)**
 - **FND_Controller( for ouput of Data in FND(7-segment)**
 
-<img width="2104" height="825" alt="image" src="https://github.com/user-attachments/assets/17d141a9-f3c2-4a17-a26c-a7bdec2ec1e4" />
+<img width="1616" height="715" alt="image" src="https://github.com/user-attachments/assets/cc6d9c29-831f-4a6f-a7d5-a93c0ee4ced8" />
 
-  •Counter Block Diagram 
+
+  - Counter Block Diagram 
 
 # 추가사항
 
